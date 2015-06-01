@@ -1,0 +1,2511 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Fiber Optic Analog and Digital Link (Set Up) : Remote Triggered Fiber Optic Communication Laboratory : Electronics & Communications : IIT GUWAHATI Virtual Lab </title><META NAME="description" content="Fiber Optic Analog and Digital Link" /><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"><link rel="shortcut icon" type="image/x-icon" href="theme/iitg/images/favicon.ico">
+<link href="theme/iitg/css/main.css" rel="stylesheet" type="text/css"/>
+ <style type="text/css">
+.slideshow { margin: auto; }
+.title {
+	padding-left:0px !important;
+	}
+.breadcum {
+	margin-left:0px !important;
+	}
+</style>
+
+<!-- include jQuery library -->
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/top_up-min.js"></script>
+
+<!-- include Cycle plugin -->
+<script type="text/javascript" src="js/jquery.cycle.lite.min.js"></script>
+<link href="theme/iitg/css/tabs.css" rel="stylesheet" type="text/css"><link rel="stylesheet" type="text/css" href="js/grid/gt_grid.css" />
+<script type="text/javascript" src="js/grid/gt_msg_en.js"></script>
+<script type="text/javascript" src="js/src/gt_const.js"></script>
+<script type="text/javascript" src="js/grid/gt_grid_all.js"></script>
+<script type="text/javascript" src="js/grid/flashchart/fusioncharts/FusionCharts.js"></script>
+</head>
+<body bgcolor="#FFFFFF">
+
+<table id="expandables" align="center" cellpadding="0" cellspacing="0">
+	<tr>
+    	<td bgcolor="#deeefb">
+  		<div id="header_main" align="center"><img align="right" style="padding-right:20px; margin-top:8px;" src="theme/iitg/images/logo.png"/></div>
+ <div id="header"  >      
+		<div class="menu">   
+        <ul><li><a href="index.php">Home</a></li><li><a href="?pg=topMenu&id=5">Download  </a></li><li><a href="?pg=topMenu&id=6">Slot Booking  </a></li><li><a href="?pg=topMenu&id=41">Feedback.  </a></li><li><a href="?pg=forum">Forum</a></li><li><a href="?pg=topMenu&id=108">Contact us</a></li><li><a href="javascript: authenticate()">Login</a></li></ul>		<div class="clear"></div>        
+		</div>
+        <div class="searchbox">								
+		<form action="http://iitg.vlab.co.in/" id="cse-search-box">
+		<div>
+		<input type="hidden" name="pg" value="bindex" />
+		<input type="hidden" name="bsub" value="search" />
+		<input type="hidden" name="lan" value="en-IN" />
+		<input type="hidden" name="cx" value="008976432297318053942:3gnilsveije" />
+		<input type="hidden" name="cof" value="FORID:11" />
+		<input type="hidden" name="ie" value="UTF-8" />
+		<input type="text" name="q" size="15" />
+		<input class="srchButton" type="submit" name="sa" value="Search" />
+		</div>
+		</form>
+		</div> </div>        </td>
+    </tr>
+    <tr>
+    	<td>
+    	<table align="center" cellpadding="0" cellspacing="0" style="min-width:1024px;">
+        	<tr>
+            	<td bgcolor="#e8f2fb" style="color:#e8f2fb;">.</td>
+            	<td bgcolor="#e8f2fb" align="left"><div class="breadcum">you are here-><a href="?">home</a>-><a href="?sub=59">Electronics & Communications</a>-><a href="?sub=59&brch=269">Remote Triggered Fiber Optic Communication Laboratory</a>-><a href="">Fiber Optic Analog and Digital Link</a></div></td>
+                <td bgcolor="#e8f2fb" align="right"></td>
+                <td bgcolor="#e8f2fb" align="right"></td>
+                <td bgcolor="#e8f2fb" style="color:#e8f2fb;">.</td>
+            </tr>
+            <tr>
+            	<td bgcolor="#e8f2fb" style="color:#e8f2fb;">.</td>
+            	<td colspan="3" bgcolor="#e8f2fb" style="white-space:nowrap;"><div class="title">Fiber Optic Analog and Digital Link</div></td>
+                <td bgcolor="#e8f2fb" style="color:#e8f2fb;">.</td>
+            </tr>
+            <tr>
+            	<td height="89" bgcolor="#e8f2fb" style="color:#e8f2fb;">
+                	.
+                </td>
+            	<td colspan="3" rowspan="2"><div id="div1Style" class="div1Style" ><div id="backGroundBG" class="bg"><table id="tabtable" border="0px" cellpadding="0px" cellspacing="0px" width="100%"><tr><td id="lcurve" width="21px" height="145px"></td><td id="mcurve" rowspan="2"><div id="ddtabs2" class="glowingtabs"><ul><li class=""><a href="?sub=59&brch=269&sim=1317&cnt=2780"><span><div id="tabspan" ><img id="tabimg" src="theme/iitg/images/tab_icon_image/content_99.png" alt=""/></div><div id="tab_name" >Introduction&nbsp;</div></span></a></li><li class=""><a href="?sub=59&brch=269&sim=1317&cnt=1"><span><div id="tabspan" ><img id="tabimg" src="theme/iitg/images/tab_icon_image/content_1.png" alt=""/></div><div id="tab_name" >Theory&nbsp;</div></span></a></li><li class="current"><a href="?sub=59&brch=269&sim=1317&cnt=2781"><span><div id="tabspan" ><img id="tabimg" src="theme/iitg/images/tab_icon_image/content_992.png" alt=""/></div><div id="tab_name" >Set Up&nbsp;</div></span></a></li><li class=""><a href="?sub=59&brch=269&sim=1317&cnt=2"><span><div id="tabspan" ><img id="tabimg" src="theme/iitg/images/tab_icon_image/content_2.png" alt=""/></div><div id="tab_name" >Procedure&nbsp;</div></span></a></li><li class=""><a href="?sub=59&brch=269&sim=1317&cnt=2782"><span><div id="tabspan" ><img id="tabimg" src="theme/iitg/images/tab_icon_image/content_4.png" alt=""/></div><div id="tab_name" >Experiment&nbsp;</div></span></a></li><li class=""><a href="?sub=59&brch=269&sim=1317&cnt=2783"><span><div id="tabspan" ><img id="tabimg" src="theme/iitg/images/tab_icon_image/content_94.png" alt=""/></div><div id="tab_name" >Quiz&nbsp;</div></span></a></li><li class=""><a href="?sub=59&brch=269&sim=1317&cnt=7"><span><div id="tabspan" ><img id="tabimg" src="theme/iitg/images/tab_icon_image/content_7.png" alt=""/></div><div id="tab_name" >Feedback&nbsp;</div></span></a></li></ul></div></td><td id="rcurve" width="21px" height="145px"></td></tr><tr><td></td><td></td></tr></table></div><div class="divContent"><p><!--[if gte mso 9]><xml>
+<w:WordDocument>
+<w:View>Normal</w:View>
+<w:Zoom>0</w:Zoom>
+<w:TrackMoves />
+<w:TrackFormatting />
+<w:PunctuationKerning />
+<w:ValidateAgainstSchemas />
+<w:SaveIfXMLInvalid>false</w:SaveIfXMLInvalid>
+<w:IgnoreMixedContent>false</w:IgnoreMixedContent>
+<w:AlwaysShowPlaceholderText>false</w:AlwaysShowPlaceholderText>
+<w:DoNotPromoteQF />
+<w:LidThemeOther>EN-US</w:LidThemeOther>
+<w:LidThemeAsian>X-NONE</w:LidThemeAsian>
+<w:LidThemeComplexScript>X-NONE</w:LidThemeComplexScript>
+<w:Compatibility>
+<w:BreakWrappedTables />
+<w:SnapToGridInCell />
+<w:WrapTextWithPunct />
+<w:UseAsianBreakRules />
+<w:DontGrowAutofit />
+<w:SplitPgBreakAndParaMark />
+<w:DontVertAlignCellWithSp />
+<w:DontBreakConstrainedForcedTables />
+<w:DontVertAlignInTxbx />
+<w:Word11KerningPairs />
+<w:CachedColBalance />
+<w:UseFELayout />
+</w:Compatibility>
+<w:BrowserLevel>MicrosoftInternetExplorer4</w:BrowserLevel>
+<m:mathPr>
+<m:mathFont m:val="Cambria Math" />
+<m:brkBin m:val="before" />
+<m:brkBinSub m:val="--" />
+<m:smallFrac m:val="off" />
+<m:dispDef />
+<m:lMargin m:val="0" />
+<m:rMargin m:val="0" />
+<m:defJc m:val="centerGroup" />
+<m:wrapIndent m:val="1440" />
+<m:intLim m:val="subSup" />
+<m:naryLim m:val="undOvr" />
+</m:mathPr></w:WordDocument>
+</xml><![endif]--></p>
+<p><!--[if gte mso 9]><xml>
+<w:LatentStyles DefLockedState="false" DefUnhideWhenUsed="true"
+DefSemiHidden="true" DefQFormat="false" DefPriority="99"
+LatentStyleCount="267">
+<w:LsdException Locked="false" Priority="0" SemiHidden="false"
+UnhideWhenUsed="false" QFormat="true" Name="Normal" />
+<w:LsdException Locked="false" Priority="9" SemiHidden="false"
+UnhideWhenUsed="false" QFormat="true" Name="heading 1" />
+<w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 2" />
+<w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 3" />
+<w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 4" />
+<w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 5" />
+<w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 6" />
+<w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 7" />
+<w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 8" />
+<w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 9" />
+<w:LsdException Locked="false" Priority="39" Name="toc 1" />
+<w:LsdException Locked="false" Priority="39" Name="toc 2" />
+<w:LsdException Locked="false" Priority="39" Name="toc 3" />
+<w:LsdException Locked="false" Priority="39" Name="toc 4" />
+<w:LsdException Locked="false" Priority="39" Name="toc 5" />
+<w:LsdException Locked="false" Priority="39" Name="toc 6" />
+<w:LsdException Locked="false" Priority="39" Name="toc 7" />
+<w:LsdException Locked="false" Priority="39" Name="toc 8" />
+<w:LsdException Locked="false" Priority="39" Name="toc 9" />
+<w:LsdException Locked="false" Priority="35" QFormat="true" Name="caption" />
+<w:LsdException Locked="false" Priority="10" SemiHidden="false"
+UnhideWhenUsed="false" QFormat="true" Name="Title" />
+<w:LsdException Locked="false" Priority="1" Name="Default Paragraph Font" />
+<w:LsdException Locked="false" Priority="11" SemiHidden="false"
+UnhideWhenUsed="false" QFormat="true" Name="Subtitle" />
+<w:LsdException Locked="false" Priority="22" SemiHidden="false"
+UnhideWhenUsed="false" QFormat="true" Name="Strong" />
+<w:LsdException Locked="false" Priority="20" SemiHidden="false"
+UnhideWhenUsed="false" QFormat="true" Name="Emphasis" />
+<w:LsdException Locked="false" Priority="59" SemiHidden="false"
+UnhideWhenUsed="false" Name="Table Grid" />
+<w:LsdException Locked="false" UnhideWhenUsed="false" Name="Placeholder Text" />
+<w:LsdException Locked="false" Priority="1" SemiHidden="false"
+UnhideWhenUsed="false" QFormat="true" Name="No Spacing" />
+<w:LsdException Locked="false" Priority="60" SemiHidden="false"
+UnhideWhenUsed="false" Name="Light Shading" />
+<w:LsdException Locked="false" Priority="61" SemiHidden="false"
+UnhideWhenUsed="false" Name="Light List" />
+<w:LsdException Locked="false" Priority="62" SemiHidden="false"
+UnhideWhenUsed="false" Name="Light Grid" />
+<w:LsdException Locked="false" Priority="63" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Shading 1" />
+<w:LsdException Locked="false" Priority="64" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Shading 2" />
+<w:LsdException Locked="false" Priority="65" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium List 1" />
+<w:LsdException Locked="false" Priority="66" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium List 2" />
+<w:LsdException Locked="false" Priority="67" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Grid 1" />
+<w:LsdException Locked="false" Priority="68" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Grid 2" />
+<w:LsdException Locked="false" Priority="69" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Grid 3" />
+<w:LsdException Locked="false" Priority="70" SemiHidden="false"
+UnhideWhenUsed="false" Name="Dark List" />
+<w:LsdException Locked="false" Priority="71" SemiHidden="false"
+UnhideWhenUsed="false" Name="Colorful Shading" />
+<w:LsdException Locked="false" Priority="72" SemiHidden="false"
+UnhideWhenUsed="false" Name="Colorful List" />
+<w:LsdException Locked="false" Priority="73" SemiHidden="false"
+UnhideWhenUsed="false" Name="Colorful Grid" />
+<w:LsdException Locked="false" Priority="60" SemiHidden="false"
+UnhideWhenUsed="false" Name="Light Shading Accent 1" />
+<w:LsdException Locked="false" Priority="61" SemiHidden="false"
+UnhideWhenUsed="false" Name="Light List Accent 1" />
+<w:LsdException Locked="false" Priority="62" SemiHidden="false"
+UnhideWhenUsed="false" Name="Light Grid Accent 1" />
+<w:LsdException Locked="false" Priority="63" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Shading 1 Accent 1" />
+<w:LsdException Locked="false" Priority="64" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Shading 2 Accent 1" />
+<w:LsdException Locked="false" Priority="65" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium List 1 Accent 1" />
+<w:LsdException Locked="false" UnhideWhenUsed="false" Name="Revision" />
+<w:LsdException Locked="false" Priority="34" SemiHidden="false"
+UnhideWhenUsed="false" QFormat="true" Name="List Paragraph" />
+<w:LsdException Locked="false" Priority="29" SemiHidden="false"
+UnhideWhenUsed="false" QFormat="true" Name="Quote" />
+<w:LsdException Locked="false" Priority="30" SemiHidden="false"
+UnhideWhenUsed="false" QFormat="true" Name="Intense Quote" />
+<w:LsdException Locked="false" Priority="66" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium List 2 Accent 1" />
+<w:LsdException Locked="false" Priority="67" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Grid 1 Accent 1" />
+<w:LsdException Locked="false" Priority="68" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Grid 2 Accent 1" />
+<w:LsdException Locked="false" Priority="69" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Grid 3 Accent 1" />
+<w:LsdException Locked="false" Priority="70" SemiHidden="false"
+UnhideWhenUsed="false" Name="Dark List Accent 1" />
+<w:LsdException Locked="false" Priority="71" SemiHidden="false"
+UnhideWhenUsed="false" Name="Colorful Shading Accent 1" />
+<w:LsdException Locked="false" Priority="72" SemiHidden="false"
+UnhideWhenUsed="false" Name="Colorful List Accent 1" />
+<w:LsdException Locked="false" Priority="73" SemiHidden="false"
+UnhideWhenUsed="false" Name="Colorful Grid Accent 1" />
+<w:LsdException Locked="false" Priority="60" SemiHidden="false"
+UnhideWhenUsed="false" Name="Light Shading Accent 2" />
+<w:LsdException Locked="false" Priority="61" SemiHidden="false"
+UnhideWhenUsed="false" Name="Light List Accent 2" />
+<w:LsdException Locked="false" Priority="62" SemiHidden="false"
+UnhideWhenUsed="false" Name="Light Grid Accent 2" />
+<w:LsdException Locked="false" Priority="63" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Shading 1 Accent 2" />
+<w:LsdException Locked="false" Priority="64" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Shading 2 Accent 2" />
+<w:LsdException Locked="false" Priority="65" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium List 1 Accent 2" />
+<w:LsdException Locked="false" Priority="66" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium List 2 Accent 2" />
+<w:LsdException Locked="false" Priority="67" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Grid 1 Accent 2" />
+<w:LsdException Locked="false" Priority="68" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Grid 2 Accent 2" />
+<w:LsdException Locked="false" Priority="69" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Grid 3 Accent 2" />
+<w:LsdException Locked="false" Priority="70" SemiHidden="false"
+UnhideWhenUsed="false" Name="Dark List Accent 2" />
+<w:LsdException Locked="false" Priority="71" SemiHidden="false"
+UnhideWhenUsed="false" Name="Colorful Shading Accent 2" />
+<w:LsdException Locked="false" Priority="72" SemiHidden="false"
+UnhideWhenUsed="false" Name="Colorful List Accent 2" />
+<w:LsdException Locked="false" Priority="73" SemiHidden="false"
+UnhideWhenUsed="false" Name="Colorful Grid Accent 2" />
+<w:LsdException Locked="false" Priority="60" SemiHidden="false"
+UnhideWhenUsed="false" Name="Light Shading Accent 3" />
+<w:LsdException Locked="false" Priority="61" SemiHidden="false"
+UnhideWhenUsed="false" Name="Light List Accent 3" />
+<w:LsdException Locked="false" Priority="62" SemiHidden="false"
+UnhideWhenUsed="false" Name="Light Grid Accent 3" />
+<w:LsdException Locked="false" Priority="63" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Shading 1 Accent 3" />
+<w:LsdException Locked="false" Priority="64" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Shading 2 Accent 3" />
+<w:LsdException Locked="false" Priority="65" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium List 1 Accent 3" />
+<w:LsdException Locked="false" Priority="66" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium List 2 Accent 3" />
+<w:LsdException Locked="false" Priority="67" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Grid 1 Accent 3" />
+<w:LsdException Locked="false" Priority="68" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Grid 2 Accent 3" />
+<w:LsdException Locked="false" Priority="69" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Grid 3 Accent 3" />
+<w:LsdException Locked="false" Priority="70" SemiHidden="false"
+UnhideWhenUsed="false" Name="Dark List Accent 3" />
+<w:LsdException Locked="false" Priority="71" SemiHidden="false"
+UnhideWhenUsed="false" Name="Colorful Shading Accent 3" />
+<w:LsdException Locked="false" Priority="72" SemiHidden="false"
+UnhideWhenUsed="false" Name="Colorful List Accent 3" />
+<w:LsdException Locked="false" Priority="73" SemiHidden="false"
+UnhideWhenUsed="false" Name="Colorful Grid Accent 3" />
+<w:LsdException Locked="false" Priority="60" SemiHidden="false"
+UnhideWhenUsed="false" Name="Light Shading Accent 4" />
+<w:LsdException Locked="false" Priority="61" SemiHidden="false"
+UnhideWhenUsed="false" Name="Light List Accent 4" />
+<w:LsdException Locked="false" Priority="62" SemiHidden="false"
+UnhideWhenUsed="false" Name="Light Grid Accent 4" />
+<w:LsdException Locked="false" Priority="63" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Shading 1 Accent 4" />
+<w:LsdException Locked="false" Priority="64" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Shading 2 Accent 4" />
+<w:LsdException Locked="false" Priority="65" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium List 1 Accent 4" />
+<w:LsdException Locked="false" Priority="66" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium List 2 Accent 4" />
+<w:LsdException Locked="false" Priority="67" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Grid 1 Accent 4" />
+<w:LsdException Locked="false" Priority="68" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Grid 2 Accent 4" />
+<w:LsdException Locked="false" Priority="69" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Grid 3 Accent 4" />
+<w:LsdException Locked="false" Priority="70" SemiHidden="false"
+UnhideWhenUsed="false" Name="Dark List Accent 4" />
+<w:LsdException Locked="false" Priority="71" SemiHidden="false"
+UnhideWhenUsed="false" Name="Colorful Shading Accent 4" />
+<w:LsdException Locked="false" Priority="72" SemiHidden="false"
+UnhideWhenUsed="false" Name="Colorful List Accent 4" />
+<w:LsdException Locked="false" Priority="73" SemiHidden="false"
+UnhideWhenUsed="false" Name="Colorful Grid Accent 4" />
+<w:LsdException Locked="false" Priority="60" SemiHidden="false"
+UnhideWhenUsed="false" Name="Light Shading Accent 5" />
+<w:LsdException Locked="false" Priority="61" SemiHidden="false"
+UnhideWhenUsed="false" Name="Light List Accent 5" />
+<w:LsdException Locked="false" Priority="62" SemiHidden="false"
+UnhideWhenUsed="false" Name="Light Grid Accent 5" />
+<w:LsdException Locked="false" Priority="63" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Shading 1 Accent 5" />
+<w:LsdException Locked="false" Priority="64" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Shading 2 Accent 5" />
+<w:LsdException Locked="false" Priority="65" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium List 1 Accent 5" />
+<w:LsdException Locked="false" Priority="66" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium List 2 Accent 5" />
+<w:LsdException Locked="false" Priority="67" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Grid 1 Accent 5" />
+<w:LsdException Locked="false" Priority="68" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Grid 2 Accent 5" />
+<w:LsdException Locked="false" Priority="69" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Grid 3 Accent 5" />
+<w:LsdException Locked="false" Priority="70" SemiHidden="false"
+UnhideWhenUsed="false" Name="Dark List Accent 5" />
+<w:LsdException Locked="false" Priority="71" SemiHidden="false"
+UnhideWhenUsed="false" Name="Colorful Shading Accent 5" />
+<w:LsdException Locked="false" Priority="72" SemiHidden="false"
+UnhideWhenUsed="false" Name="Colorful List Accent 5" />
+<w:LsdException Locked="false" Priority="73" SemiHidden="false"
+UnhideWhenUsed="false" Name="Colorful Grid Accent 5" />
+<w:LsdException Locked="false" Priority="60" SemiHidden="false"
+UnhideWhenUsed="false" Name="Light Shading Accent 6" />
+<w:LsdException Locked="false" Priority="61" SemiHidden="false"
+UnhideWhenUsed="false" Name="Light List Accent 6" />
+<w:LsdException Locked="false" Priority="62" SemiHidden="false"
+UnhideWhenUsed="false" Name="Light Grid Accent 6" />
+<w:LsdException Locked="false" Priority="63" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Shading 1 Accent 6" />
+<w:LsdException Locked="false" Priority="64" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Shading 2 Accent 6" />
+<w:LsdException Locked="false" Priority="65" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium List 1 Accent 6" />
+<w:LsdException Locked="false" Priority="66" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium List 2 Accent 6" />
+<w:LsdException Locked="false" Priority="67" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Grid 1 Accent 6" />
+<w:LsdException Locked="false" Priority="68" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Grid 2 Accent 6" />
+<w:LsdException Locked="false" Priority="69" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Grid 3 Accent 6" />
+<w:LsdException Locked="false" Priority="70" SemiHidden="false"
+UnhideWhenUsed="false" Name="Dark List Accent 6" />
+<w:LsdException Locked="false" Priority="71" SemiHidden="false"
+UnhideWhenUsed="false" Name="Colorful Shading Accent 6" />
+<w:LsdException Locked="false" Priority="72" SemiHidden="false"
+UnhideWhenUsed="false" Name="Colorful List Accent 6" />
+<w:LsdException Locked="false" Priority="73" SemiHidden="false"
+UnhideWhenUsed="false" Name="Colorful Grid Accent 6" />
+<w:LsdException Locked="false" Priority="19" SemiHidden="false"
+UnhideWhenUsed="false" QFormat="true" Name="Subtle Emphasis" />
+<w:LsdException Locked="false" Priority="21" SemiHidden="false"
+UnhideWhenUsed="false" QFormat="true" Name="Intense Emphasis" />
+<w:LsdException Locked="false" Priority="31" SemiHidden="false"
+UnhideWhenUsed="false" QFormat="true" Name="Subtle Reference" />
+<w:LsdException Locked="false" Priority="32" SemiHidden="false"
+UnhideWhenUsed="false" QFormat="true" Name="Intense Reference" />
+<w:LsdException Locked="false" Priority="33" SemiHidden="false"
+UnhideWhenUsed="false" QFormat="true" Name="Book Title" />
+<w:LsdException Locked="false" Priority="37" Name="Bibliography" />
+<w:LsdException Locked="false" Priority="39" QFormat="true" Name="TOC Heading" />
+</w:LatentStyles>
+</xml><![endif]--><!--[if gte mso 10]>
+<style>
+/* Style Definitions */
+table.MsoNormalTable
+{mso-style-name:"Table Normal";
+mso-tstyle-rowband-size:0;
+mso-tstyle-colband-size:0;
+mso-style-noshow:yes;
+mso-style-priority:99;
+mso-style-qformat:yes;
+mso-style-parent:"";
+mso-padding-alt:0in 5.4pt 0in 5.4pt;
+mso-para-margin-top:0in;
+mso-para-margin-right:0in;
+mso-para-margin-bottom:10.0pt;
+mso-para-margin-left:0in;
+line-height:115%;
+mso-pagination:widow-orphan;
+font-size:11.0pt;
+font-family:"Calibri","sans-serif";
+mso-ascii-font-family:Calibri;
+mso-ascii-theme-font:minor-latin;
+mso-fareast-font-family:Calibri;
+mso-fareast-theme-font:minor-latin;
+mso-hansi-font-family:Calibri;
+mso-hansi-theme-font:minor-latin;}
+</style>
+<![endif]--></p>
+<p style="margin: 1.4pt 0in 0.0001pt 7.6pt; line-height: normal;" class="MsoNormal"><span style="font-size:13.0pt;
+font-family:&quot;Times New Roman&quot;,&quot;serif&quot;;letter-spacing:-.05pt">Th</span><span style="font-size:13.0pt;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">e<span style="letter-spacing:.3pt"> </span><span style="letter-spacing:-.05pt">ent</span><span style="letter-spacing:.2pt">i</span><span style="letter-spacing:-.25pt">r</span>e<span style="letter-spacing:.3pt"> </span><span style="letter-spacing:-.05pt">se</span><span style="letter-spacing:.2pt">t</span><span style="letter-spacing:-.05pt">u</span>p<span style="letter-spacing:.5pt"> </span><span style="letter-spacing:-.3pt">w</span><span style="letter-spacing:-.05pt">it</span>h<span style="letter-spacing:.3pt"> </span><span style="letter-spacing:.2pt">p</span><span style="letter-spacing:-.05pt">ro</span><span style="letter-spacing:.2pt">pe</span>r<span style="letter-spacing:-.15pt"> </span><span style="letter-spacing:-.05pt">c</span><span style="letter-spacing:.2pt">o</span><span style="letter-spacing:-.05pt">n</span><span style="letter-spacing:.2pt">n</span><span style="letter-spacing:-.05pt">e</span><span style="letter-spacing:.2pt">c</span><span style="letter-spacing:-.05pt">ti</span><span style="letter-spacing:.2pt">o</span><span style="letter-spacing:-.05pt">n</span>s<span style="letter-spacing:.05pt"> </span><span style="letter-spacing:-.05pt">h</span><span style="letter-spacing:.2pt">a</span>s<span style="letter-spacing:-.15pt"> </span><span style="letter-spacing:.4pt">b</span><span style="letter-spacing:-.05pt">ee</span>n<span style="letter-spacing:-.05pt"> </span><span style="letter-spacing:.2pt">d</span><span style="letter-spacing:-.05pt">e</span><span style="letter-spacing:.2pt">p</span><span style="letter-spacing:-.05pt">icte</span>d<span style="letter-spacing:.3pt"> </span><span style="letter-spacing:.2pt">a</span>s<span style="letter-spacing:-.15pt"> </span><span style="letter-spacing:-.05pt">f</span><span style="letter-spacing:.2pt">o</span><span style="letter-spacing:-.05pt">l</span><span style="letter-spacing:-.25pt">l</span><span style="letter-spacing:.4pt">o</span><span style="letter-spacing:-.3pt">w</span><span style="letter-spacing:-.05pt">s</span><span style="letter-spacing:.2pt">:</span>-</span></p>
+<p style="margin: 1.4pt 0in 0.0001pt 7.6pt; line-height: normal;" class="MsoNormal"><span style="font-size:13.0pt;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;"><img src="/userfiles/7/image/RT%20Fiber%20optics%20images/Exp101.JPG" alt="" height="805" width="1115"></span></p>
+<p style="margin: 1.4pt 0in 0.0001pt 7.6pt; line-height: normal;" class="MsoNormal"><!--[if gte mso 9]><xml>
+<w:WordDocument>
+<w:View>Normal</w:View>
+<w:Zoom>0</w:Zoom>
+<w:TrackMoves />
+<w:TrackFormatting />
+<w:PunctuationKerning />
+<w:ValidateAgainstSchemas />
+<w:SaveIfXMLInvalid>false</w:SaveIfXMLInvalid>
+<w:IgnoreMixedContent>false</w:IgnoreMixedContent>
+<w:AlwaysShowPlaceholderText>false</w:AlwaysShowPlaceholderText>
+<w:DoNotPromoteQF />
+<w:LidThemeOther>EN-US</w:LidThemeOther>
+<w:LidThemeAsian>X-NONE</w:LidThemeAsian>
+<w:LidThemeComplexScript>X-NONE</w:LidThemeComplexScript>
+<w:Compatibility>
+<w:BreakWrappedTables />
+<w:SnapToGridInCell />
+<w:WrapTextWithPunct />
+<w:UseAsianBreakRules />
+<w:DontGrowAutofit />
+<w:SplitPgBreakAndParaMark />
+<w:DontVertAlignCellWithSp />
+<w:DontBreakConstrainedForcedTables />
+<w:DontVertAlignInTxbx />
+<w:Word11KerningPairs />
+<w:CachedColBalance />
+<w:UseFELayout />
+</w:Compatibility>
+<w:BrowserLevel>MicrosoftInternetExplorer4</w:BrowserLevel>
+<m:mathPr>
+<m:mathFont m:val="Cambria Math" />
+<m:brkBin m:val="before" />
+<m:brkBinSub m:val="--" />
+<m:smallFrac m:val="off" />
+<m:dispDef />
+<m:lMargin m:val="0" />
+<m:rMargin m:val="0" />
+<m:defJc m:val="centerGroup" />
+<m:wrapIndent m:val="1440" />
+<m:intLim m:val="subSup" />
+<m:naryLim m:val="undOvr" />
+</m:mathPr></w:WordDocument>
+</xml><![endif]--></p>
+<p>&nbsp;</p>
+<p style="margin: 1.4pt 0in 0.0001pt 7.6pt; line-height: normal;" class="MsoNormal"><img src="/userfiles/7/image/RT%20Fiber%20optics%20images/EXP102.JPG" alt="" height="918" width="776"></p>
+<p style="margin: 1.4pt 0in 0.0001pt 7.6pt; line-height: normal;" class="MsoNormal"><!--[if gte mso 9]><xml>
+<w:LatentStyles DefLockedState="false" DefUnhideWhenUsed="true"
+DefSemiHidden="true" DefQFormat="false" DefPriority="99"
+LatentStyleCount="267">
+<w:LsdException Locked="false" Priority="0" SemiHidden="false"
+UnhideWhenUsed="false" QFormat="true" Name="Normal" />
+<w:LsdException Locked="false" Priority="9" SemiHidden="false"
+UnhideWhenUsed="false" QFormat="true" Name="heading 1" />
+<w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 2" />
+<w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 3" />
+<w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 4" />
+<w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 5" />
+<w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 6" />
+<w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 7" />
+<w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 8" />
+<w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 9" />
+<w:LsdException Locked="false" Priority="39" Name="toc 1" />
+<w:LsdException Locked="false" Priority="39" Name="toc 2" />
+<w:LsdException Locked="false" Priority="39" Name="toc 3" />
+<w:LsdException Locked="false" Priority="39" Name="toc 4" />
+<w:LsdException Locked="false" Priority="39" Name="toc 5" />
+<w:LsdException Locked="false" Priority="39" Name="toc 6" />
+<w:LsdException Locked="false" Priority="39" Name="toc 7" />
+<w:LsdException Locked="false" Priority="39" Name="toc 8" />
+<w:LsdException Locked="false" Priority="39" Name="toc 9" />
+<w:LsdException Locked="false" Priority="35" QFormat="true" Name="caption" />
+<w:LsdException Locked="false" Priority="10" SemiHidden="false"
+UnhideWhenUsed="false" QFormat="true" Name="Title" />
+<w:LsdException Locked="false" Priority="1" Name="Default Paragraph Font" />
+<w:LsdException Locked="false" Priority="11" SemiHidden="false"
+UnhideWhenUsed="false" QFormat="true" Name="Subtitle" />
+<w:LsdException Locked="false" Priority="22" SemiHidden="false"
+UnhideWhenUsed="false" QFormat="true" Name="Strong" />
+<w:LsdException Locked="false" Priority="20" SemiHidden="false"
+UnhideWhenUsed="false" QFormat="true" Name="Emphasis" />
+<w:LsdException Locked="false" Priority="59" SemiHidden="false"
+UnhideWhenUsed="false" Name="Table Grid" />
+<w:LsdException Locked="false" UnhideWhenUsed="false" Name="Placeholder Text" />
+<w:LsdException Locked="false" Priority="1" SemiHidden="false"
+UnhideWhenUsed="false" QFormat="true" Name="No Spacing" />
+<w:LsdException Locked="false" Priority="60" SemiHidden="false"
+UnhideWhenUsed="false" Name="Light Shading" />
+<w:LsdException Locked="false" Priority="61" SemiHidden="false"
+UnhideWhenUsed="false" Name="Light List" />
+<w:LsdException Locked="false" Priority="62" SemiHidden="false"
+UnhideWhenUsed="false" Name="Light Grid" />
+<w:LsdException Locked="false" Priority="63" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Shading 1" />
+<w:LsdException Locked="false" Priority="64" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Shading 2" />
+<w:LsdException Locked="false" Priority="65" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium List 1" />
+<w:LsdException Locked="false" Priority="66" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium List 2" />
+<w:LsdException Locked="false" Priority="67" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Grid 1" />
+<w:LsdException Locked="false" Priority="68" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Grid 2" />
+<w:LsdException Locked="false" Priority="69" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Grid 3" />
+<w:LsdException Locked="false" Priority="70" SemiHidden="false"
+UnhideWhenUsed="false" Name="Dark List" />
+<w:LsdException Locked="false" Priority="71" SemiHidden="false"
+UnhideWhenUsed="false" Name="Colorful Shading" />
+<w:LsdException Locked="false" Priority="72" SemiHidden="false"
+UnhideWhenUsed="false" Name="Colorful List" />
+<w:LsdException Locked="false" Priority="73" SemiHidden="false"
+UnhideWhenUsed="false" Name="Colorful Grid" />
+<w:LsdException Locked="false" Priority="60" SemiHidden="false"
+UnhideWhenUsed="false" Name="Light Shading Accent 1" />
+<w:LsdException Locked="false" Priority="61" SemiHidden="false"
+UnhideWhenUsed="false" Name="Light List Accent 1" />
+<w:LsdException Locked="false" Priority="62" SemiHidden="false"
+UnhideWhenUsed="false" Name="Light Grid Accent 1" />
+<w:LsdException Locked="false" Priority="63" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Shading 1 Accent 1" />
+<w:LsdException Locked="false" Priority="64" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Shading 2 Accent 1" />
+<w:LsdException Locked="false" Priority="65" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium List 1 Accent 1" />
+<w:LsdException Locked="false" UnhideWhenUsed="false" Name="Revision" />
+<w:LsdException Locked="false" Priority="34" SemiHidden="false"
+UnhideWhenUsed="false" QFormat="true" Name="List Paragraph" />
+<w:LsdException Locked="false" Priority="29" SemiHidden="false"
+UnhideWhenUsed="false" QFormat="true" Name="Quote" />
+<w:LsdException Locked="false" Priority="30" SemiHidden="false"
+UnhideWhenUsed="false" QFormat="true" Name="Intense Quote" />
+<w:LsdException Locked="false" Priority="66" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium List 2 Accent 1" />
+<w:LsdException Locked="false" Priority="67" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Grid 1 Accent 1" />
+<w:LsdException Locked="false" Priority="68" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Grid 2 Accent 1" />
+<w:LsdException Locked="false" Priority="69" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Grid 3 Accent 1" />
+<w:LsdException Locked="false" Priority="70" SemiHidden="false"
+UnhideWhenUsed="false" Name="Dark List Accent 1" />
+<w:LsdException Locked="false" Priority="71" SemiHidden="false"
+UnhideWhenUsed="false" Name="Colorful Shading Accent 1" />
+<w:LsdException Locked="false" Priority="72" SemiHidden="false"
+UnhideWhenUsed="false" Name="Colorful List Accent 1" />
+<w:LsdException Locked="false" Priority="73" SemiHidden="false"
+UnhideWhenUsed="false" Name="Colorful Grid Accent 1" />
+<w:LsdException Locked="false" Priority="60" SemiHidden="false"
+UnhideWhenUsed="false" Name="Light Shading Accent 2" />
+<w:LsdException Locked="false" Priority="61" SemiHidden="false"
+UnhideWhenUsed="false" Name="Light List Accent 2" />
+<w:LsdException Locked="false" Priority="62" SemiHidden="false"
+UnhideWhenUsed="false" Name="Light Grid Accent 2" />
+<w:LsdException Locked="false" Priority="63" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Shading 1 Accent 2" />
+<w:LsdException Locked="false" Priority="64" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Shading 2 Accent 2" />
+<w:LsdException Locked="false" Priority="65" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium List 1 Accent 2" />
+<w:LsdException Locked="false" Priority="66" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium List 2 Accent 2" />
+<w:LsdException Locked="false" Priority="67" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Grid 1 Accent 2" />
+<w:LsdException Locked="false" Priority="68" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Grid 2 Accent 2" />
+<w:LsdException Locked="false" Priority="69" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Grid 3 Accent 2" />
+<w:LsdException Locked="false" Priority="70" SemiHidden="false"
+UnhideWhenUsed="false" Name="Dark List Accent 2" />
+<w:LsdException Locked="false" Priority="71" SemiHidden="false"
+UnhideWhenUsed="false" Name="Colorful Shading Accent 2" />
+<w:LsdException Locked="false" Priority="72" SemiHidden="false"
+UnhideWhenUsed="false" Name="Colorful List Accent 2" />
+<w:LsdException Locked="false" Priority="73" SemiHidden="false"
+UnhideWhenUsed="false" Name="Colorful Grid Accent 2" />
+<w:LsdException Locked="false" Priority="60" SemiHidden="false"
+UnhideWhenUsed="false" Name="Light Shading Accent 3" />
+<w:LsdException Locked="false" Priority="61" SemiHidden="false"
+UnhideWhenUsed="false" Name="Light List Accent 3" />
+<w:LsdException Locked="false" Priority="62" SemiHidden="false"
+UnhideWhenUsed="false" Name="Light Grid Accent 3" />
+<w:LsdException Locked="false" Priority="63" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Shading 1 Accent 3" />
+<w:LsdException Locked="false" Priority="64" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Shading 2 Accent 3" />
+<w:LsdException Locked="false" Priority="65" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium List 1 Accent 3" />
+<w:LsdException Locked="false" Priority="66" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium List 2 Accent 3" />
+<w:LsdException Locked="false" Priority="67" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Grid 1 Accent 3" />
+<w:LsdException Locked="false" Priority="68" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Grid 2 Accent 3" />
+<w:LsdException Locked="false" Priority="69" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Grid 3 Accent 3" />
+<w:LsdException Locked="false" Priority="70" SemiHidden="false"
+UnhideWhenUsed="false" Name="Dark List Accent 3" />
+<w:LsdException Locked="false" Priority="71" SemiHidden="false"
+UnhideWhenUsed="false" Name="Colorful Shading Accent 3" />
+<w:LsdException Locked="false" Priority="72" SemiHidden="false"
+UnhideWhenUsed="false" Name="Colorful List Accent 3" />
+<w:LsdException Locked="false" Priority="73" SemiHidden="false"
+UnhideWhenUsed="false" Name="Colorful Grid Accent 3" />
+<w:LsdException Locked="false" Priority="60" SemiHidden="false"
+UnhideWhenUsed="false" Name="Light Shading Accent 4" />
+<w:LsdException Locked="false" Priority="61" SemiHidden="false"
+UnhideWhenUsed="false" Name="Light List Accent 4" />
+<w:LsdException Locked="false" Priority="62" SemiHidden="false"
+UnhideWhenUsed="false" Name="Light Grid Accent 4" />
+<w:LsdException Locked="false" Priority="63" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Shading 1 Accent 4" />
+<w:LsdException Locked="false" Priority="64" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Shading 2 Accent 4" />
+<w:LsdException Locked="false" Priority="65" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium List 1 Accent 4" />
+<w:LsdException Locked="false" Priority="66" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium List 2 Accent 4" />
+<w:LsdException Locked="false" Priority="67" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Grid 1 Accent 4" />
+<w:LsdException Locked="false" Priority="68" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Grid 2 Accent 4" />
+<w:LsdException Locked="false" Priority="69" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Grid 3 Accent 4" />
+<w:LsdException Locked="false" Priority="70" SemiHidden="false"
+UnhideWhenUsed="false" Name="Dark List Accent 4" />
+<w:LsdException Locked="false" Priority="71" SemiHidden="false"
+UnhideWhenUsed="false" Name="Colorful Shading Accent 4" />
+<w:LsdException Locked="false" Priority="72" SemiHidden="false"
+UnhideWhenUsed="false" Name="Colorful List Accent 4" />
+<w:LsdException Locked="false" Priority="73" SemiHidden="false"
+UnhideWhenUsed="false" Name="Colorful Grid Accent 4" />
+<w:LsdException Locked="false" Priority="60" SemiHidden="false"
+UnhideWhenUsed="false" Name="Light Shading Accent 5" />
+<w:LsdException Locked="false" Priority="61" SemiHidden="false"
+UnhideWhenUsed="false" Name="Light List Accent 5" />
+<w:LsdException Locked="false" Priority="62" SemiHidden="false"
+UnhideWhenUsed="false" Name="Light Grid Accent 5" />
+<w:LsdException Locked="false" Priority="63" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Shading 1 Accent 5" />
+<w:LsdException Locked="false" Priority="64" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Shading 2 Accent 5" />
+<w:LsdException Locked="false" Priority="65" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium List 1 Accent 5" />
+<w:LsdException Locked="false" Priority="66" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium List 2 Accent 5" />
+<w:LsdException Locked="false" Priority="67" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Grid 1 Accent 5" />
+<w:LsdException Locked="false" Priority="68" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Grid 2 Accent 5" />
+<w:LsdException Locked="false" Priority="69" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Grid 3 Accent 5" />
+<w:LsdException Locked="false" Priority="70" SemiHidden="false"
+UnhideWhenUsed="false" Name="Dark List Accent 5" />
+<w:LsdException Locked="false" Priority="71" SemiHidden="false"
+UnhideWhenUsed="false" Name="Colorful Shading Accent 5" />
+<w:LsdException Locked="false" Priority="72" SemiHidden="false"
+UnhideWhenUsed="false" Name="Colorful List Accent 5" />
+<w:LsdException Locked="false" Priority="73" SemiHidden="false"
+UnhideWhenUsed="false" Name="Colorful Grid Accent 5" />
+<w:LsdException Locked="false" Priority="60" SemiHidden="false"
+UnhideWhenUsed="false" Name="Light Shading Accent 6" />
+<w:LsdException Locked="false" Priority="61" SemiHidden="false"
+UnhideWhenUsed="false" Name="Light List Accent 6" />
+<w:LsdException Locked="false" Priority="62" SemiHidden="false"
+UnhideWhenUsed="false" Name="Light Grid Accent 6" />
+<w:LsdException Locked="false" Priority="63" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Shading 1 Accent 6" />
+<w:LsdException Locked="false" Priority="64" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Shading 2 Accent 6" />
+<w:LsdException Locked="false" Priority="65" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium List 1 Accent 6" />
+<w:LsdException Locked="false" Priority="66" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium List 2 Accent 6" />
+<w:LsdException Locked="false" Priority="67" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Grid 1 Accent 6" />
+<w:LsdException Locked="false" Priority="68" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Grid 2 Accent 6" />
+<w:LsdException Locked="false" Priority="69" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Grid 3 Accent 6" />
+<w:LsdException Locked="false" Priority="70" SemiHidden="false"
+UnhideWhenUsed="false" Name="Dark List Accent 6" />
+<w:LsdException Locked="false" Priority="71" SemiHidden="false"
+UnhideWhenUsed="false" Name="Colorful Shading Accent 6" />
+<w:LsdException Locked="false" Priority="72" SemiHidden="false"
+UnhideWhenUsed="false" Name="Colorful List Accent 6" />
+<w:LsdException Locked="false" Priority="73" SemiHidden="false"
+UnhideWhenUsed="false" Name="Colorful Grid Accent 6" />
+<w:LsdException Locked="false" Priority="19" SemiHidden="false"
+UnhideWhenUsed="false" QFormat="true" Name="Subtle Emphasis" />
+<w:LsdException Locked="false" Priority="21" SemiHidden="false"
+UnhideWhenUsed="false" QFormat="true" Name="Intense Emphasis" />
+<w:LsdException Locked="false" Priority="31" SemiHidden="false"
+UnhideWhenUsed="false" QFormat="true" Name="Subtle Reference" />
+<w:LsdException Locked="false" Priority="32" SemiHidden="false"
+UnhideWhenUsed="false" QFormat="true" Name="Intense Reference" />
+<w:LsdException Locked="false" Priority="33" SemiHidden="false"
+UnhideWhenUsed="false" QFormat="true" Name="Book Title" />
+<w:LsdException Locked="false" Priority="37" Name="Bibliography" />
+<w:LsdException Locked="false" Priority="39" QFormat="true" Name="TOC Heading" />
+</w:LatentStyles>
+</xml><![endif]--><!--[if gte mso 10]>
+<style>
+/* Style Definitions */
+table.MsoNormalTable
+{mso-style-name:"Table Normal";
+mso-tstyle-rowband-size:0;
+mso-tstyle-colband-size:0;
+mso-style-noshow:yes;
+mso-style-priority:99;
+mso-style-qformat:yes;
+mso-style-parent:"";
+mso-padding-alt:0in 5.4pt 0in 5.4pt;
+mso-para-margin-top:0in;
+mso-para-margin-right:0in;
+mso-para-margin-bottom:10.0pt;
+mso-para-margin-left:0in;
+line-height:115%;
+mso-pagination:widow-orphan;
+font-size:11.0pt;
+font-family:"Calibri","sans-serif";
+mso-ascii-font-family:Calibri;
+mso-ascii-theme-font:minor-latin;
+mso-fareast-font-family:Calibri;
+mso-fareast-theme-font:minor-latin;
+mso-hansi-font-family:Calibri;
+mso-hansi-theme-font:minor-latin;}
+</style>
+<![endif]--><span style="font-size:13.0pt;line-height:115%;
+font-family:&quot;Times New Roman&quot;,&quot;serif&quot;;mso-fareast-font-family:&quot;Times New Roman&quot;;
+mso-fareast-theme-font:minor-fareast;letter-spacing:-.05pt;mso-ansi-language:
+EN-US;mso-fareast-language:EN-US;mso-bidi-language:AR-SA">S</span><span style="font-size:13.0pt;line-height:115%;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;;
+mso-fareast-font-family:&quot;Times New Roman&quot;;mso-fareast-theme-font:minor-fareast;
+letter-spacing:.2pt;mso-ansi-language:EN-US;mso-fareast-language:EN-US;
+mso-bidi-language:AR-SA">c</span><span style="font-size:13.0pt;line-height:
+115%;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;;mso-fareast-font-family:&quot;Times New Roman&quot;;
+mso-fareast-theme-font:minor-fareast;letter-spacing:-.05pt;mso-ansi-language:
+EN-US;mso-fareast-language:EN-US;mso-bidi-language:AR-SA">ient</span><span style="font-size:13.0pt;line-height:115%;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;;
+mso-fareast-font-family:&quot;Times New Roman&quot;;mso-fareast-theme-font:minor-fareast;
+letter-spacing:.2pt;mso-ansi-language:EN-US;mso-fareast-language:EN-US;
+mso-bidi-language:AR-SA">e</span><span style="font-size:13.0pt;line-height:
+115%;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;;mso-fareast-font-family:&quot;Times New Roman&quot;;
+mso-fareast-theme-font:minor-fareast;letter-spacing:-.05pt;mso-ansi-language:
+EN-US;mso-fareast-language:EN-US;mso-bidi-language:AR-SA">c</span><span style="font-size:13.0pt;line-height:115%;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;;
+mso-fareast-font-family:&quot;Times New Roman&quot;;mso-fareast-theme-font:minor-fareast;
+mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:AR-SA">h<span style="letter-spacing:1.0pt"> </span><span style="letter-spacing:-.05pt">Fi</span><span style="letter-spacing:.4pt">b</span><span style="letter-spacing:-.05pt">e</span>r<span style="letter-spacing:1.05pt"> </span><span style="letter-spacing:-.05pt">O</span><span style="letter-spacing:.2pt">pt</span><span style="letter-spacing:-.05pt">i</span>c<span style="letter-spacing:1.05pt"> </span><span style="letter-spacing:-.05pt">Train</span><span style="letter-spacing:.2pt">e</span>r<span style="letter-spacing:1.05pt"> </span><span style="letter-spacing:-.05pt">ki</span>t<span style="letter-spacing:1.05pt"> </span><span style="letter-spacing:-.05pt">i</span>s<span style="letter-spacing:.8pt"> </span><span style="letter-spacing:.4pt">u</span><span style="letter-spacing:-.25pt">s</span><span style="letter-spacing:.2pt">e</span>d<span style="letter-spacing:1.25pt"> </span><span style="letter-spacing:-.25pt">t</span>o<span style="letter-spacing:1.0pt"> </span><span style="letter-spacing:.2pt">pe</span><span style="letter-spacing:-.25pt">r</span><span style="letter-spacing:-.05pt">f</span><span style="letter-spacing:.2pt">o</span><span style="letter-spacing:-.05pt">r</span>m<span style="letter-spacing:1.0pt"> </span><span style="letter-spacing:.2pt">t</span><span style="letter-spacing:-.05pt">hi</span>s<span style="letter-spacing:.8pt"> </span><span style="letter-spacing:.4pt">p</span><span style="letter-spacing:-.05pt">artic</span><span style="letter-spacing:.2pt">u</span><span style="letter-spacing:-.05pt">la</span>r<span style="letter-spacing:1.05pt"> </span><span style="letter-spacing:-.05pt">e</span><span style="letter-spacing:.2pt">xp</span><span style="letter-spacing:-.05pt">eri</span><span style="letter-spacing:.15pt">m</span><span style="letter-spacing:.2pt">e</span><span style="letter-spacing:-.05pt">nt</span>. <span style="letter-spacing:-.05pt">I</span>t<span style="letter-spacing:.1pt"> </span><span style="letter-spacing:-.05pt">a</span><span style="letter-spacing:
+.2pt">l</span><span style="letter-spacing:-.05pt">l</span><span style="letter-spacing:.2pt">o</span><span style="letter-spacing:-.05pt">w</span>s<span style="letter-spacing:.3pt"> </span><span style="letter-spacing:-.05pt">th</span>e<span style="letter-spacing:.3pt"> </span><span style="letter-spacing:-.05pt">ch</span><span style="letter-spacing:.4pt">o</span><span style="letter-spacing:-.05pt">ic</span>e<span style="letter-spacing:.3pt"> </span><span style="letter-spacing:.2pt">o</span>f<span style="letter-spacing:.3pt"> </span><span style="letter-spacing:-.05pt">trans</span><span style="letter-spacing:.15pt">m</span><span style="letter-spacing:-.05pt">itti</span><span style="letter-spacing:.2pt">n</span>g<span style="letter-spacing:.05pt"> </span>a<span style="letter-spacing:.3pt"> </span><span style="letter-spacing:.2pt">1</span><span style="letter-spacing:.15pt">K</span><span style="letter-spacing:.4pt">H</span>z<span style="letter-spacing:-.15pt"> </span><span style="letter-spacing:-.05pt">s</span><span style="letter-spacing:.2pt">q</span><span style="letter-spacing:-.05pt">u</span><span style="letter-spacing:.2pt">a</span><span style="letter-spacing:-.05pt">r</span>e<span style="letter-spacing:.3pt"> </span><span style="letter-spacing:-.05pt">wav</span>e<span style="letter-spacing:.3pt"> </span><span style="letter-spacing:-.05pt">a</span><span style="letter-spacing:.2pt">n</span>d<span style="letter-spacing:.3pt"> </span><span style="letter-spacing:-.05pt">u</span>p<span style="letter-spacing:.5pt"> </span><span style="letter-spacing:-.05pt">t</span>o<span style="letter-spacing:.3pt"> </span><span style="letter-spacing:-.05pt">1</span><span style="letter-spacing:.15pt">KH</span>z<span style="letter-spacing:.1pt"> </span><span style="letter-spacing:.2pt">o</span>f<span style="letter-spacing:.3pt"> </span><span style="letter-spacing:-.25pt">s</span><span style="letter-spacing:-.05pt">i</span><span style="letter-spacing:.2pt">n</span>e <span style="letter-spacing:-.05pt">wav</span>e<span style="letter-spacing:
+.5pt"> </span><span style="letter-spacing:.2pt">u</span><span style="letter-spacing:
+-.05pt">si</span><span style="letter-spacing:.2pt">n</span>g<span style="letter-spacing:.25pt"> </span>a<span style="letter-spacing:.25pt"> </span><span style="letter-spacing:.15pt">F</span><span style="letter-spacing:.2pt">ib</span><span style="letter-spacing:-.05pt">er-</span><span style="letter-spacing:.15pt">O</span><span style="letter-spacing:.4pt">p</span><span style="letter-spacing:-.05pt">ti</span>c<span style="letter-spacing:.25pt"> </span><span style="letter-spacing:-.05pt">ca</span><span style="letter-spacing:.2pt">b</span><span style="letter-spacing:-.05pt">l</span><span style="letter-spacing:.2pt">e</span>.<span style="letter-spacing:.4pt"> </span><span style="letter-spacing:-.05pt">Th</span>e<span style="letter-spacing:.25pt"> </span><span style="letter-spacing:-.05pt">Fi</span><span style="letter-spacing:.4pt">b</span><span style="letter-spacing:-.05pt">e</span><span style="letter-spacing:-.1pt">r</span><span style="letter-spacing:-.05pt">-O</span><span style="letter-spacing:.2pt">pt</span><span style="letter-spacing:-.05pt">i</span>c<span style="letter-spacing:.25pt"> </span><span style="letter-spacing:-.05pt">c</span><span style="letter-spacing:.2pt">ab</span><span style="letter-spacing:-.05pt">l</span><span style="letter-spacing:.2pt">e</span><span style="letter-spacing:-.25pt">’</span>s<span style="letter-spacing:.25pt"> </span><span style="letter-spacing:.2pt">o</span><span style="letter-spacing:-.05pt">n</span>e<span style="letter-spacing:.5pt"> </span><span style="letter-spacing:-.05pt">e</span><span style="letter-spacing:.2pt">n</span>d<span style="letter-spacing:.45pt"> </span><span style="letter-spacing:-.05pt">i</span>s <span style="letter-spacing:.2pt">f</span><span style="letter-spacing:-.05pt">i</span><span style="letter-spacing:.4pt">x</span><span style="letter-spacing:-.25pt">e</span>d<span style="letter-spacing:.45pt"> </span><span style="letter-spacing:-.25pt">t</span>o<span style="letter-spacing:.45pt"> </span><span style="letter-spacing:.2pt">t</span><span style="letter-spacing:-.05pt">h</span>e <span style="letter-spacing:-.05pt">tra</span><span style="letter-spacing:.2pt">n</span><span style="letter-spacing:-.25pt">s</span><span style="letter-spacing:.4pt">m</span><span style="letter-spacing:-.05pt">itt</span><span style="letter-spacing:.2pt">e</span>r<span style="letter-spacing:1.05pt"> </span><span style="letter-spacing:.2pt">po</span><span style="letter-spacing:-.05pt">r</span>t<span style="letter-spacing:1.05pt"> </span><span style="letter-spacing:-.05pt">an</span>d<span style="letter-spacing:1.0pt"> </span><span style="letter-spacing:-.05pt">th</span>e<span style="letter-spacing:.8pt"> </span><span style="letter-spacing:.4pt">o</span><span style="letter-spacing:-.05pt">the</span>r<span style="letter-spacing:1.05pt"> </span><span style="letter-spacing:.2pt">e</span><span style="letter-spacing:-.05pt">n</span>d<span style="letter-spacing:1.0pt"> </span><span style="letter-spacing:-.05pt">i</span>s<span style="letter-spacing:1.0pt"> </span><span style="letter-spacing:-.05pt">f</span><span style="letter-spacing:-.25pt">i</span><span style="letter-spacing:.4pt">x</span><span style="letter-spacing:-.25pt">e</span>d<span style="letter-spacing:1.0pt"> </span><span style="letter-spacing:-.05pt">t</span>o<span style="letter-spacing:1.25pt"> </span><span style="letter-spacing:-.05pt">t</span><span style="letter-spacing:.2pt">h</span>e<span style="letter-spacing:1.05pt"> </span><span style="letter-spacing:-.05pt">re</span><span style="letter-spacing:.2pt">c</span><span style="letter-spacing:-.05pt">eiv</span><span style="letter-spacing:.2pt">e</span>r<span style="letter-spacing:.8pt"> </span><span style="letter-spacing:-.05pt">p</span><span style="letter-spacing:.2pt">o</span><span style="letter-spacing:-.05pt">r</span>t<span style="letter-spacing:1.05pt"> </span><span style="letter-spacing:-.05pt">a</span><span style="letter-spacing:.2pt">f</span><span style="letter-spacing:-.05pt">t</span><span style="letter-spacing:.2pt">e</span>r<span style="letter-spacing:.8pt"> </span><span style="letter-spacing:-.05pt">whi</span><span style="letter-spacing:.2pt">c</span><span style="letter-spacing:-.05pt">h</span>,<span style="letter-spacing:1.15pt"> </span><span style="letter-spacing:-.25pt">s</span><span style="letter-spacing:.2pt">i</span><span style="letter-spacing:-.05pt">n</span>e</span><span style="font-size:13.0pt;line-height:113%;
+font-family:&quot;Times New Roman&quot;,&quot;serif&quot;;letter-spacing:-.05pt">wav</span><span style="font-size:13.0pt;line-height:113%;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">e<span style="letter-spacing:.2pt"> i</span>s <span style="letter-spacing:.4pt">p</span><span style="letter-spacing:-.05pt">a</span><span style="letter-spacing:.2pt">s</span><span style="letter-spacing:-.25pt">s</span><span style="letter-spacing:.2pt">e</span>d<span style="letter-spacing:.45pt"> </span><span style="letter-spacing:-.05pt">thr</span><span style="letter-spacing:.2pt">o</span><span style="letter-spacing:-.05pt">u</span><span style="letter-spacing:.2pt">g</span>h <span style="letter-spacing:-.05pt">t</span><span style="letter-spacing:.2pt">h</span>e<span style="letter-spacing:.25pt"> </span><span style="letter-spacing:-.05pt">a</span><span style="letter-spacing:.15pt">m</span><span style="letter-spacing:.4pt">p</span><span style="letter-spacing:-.05pt">lifi</span><span style="letter-spacing:.2pt">e</span>r <span style="letter-spacing:.2pt">a</span><span style="letter-spacing:-.05pt">n</span>d<span style="letter-spacing:.2pt"> </span><span style="letter-spacing:-.25pt">s</span><span style="letter-spacing:.4pt">q</span><span style="letter-spacing:-.05pt">uar</span>e<span style="letter-spacing:.45pt"> </span><span style="letter-spacing:-.05pt">wav</span>e<span style="letter-spacing:.2pt"> i</span>s<span style="letter-spacing:.2pt"> p</span><span style="letter-spacing:-.05pt">asse</span>d<span style="letter-spacing:.45pt"> </span><span style="letter-spacing:-.05pt">thr</span><span style="letter-spacing:.2pt">o</span><span style="letter-spacing:-.05pt">u</span><span style="letter-spacing:.2pt">g</span>h<span style="letter-spacing:.2pt"> </span><span style="letter-spacing:-.05pt">t</span><span style="letter-spacing:.2pt">h</span>e <span style="letter-spacing:-.05pt">c</span><span style="letter-spacing:.2pt">o</span><span style="letter-spacing:.15pt">m</span><span style="letter-spacing:-.05pt">p</span><span style="letter-spacing:.2pt">a</span><span style="letter-spacing:-.05pt">rat</span><span style="letter-spacing:.2pt">o</span>r<span style="letter-spacing:.1pt"> </span><span style="letter-spacing:.2pt">a</span><span style="letter-spacing:-.3pt">n</span>d<span style="letter-spacing:.3pt"> </span><span style="letter-spacing:-.05pt">t</span><span style="letter-spacing:.2pt">h</span>e<span style="letter-spacing:-.15pt"> </span><span style="letter-spacing:.2pt">o</span><span style="letter-spacing:-.05pt">rig</span><span style="letter-spacing:.2pt">i</span><span style="letter-spacing:-.05pt">na</span>l<span style="letter-spacing:.1pt"> </span><span style="letter-spacing:-.05pt">sig</span><span style="letter-spacing:.2pt">n</span><span style="letter-spacing:-.05pt">a</span>l<span style="letter-spacing:.1pt"> </span><span style="letter-spacing:.2pt">i</span>s<span style="letter-spacing:.05pt"> </span><span style="letter-spacing:-.05pt">re</span><span style="letter-spacing:.2pt">c</span><span style="letter-spacing:-.05pt">ei</span><span style="letter-spacing:.2pt">ve</span>d<span style="letter-spacing:.3pt"> </span><span style="letter-spacing:.2pt">a</span>t<span style="letter-spacing:-.15pt"> </span><span style="letter-spacing:-.05pt">th</span>e<span style="letter-spacing:.1pt"> </span><span style="letter-spacing:.2pt">o</span><span style="letter-spacing:-.05pt">ut</span><span style="letter-spacing:.2pt">pu</span>t<span style="letter-spacing:-.15pt"> </span><span style="letter-spacing:-.05pt">p</span><span style="letter-spacing:.2pt">o</span><span style="letter-spacing:-.05pt">rt</span>.</span></p>
+<p style="margin: 1.4pt 0in 0.0001pt 7.6pt; line-height: normal;" class="MsoNormal"><span style="font-size:13.0pt;line-height:113%;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;"><img src="/userfiles/7/image/RT%20Fiber%20optics%20images/EXP103.JPG" alt="" height="703" width="816"></span></p>
+<p style="margin: 1.4pt 0in 0.0001pt 7.6pt; line-height: normal;" class="MsoNormal"><!--[if gte mso 9]><xml>
+<w:WordDocument>
+<w:View>Normal</w:View>
+<w:Zoom>0</w:Zoom>
+<w:TrackMoves />
+<w:TrackFormatting />
+<w:PunctuationKerning />
+<w:ValidateAgainstSchemas />
+<w:SaveIfXMLInvalid>false</w:SaveIfXMLInvalid>
+<w:IgnoreMixedContent>false</w:IgnoreMixedContent>
+<w:AlwaysShowPlaceholderText>false</w:AlwaysShowPlaceholderText>
+<w:DoNotPromoteQF />
+<w:LidThemeOther>EN-US</w:LidThemeOther>
+<w:LidThemeAsian>X-NONE</w:LidThemeAsian>
+<w:LidThemeComplexScript>X-NONE</w:LidThemeComplexScript>
+<w:Compatibility>
+<w:BreakWrappedTables />
+<w:SnapToGridInCell />
+<w:WrapTextWithPunct />
+<w:UseAsianBreakRules />
+<w:DontGrowAutofit />
+<w:SplitPgBreakAndParaMark />
+<w:DontVertAlignCellWithSp />
+<w:DontBreakConstrainedForcedTables />
+<w:DontVertAlignInTxbx />
+<w:Word11KerningPairs />
+<w:CachedColBalance />
+<w:UseFELayout />
+</w:Compatibility>
+<w:BrowserLevel>MicrosoftInternetExplorer4</w:BrowserLevel>
+<m:mathPr>
+<m:mathFont m:val="Cambria Math" />
+<m:brkBin m:val="before" />
+<m:brkBinSub m:val="--" />
+<m:smallFrac m:val="off" />
+<m:dispDef />
+<m:lMargin m:val="0" />
+<m:rMargin m:val="0" />
+<m:defJc m:val="centerGroup" />
+<m:wrapIndent m:val="1440" />
+<m:intLim m:val="subSup" />
+<m:naryLim m:val="undOvr" />
+</m:mathPr></w:WordDocument>
+</xml><![endif]--></p>
+<p style="margin: 1.4pt 0in 0.0001pt 7.6pt; line-height: normal;" class="MsoNormal"><!--[if gte mso 9]><xml>
+<w:LatentStyles DefLockedState="false" DefUnhideWhenUsed="true"
+DefSemiHidden="true" DefQFormat="false" DefPriority="99"
+LatentStyleCount="267">
+<w:LsdException Locked="false" Priority="0" SemiHidden="false"
+UnhideWhenUsed="false" QFormat="true" Name="Normal" />
+<w:LsdException Locked="false" Priority="9" SemiHidden="false"
+UnhideWhenUsed="false" QFormat="true" Name="heading 1" />
+<w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 2" />
+<w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 3" />
+<w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 4" />
+<w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 5" />
+<w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 6" />
+<w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 7" />
+<w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 8" />
+<w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 9" />
+<w:LsdException Locked="false" Priority="39" Name="toc 1" />
+<w:LsdException Locked="false" Priority="39" Name="toc 2" />
+<w:LsdException Locked="false" Priority="39" Name="toc 3" />
+<w:LsdException Locked="false" Priority="39" Name="toc 4" />
+<w:LsdException Locked="false" Priority="39" Name="toc 5" />
+<w:LsdException Locked="false" Priority="39" Name="toc 6" />
+<w:LsdException Locked="false" Priority="39" Name="toc 7" />
+<w:LsdException Locked="false" Priority="39" Name="toc 8" />
+<w:LsdException Locked="false" Priority="39" Name="toc 9" />
+<w:LsdException Locked="false" Priority="35" QFormat="true" Name="caption" />
+<w:LsdException Locked="false" Priority="10" SemiHidden="false"
+UnhideWhenUsed="false" QFormat="true" Name="Title" />
+<w:LsdException Locked="false" Priority="1" Name="Default Paragraph Font" />
+<w:LsdException Locked="false" Priority="11" SemiHidden="false"
+UnhideWhenUsed="false" QFormat="true" Name="Subtitle" />
+<w:LsdException Locked="false" Priority="22" SemiHidden="false"
+UnhideWhenUsed="false" QFormat="true" Name="Strong" />
+<w:LsdException Locked="false" Priority="20" SemiHidden="false"
+UnhideWhenUsed="false" QFormat="true" Name="Emphasis" />
+<w:LsdException Locked="false" Priority="59" SemiHidden="false"
+UnhideWhenUsed="false" Name="Table Grid" />
+<w:LsdException Locked="false" UnhideWhenUsed="false" Name="Placeholder Text" />
+<w:LsdException Locked="false" Priority="1" SemiHidden="false"
+UnhideWhenUsed="false" QFormat="true" Name="No Spacing" />
+<w:LsdException Locked="false" Priority="60" SemiHidden="false"
+UnhideWhenUsed="false" Name="Light Shading" />
+<w:LsdException Locked="false" Priority="61" SemiHidden="false"
+UnhideWhenUsed="false" Name="Light List" />
+<w:LsdException Locked="false" Priority="62" SemiHidden="false"
+UnhideWhenUsed="false" Name="Light Grid" />
+<w:LsdException Locked="false" Priority="63" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Shading 1" />
+<w:LsdException Locked="false" Priority="64" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Shading 2" />
+<w:LsdException Locked="false" Priority="65" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium List 1" />
+<w:LsdException Locked="false" Priority="66" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium List 2" />
+<w:LsdException Locked="false" Priority="67" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Grid 1" />
+<w:LsdException Locked="false" Priority="68" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Grid 2" />
+<w:LsdException Locked="false" Priority="69" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Grid 3" />
+<w:LsdException Locked="false" Priority="70" SemiHidden="false"
+UnhideWhenUsed="false" Name="Dark List" />
+<w:LsdException Locked="false" Priority="71" SemiHidden="false"
+UnhideWhenUsed="false" Name="Colorful Shading" />
+<w:LsdException Locked="false" Priority="72" SemiHidden="false"
+UnhideWhenUsed="false" Name="Colorful List" />
+<w:LsdException Locked="false" Priority="73" SemiHidden="false"
+UnhideWhenUsed="false" Name="Colorful Grid" />
+<w:LsdException Locked="false" Priority="60" SemiHidden="false"
+UnhideWhenUsed="false" Name="Light Shading Accent 1" />
+<w:LsdException Locked="false" Priority="61" SemiHidden="false"
+UnhideWhenUsed="false" Name="Light List Accent 1" />
+<w:LsdException Locked="false" Priority="62" SemiHidden="false"
+UnhideWhenUsed="false" Name="Light Grid Accent 1" />
+<w:LsdException Locked="false" Priority="63" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Shading 1 Accent 1" />
+<w:LsdException Locked="false" Priority="64" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Shading 2 Accent 1" />
+<w:LsdException Locked="false" Priority="65" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium List 1 Accent 1" />
+<w:LsdException Locked="false" UnhideWhenUsed="false" Name="Revision" />
+<w:LsdException Locked="false" Priority="34" SemiHidden="false"
+UnhideWhenUsed="false" QFormat="true" Name="List Paragraph" />
+<w:LsdException Locked="false" Priority="29" SemiHidden="false"
+UnhideWhenUsed="false" QFormat="true" Name="Quote" />
+<w:LsdException Locked="false" Priority="30" SemiHidden="false"
+UnhideWhenUsed="false" QFormat="true" Name="Intense Quote" />
+<w:LsdException Locked="false" Priority="66" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium List 2 Accent 1" />
+<w:LsdException Locked="false" Priority="67" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Grid 1 Accent 1" />
+<w:LsdException Locked="false" Priority="68" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Grid 2 Accent 1" />
+<w:LsdException Locked="false" Priority="69" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Grid 3 Accent 1" />
+<w:LsdException Locked="false" Priority="70" SemiHidden="false"
+UnhideWhenUsed="false" Name="Dark List Accent 1" />
+<w:LsdException Locked="false" Priority="71" SemiHidden="false"
+UnhideWhenUsed="false" Name="Colorful Shading Accent 1" />
+<w:LsdException Locked="false" Priority="72" SemiHidden="false"
+UnhideWhenUsed="false" Name="Colorful List Accent 1" />
+<w:LsdException Locked="false" Priority="73" SemiHidden="false"
+UnhideWhenUsed="false" Name="Colorful Grid Accent 1" />
+<w:LsdException Locked="false" Priority="60" SemiHidden="false"
+UnhideWhenUsed="false" Name="Light Shading Accent 2" />
+<w:LsdException Locked="false" Priority="61" SemiHidden="false"
+UnhideWhenUsed="false" Name="Light List Accent 2" />
+<w:LsdException Locked="false" Priority="62" SemiHidden="false"
+UnhideWhenUsed="false" Name="Light Grid Accent 2" />
+<w:LsdException Locked="false" Priority="63" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Shading 1 Accent 2" />
+<w:LsdException Locked="false" Priority="64" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Shading 2 Accent 2" />
+<w:LsdException Locked="false" Priority="65" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium List 1 Accent 2" />
+<w:LsdException Locked="false" Priority="66" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium List 2 Accent 2" />
+<w:LsdException Locked="false" Priority="67" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Grid 1 Accent 2" />
+<w:LsdException Locked="false" Priority="68" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Grid 2 Accent 2" />
+<w:LsdException Locked="false" Priority="69" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Grid 3 Accent 2" />
+<w:LsdException Locked="false" Priority="70" SemiHidden="false"
+UnhideWhenUsed="false" Name="Dark List Accent 2" />
+<w:LsdException Locked="false" Priority="71" SemiHidden="false"
+UnhideWhenUsed="false" Name="Colorful Shading Accent 2" />
+<w:LsdException Locked="false" Priority="72" SemiHidden="false"
+UnhideWhenUsed="false" Name="Colorful List Accent 2" />
+<w:LsdException Locked="false" Priority="73" SemiHidden="false"
+UnhideWhenUsed="false" Name="Colorful Grid Accent 2" />
+<w:LsdException Locked="false" Priority="60" SemiHidden="false"
+UnhideWhenUsed="false" Name="Light Shading Accent 3" />
+<w:LsdException Locked="false" Priority="61" SemiHidden="false"
+UnhideWhenUsed="false" Name="Light List Accent 3" />
+<w:LsdException Locked="false" Priority="62" SemiHidden="false"
+UnhideWhenUsed="false" Name="Light Grid Accent 3" />
+<w:LsdException Locked="false" Priority="63" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Shading 1 Accent 3" />
+<w:LsdException Locked="false" Priority="64" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Shading 2 Accent 3" />
+<w:LsdException Locked="false" Priority="65" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium List 1 Accent 3" />
+<w:LsdException Locked="false" Priority="66" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium List 2 Accent 3" />
+<w:LsdException Locked="false" Priority="67" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Grid 1 Accent 3" />
+<w:LsdException Locked="false" Priority="68" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Grid 2 Accent 3" />
+<w:LsdException Locked="false" Priority="69" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Grid 3 Accent 3" />
+<w:LsdException Locked="false" Priority="70" SemiHidden="false"
+UnhideWhenUsed="false" Name="Dark List Accent 3" />
+<w:LsdException Locked="false" Priority="71" SemiHidden="false"
+UnhideWhenUsed="false" Name="Colorful Shading Accent 3" />
+<w:LsdException Locked="false" Priority="72" SemiHidden="false"
+UnhideWhenUsed="false" Name="Colorful List Accent 3" />
+<w:LsdException Locked="false" Priority="73" SemiHidden="false"
+UnhideWhenUsed="false" Name="Colorful Grid Accent 3" />
+<w:LsdException Locked="false" Priority="60" SemiHidden="false"
+UnhideWhenUsed="false" Name="Light Shading Accent 4" />
+<w:LsdException Locked="false" Priority="61" SemiHidden="false"
+UnhideWhenUsed="false" Name="Light List Accent 4" />
+<w:LsdException Locked="false" Priority="62" SemiHidden="false"
+UnhideWhenUsed="false" Name="Light Grid Accent 4" />
+<w:LsdException Locked="false" Priority="63" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Shading 1 Accent 4" />
+<w:LsdException Locked="false" Priority="64" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Shading 2 Accent 4" />
+<w:LsdException Locked="false" Priority="65" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium List 1 Accent 4" />
+<w:LsdException Locked="false" Priority="66" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium List 2 Accent 4" />
+<w:LsdException Locked="false" Priority="67" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Grid 1 Accent 4" />
+<w:LsdException Locked="false" Priority="68" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Grid 2 Accent 4" />
+<w:LsdException Locked="false" Priority="69" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Grid 3 Accent 4" />
+<w:LsdException Locked="false" Priority="70" SemiHidden="false"
+UnhideWhenUsed="false" Name="Dark List Accent 4" />
+<w:LsdException Locked="false" Priority="71" SemiHidden="false"
+UnhideWhenUsed="false" Name="Colorful Shading Accent 4" />
+<w:LsdException Locked="false" Priority="72" SemiHidden="false"
+UnhideWhenUsed="false" Name="Colorful List Accent 4" />
+<w:LsdException Locked="false" Priority="73" SemiHidden="false"
+UnhideWhenUsed="false" Name="Colorful Grid Accent 4" />
+<w:LsdException Locked="false" Priority="60" SemiHidden="false"
+UnhideWhenUsed="false" Name="Light Shading Accent 5" />
+<w:LsdException Locked="false" Priority="61" SemiHidden="false"
+UnhideWhenUsed="false" Name="Light List Accent 5" />
+<w:LsdException Locked="false" Priority="62" SemiHidden="false"
+UnhideWhenUsed="false" Name="Light Grid Accent 5" />
+<w:LsdException Locked="false" Priority="63" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Shading 1 Accent 5" />
+<w:LsdException Locked="false" Priority="64" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Shading 2 Accent 5" />
+<w:LsdException Locked="false" Priority="65" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium List 1 Accent 5" />
+<w:LsdException Locked="false" Priority="66" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium List 2 Accent 5" />
+<w:LsdException Locked="false" Priority="67" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Grid 1 Accent 5" />
+<w:LsdException Locked="false" Priority="68" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Grid 2 Accent 5" />
+<w:LsdException Locked="false" Priority="69" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Grid 3 Accent 5" />
+<w:LsdException Locked="false" Priority="70" SemiHidden="false"
+UnhideWhenUsed="false" Name="Dark List Accent 5" />
+<w:LsdException Locked="false" Priority="71" SemiHidden="false"
+UnhideWhenUsed="false" Name="Colorful Shading Accent 5" />
+<w:LsdException Locked="false" Priority="72" SemiHidden="false"
+UnhideWhenUsed="false" Name="Colorful List Accent 5" />
+<w:LsdException Locked="false" Priority="73" SemiHidden="false"
+UnhideWhenUsed="false" Name="Colorful Grid Accent 5" />
+<w:LsdException Locked="false" Priority="60" SemiHidden="false"
+UnhideWhenUsed="false" Name="Light Shading Accent 6" />
+<w:LsdException Locked="false" Priority="61" SemiHidden="false"
+UnhideWhenUsed="false" Name="Light List Accent 6" />
+<w:LsdException Locked="false" Priority="62" SemiHidden="false"
+UnhideWhenUsed="false" Name="Light Grid Accent 6" />
+<w:LsdException Locked="false" Priority="63" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Shading 1 Accent 6" />
+<w:LsdException Locked="false" Priority="64" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Shading 2 Accent 6" />
+<w:LsdException Locked="false" Priority="65" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium List 1 Accent 6" />
+<w:LsdException Locked="false" Priority="66" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium List 2 Accent 6" />
+<w:LsdException Locked="false" Priority="67" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Grid 1 Accent 6" />
+<w:LsdException Locked="false" Priority="68" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Grid 2 Accent 6" />
+<w:LsdException Locked="false" Priority="69" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Grid 3 Accent 6" />
+<w:LsdException Locked="false" Priority="70" SemiHidden="false"
+UnhideWhenUsed="false" Name="Dark List Accent 6" />
+<w:LsdException Locked="false" Priority="71" SemiHidden="false"
+UnhideWhenUsed="false" Name="Colorful Shading Accent 6" />
+<w:LsdException Locked="false" Priority="72" SemiHidden="false"
+UnhideWhenUsed="false" Name="Colorful List Accent 6" />
+<w:LsdException Locked="false" Priority="73" SemiHidden="false"
+UnhideWhenUsed="false" Name="Colorful Grid Accent 6" />
+<w:LsdException Locked="false" Priority="19" SemiHidden="false"
+UnhideWhenUsed="false" QFormat="true" Name="Subtle Emphasis" />
+<w:LsdException Locked="false" Priority="21" SemiHidden="false"
+UnhideWhenUsed="false" QFormat="true" Name="Intense Emphasis" />
+<w:LsdException Locked="false" Priority="31" SemiHidden="false"
+UnhideWhenUsed="false" QFormat="true" Name="Subtle Reference" />
+<w:LsdException Locked="false" Priority="32" SemiHidden="false"
+UnhideWhenUsed="false" QFormat="true" Name="Intense Reference" />
+<w:LsdException Locked="false" Priority="33" SemiHidden="false"
+UnhideWhenUsed="false" QFormat="true" Name="Book Title" />
+<w:LsdException Locked="false" Priority="37" Name="Bibliography" />
+<w:LsdException Locked="false" Priority="39" QFormat="true" Name="TOC Heading" />
+</w:LatentStyles>
+</xml><![endif]--><!--[if gte mso 10]>
+<style>
+/* Style Definitions */
+table.MsoNormalTable
+{mso-style-name:"Table Normal";
+mso-tstyle-rowband-size:0;
+mso-tstyle-colband-size:0;
+mso-style-noshow:yes;
+mso-style-priority:99;
+mso-style-qformat:yes;
+mso-style-parent:"";
+mso-padding-alt:0in 5.4pt 0in 5.4pt;
+mso-para-margin-top:0in;
+mso-para-margin-right:0in;
+mso-para-margin-bottom:10.0pt;
+mso-para-margin-left:0in;
+line-height:115%;
+mso-pagination:widow-orphan;
+font-size:11.0pt;
+font-family:"Calibri","sans-serif";
+mso-ascii-font-family:Calibri;
+mso-ascii-theme-font:minor-latin;
+mso-fareast-font-family:Calibri;
+mso-fareast-theme-font:minor-latin;
+mso-hansi-font-family:Calibri;
+mso-hansi-theme-font:minor-latin;}
+</style>
+<![endif]--></p>
+<p style="margin-top:1.4pt;margin-right:0in;margin-bottom:0in;
+margin-left:7.6pt;margin-bottom:.0001pt;line-height:normal;mso-pagination:none;
+mso-layout-grid-align:none;text-autospace:none" class="MsoNormal">&nbsp;</p>
+<p style="margin-top:0in;margin-right:10.9pt;margin-bottom:
+0in;margin-left:7.6pt;margin-bottom:.0001pt;text-align:justify;text-justify:
+inter-ideograph;line-height:116%;mso-pagination:none;mso-layout-grid-align:
+none;text-autospace:none" class="MsoNormal"><span style="font-size:13.0pt;line-height:116%;
+font-family:&quot;Times New Roman&quot;,&quot;serif&quot;;letter-spacing:-.05pt">I</span><span style="font-size:13.0pt;line-height:116%;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">t<span style="letter-spacing:1.5pt"> </span><span style="letter-spacing:.2pt">i</span>s<span style="letter-spacing:1.5pt"> </span><span style="letter-spacing:-.05pt">use</span>d<span style="letter-spacing:1.75pt"> </span><span style="letter-spacing:-.05pt">t</span>o<span style="letter-spacing:1.75pt"> </span><span style="letter-spacing:.2pt">g</span><span style="letter-spacing:-.05pt">en</span><span style="letter-spacing:.2pt">e</span><span style="letter-spacing:-.05pt">rat</span>e<span style="letter-spacing:1.75pt"> </span><span style="letter-spacing:-.05pt">se</span><span style="letter-spacing:.2pt">e</span><span style="letter-spacing:.15pt">m</span><span style="letter-spacing:-.05pt">in</span><span style="letter-spacing:.2pt">g</span><span style="letter-spacing:-.05pt">l</span>y<span style="letter-spacing:1.75pt"> </span><span style="letter-spacing:-.25pt">r</span><span style="letter-spacing:.2pt">a</span><span style="letter-spacing:-.05pt">n</span><span style="letter-spacing:.2pt">do</span>m<span style="letter-spacing:1.7pt"> </span><span style="letter-spacing:-.05pt">s</span><span style="letter-spacing:.2pt">eq</span><span style="letter-spacing:-.05pt">ue</span><span style="letter-spacing:.2pt">n</span><span style="letter-spacing:-.05pt">c</span><span style="letter-spacing:.2pt">e</span>s<span style="letter-spacing:1.25pt"> </span><span style="letter-spacing:-.05pt">a</span>t<span style="letter-spacing:1.5pt"> </span>a<span style="letter-spacing:1.5pt"> </span><span style="letter-spacing:.2pt">gi</span><span style="letter-spacing:-.05pt">ve</span>n<span style="letter-spacing:1.5pt"> </span><span style="letter-spacing:.4pt">d</span><span style="letter-spacing:-.05pt">at</span>a<span style="letter-spacing:1.5pt"> </span><span style="letter-spacing:-.05pt">r</span><span style="letter-spacing:.2pt">a</span><span style="letter-spacing:-.05pt">t</span>e<span style="letter-spacing:1.5pt"> </span><span style="letter-spacing:.2pt">c</span><span style="letter-spacing:-.05pt">l</span><span style="letter-spacing:.2pt">oc</span><span style="letter-spacing:-.05pt">k</span>. <span style="letter-spacing:-.05pt">Th</span>e<span style="letter-spacing:1.75pt"> </span><span style="letter-spacing:.4pt">p</span><span style="letter-spacing:
+-.05pt">ur</span><span style="letter-spacing:.2pt">po</span><span style="letter-spacing:-.05pt">s</span>e<span style="letter-spacing:1.75pt"> </span><span style="letter-spacing:-.05pt">o</span>f<span style="letter-spacing:2.0pt"> </span><span style="letter-spacing:-.05pt">thi</span>s<span style="letter-spacing:1.5pt"> </span><span style="letter-spacing:.4pt">m</span><span style="letter-spacing:.2pt">od</span><span style="letter-spacing:-.05pt">ul</span>e<span style="letter-spacing:1.75pt"> </span><span style="letter-spacing:-.05pt">i</span>s<span style="letter-spacing:1.75pt"> </span><span style="letter-spacing:-.05pt">t</span>o<span style="letter-spacing:1.95pt"> </span><span style="letter-spacing:-.05pt">ne</span><span style="letter-spacing:.2pt">a</span><span style="letter-spacing:-.05pt">rl</span>y<span style="letter-spacing:1.75pt"> </span><span style="letter-spacing:-.05pt">e</span><span style="letter-spacing:.15pt">m</span><span style="letter-spacing:.2pt">u</span><span style="letter-spacing:-.05pt">lat</span>e<span style="letter-spacing:1.75pt"> </span><span style="letter-spacing:.2pt">co</span><span style="letter-spacing:-.3pt">n</span><span style="letter-spacing:.2pt">d</span><span style="letter-spacing:-.05pt">iti</span><span style="letter-spacing:.4pt">o</span><span style="letter-spacing:-.05pt">n</span>s<span style="letter-spacing:1.5pt"> </span><span style="letter-spacing:.4pt">o</span>f<span style="letter-spacing:1.75pt"> </span><span style="letter-spacing:-.05pt">re</span><span style="letter-spacing:.2pt">a</span>l<span style="letter-spacing:1.5pt"> </span><span style="letter-spacing:-.05pt">t</span><span style="letter-spacing:.2pt">i</span><span style="letter-spacing:.15pt">m</span>e<span style="letter-spacing:1.5pt"> </span><span style="letter-spacing:.2pt">da</span><span style="letter-spacing:-.05pt">ta</span>. <span style="letter-spacing:.15pt">T</span><span style="letter-spacing:-.3pt">w</span>o<span style="letter-spacing:.5pt"> </span><span style="letter-spacing:-.05pt">o</span><span style="letter-spacing:.2pt">p</span><span style="letter-spacing:-.05pt">t</span><span style="letter-spacing:-.25pt">i</span><span style="letter-spacing:.4pt">o</span><span style="letter-spacing:-.05pt">n</span>s<span style="letter-spacing:.05pt"> </span><span style="letter-spacing:-.05pt">ar</span>e<span style="letter-spacing:.1pt"> </span><span style="letter-spacing:.4pt">p</span><span style="letter-spacing:-.25pt">r</span><span style="letter-spacing:.2pt">o</span><span style="letter-spacing:-.05pt">vi</span><span style="letter-spacing:.2pt">d</span><span style="letter-spacing:-.05pt">e</span>d<span style="letter-spacing:.05pt"> </span><span style="letter-spacing:.2pt">o</span><span style="letter-spacing:-.05pt">nb</span><span style="letter-spacing:.2pt">o</span><span style="letter-spacing:-.05pt">ar</span>d<span style="letter-spacing:.3pt"> </span><span style="letter-spacing:-.05pt">f</span><span style="letter-spacing:.2pt">o</span>r<span style="letter-spacing:.1pt"> </span><span style="letter-spacing:-.05pt">th</span>e<span style="letter-spacing:.3pt"> </span><span style="letter-spacing:-.5pt">s</span><span style="letter-spacing:.2pt">eq</span><span style="letter-spacing:-.05pt">u</span><span style="letter-spacing:.2pt">e</span><span style="letter-spacing:-.05pt">nc</span>e<span style="letter-spacing:.3pt"> </span><span style="letter-spacing:-.05pt">le</span><span style="letter-spacing:.2pt">n</span><span style="letter-spacing:-.05pt">gt</span>h<span style="letter-spacing:.05pt"> </span><span style="letter-spacing:.2pt">v</span><span style="letter-spacing:-.05pt">i</span>a<span style="letter-spacing:.1pt"> </span>a<span style="letter-spacing:.1pt"> </span><span style="letter-spacing:-.05pt">ju</span><span style="letter-spacing:-.1pt">m</span><span style="letter-spacing:.4pt">p</span><span style="letter-spacing:-.05pt">er</span>:</span></p>
+<p style="margin: 0.3pt 0in 0.0001pt; line-height: 9.5pt;" class="MsoNormal"><span style="font-size:9.5pt;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">&nbsp;</span></p>
+<p style="margin: 0in 348.05pt 0.0001pt 7.6pt; line-height: normal;" class="MsoNormal"><b><span style="font-size:13.0pt;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;;
+letter-spacing:.15pt">S</span></b><b><span style="font-size:13.0pt;font-family:
+&quot;Times New Roman&quot;,&quot;serif&quot;;letter-spacing:-.05pt">h</span></b><b><span style="font-size:13.0pt;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;;letter-spacing:
+.2pt">or</span></b><b><span style="font-size:13.0pt;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">t<span style="letter-spacing:-.15pt"> </span><span style="letter-spacing:.15pt">S</span><span style="letter-spacing:-.05pt">eq</span><span style="letter-spacing:.15pt">u</span><span style="letter-spacing:-.05pt">e</span><span style="letter-spacing:.15pt">n</span><span style="letter-spacing:-.05pt">c</span>e</span></b></p>
+<p style="margin: 0.7pt 0in 0.0001pt; line-height: 11pt;" class="MsoNormal"><span style="font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">&nbsp;</span></p>
+<p style="margin: 0in 10.75pt 0.0001pt 7.6pt; line-height: 115%;" class="MsoNormal"><span style="font-size:13.0pt;line-height:115%;
+font-family:&quot;Times New Roman&quot;,&quot;serif&quot;;letter-spacing:-.05pt">Th</span><span style="font-size:13.0pt;line-height:115%;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;;
+letter-spacing:.2pt">i</span><span style="font-size:13.0pt;line-height:115%;
+font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">s <span style="letter-spacing:.2pt">i</span>s<span style="letter-spacing:.25pt"> </span>a<span style="letter-spacing:.25pt"> </span><span style="letter-spacing:.15pt">M</span><span style="letter-spacing:-.05pt">o</span><span style="letter-spacing:.2pt">d</span><span style="letter-spacing:-.05pt">ul</span><span style="letter-spacing:.4pt">o</span><span style="letter-spacing:-.05pt">-</span>4 <span style="letter-spacing:.15pt">PRB</span>S <span style="letter-spacing:
+-.05pt">s</span><span style="letter-spacing:.2pt">eq</span><span style="letter-spacing:-.05pt">ue</span><span style="letter-spacing:.2pt">n</span><span style="letter-spacing:-.05pt">ce</span>.<span style="letter-spacing:.1pt"> </span><span style="letter-spacing:-.1pt">M</span><span style="letter-spacing:.2pt">o</span><span style="letter-spacing:-.05pt">dul</span><span style="letter-spacing:.2pt">o</span><span style="letter-spacing:-.05pt">-</span>4<span style="letter-spacing:.45pt"> </span><span style="letter-spacing:-.05pt">i</span><span style="letter-spacing:-.1pt">m</span><span style="letter-spacing:.4pt">p</span><span style="letter-spacing:-.05pt">lie</span>s a<span style="letter-spacing:.2pt"> 1</span>5<span style="letter-spacing:.2pt"> b</span><span style="letter-spacing:-.05pt">i</span>t <span style="letter-spacing:
+.2pt">lo</span><span style="letter-spacing:-.05pt">n</span>g<span style="letter-spacing:.25pt"> </span><span style="letter-spacing:-.05pt">ra</span><span style="letter-spacing:-.3pt">n</span><span style="letter-spacing:.4pt">d</span><span style="letter-spacing:-.05pt">o</span>m <span style="letter-spacing:-.05pt">se</span><span style="letter-spacing:.2pt">qu</span><span style="letter-spacing:-.05pt">en</span><span style="letter-spacing:.2pt">c</span><span style="letter-spacing:-.05pt">e</span>,<span style="letter-spacing:.15pt"> </span><span style="letter-spacing:-.05pt">i</span><span style="letter-spacing:.35pt">.</span><span style="letter-spacing:-.25pt">e</span>.<span style="letter-spacing:.15pt"> </span><span style="letter-spacing:-.05pt">(2</span><span style="letter-spacing:.35pt">^</span><span style="letter-spacing:-.05pt">[</span><span style="letter-spacing:.2pt">4</span>] -<span style="letter-spacing:.05pt"> </span><span style="letter-spacing:.2pt">1</span><span style="letter-spacing:-.05pt">)</span>.<span style="letter-spacing:.15pt"> </span><span style="letter-spacing:-.05pt">Th</span>e<span style="letter-spacing:.25pt"> </span><span style="letter-spacing:-.25pt">r</span><span style="letter-spacing:.2pt">e</span><span style="letter-spacing:-.05pt">as</span><span style="letter-spacing:.2pt">o</span>n<span style="letter-spacing:.25pt"> </span><span style="letter-spacing:-.25pt">f</span><span style="letter-spacing:.4pt">o</span>r<span style="letter-spacing:.05pt"> </span><span style="letter-spacing:.2pt">p</span><span style="letter-spacing:-.3pt">u</span><span style="letter-spacing:-.05pt">tti</span><span style="letter-spacing:.2pt">n</span>g <span style="letter-spacing:-.05pt">a</span>n<span style="letter-spacing:.25pt"> </span><span style="letter-spacing:.2pt">op</span><span style="letter-spacing:-.05pt">ti</span><span style="letter-spacing:.2pt">o</span>n <span style="letter-spacing:-.05pt">o</span>f<span style="letter-spacing:.25pt"> </span>a<span style="letter-spacing:.05pt"> </span><span style="letter-spacing:
+-.05pt">sh</span><span style="letter-spacing:.4pt">o</span><span style="letter-spacing:-.25pt">r</span>t<span style="letter-spacing:.25pt"> </span><span style="letter-spacing:-.25pt">s</span><span style="letter-spacing:.2pt">eq</span><span style="letter-spacing:-.05pt">u</span><span style="letter-spacing:.2pt">e</span><span style="letter-spacing:-.05pt">nc</span>e<span style="letter-spacing:.25pt"> </span><span style="letter-spacing:-.05pt">i</span>n <span style="letter-spacing:.15pt">PR</span><span style="letter-spacing:-.05pt">B</span>S<span style="letter-spacing:.2pt"> g</span><span style="letter-spacing:-.05pt">en</span><span style="letter-spacing:.2pt">e</span><span style="letter-spacing:-.05pt">rati</span><span style="letter-spacing:.2pt">o</span>n<span style="letter-spacing:.2pt"> </span><span style="letter-spacing:-.05pt">i</span>s<span style="letter-spacing:.2pt"> fo</span>r <span style="letter-spacing:.2pt">t</span><span style="letter-spacing:-.05pt">h</span>e<span style="letter-spacing:.25pt"> </span><span style="letter-spacing:-.05pt">e</span><span style="letter-spacing:.45pt">a</span><span style="letter-spacing:-.05pt">s</span>e<span style="letter-spacing:.25pt"> </span><span style="letter-spacing:.2pt">o</span>f<span style="letter-spacing:.45pt"> </span><span style="letter-spacing:-.05pt">co</span><span style="letter-spacing:.15pt">m</span><span style="letter-spacing:.2pt">p</span><span style="letter-spacing:-.25pt">a</span><span style="letter-spacing:-.05pt">r</span><span style="letter-spacing:.2pt">a</span><span style="letter-spacing:-.05pt">tivel</span>y<span style="letter-spacing:.2pt"> </span><span style="letter-spacing:.4pt">o</span><span style="letter-spacing:.2pt">b</span><span style="letter-spacing:-.05pt">servin</span>g<span style="letter-spacing:.45pt"> </span><span style="letter-spacing:.4pt">d</span><span style="letter-spacing:
+-.05pt">e</span><span style="letter-spacing:-.1pt">m</span><span style="letter-spacing:.2pt">od</span><span style="letter-spacing:-.05pt">ul</span><span style="letter-spacing:.2pt">a</span><span style="letter-spacing:-.05pt">te</span>d<span style="letter-spacing:.2pt"> da</span><span style="letter-spacing:-.05pt">t</span>a <span style="letter-spacing:-.05pt">v</span><span style="letter-spacing:.2pt">e</span><span style="letter-spacing:-.05pt">r</span><span style="letter-spacing:-.25pt">s</span><span style="letter-spacing:.2pt">u</span>s<span style="letter-spacing:.05pt"> </span><span style="letter-spacing:-.05pt">tr</span><span style="letter-spacing:.2pt">an</span><span style="letter-spacing:-.25pt">s</span><span style="letter-spacing:.4pt">m</span><span style="letter-spacing:-.05pt">itte</span>d<span style="letter-spacing:.5pt"> </span><span style="letter-spacing:.2pt">d</span><span style="letter-spacing:-.05pt">ata</span>.</span></p>
+<p style="margin: 0in 10.75pt 0.0001pt 7.6pt; line-height: 115%;" class="MsoNormal"><!--[if gte mso 9]><xml>
+<w:WordDocument>
+<w:View>Normal</w:View>
+<w:Zoom>0</w:Zoom>
+<w:TrackMoves />
+<w:TrackFormatting />
+<w:PunctuationKerning />
+<w:ValidateAgainstSchemas />
+<w:SaveIfXMLInvalid>false</w:SaveIfXMLInvalid>
+<w:IgnoreMixedContent>false</w:IgnoreMixedContent>
+<w:AlwaysShowPlaceholderText>false</w:AlwaysShowPlaceholderText>
+<w:DoNotPromoteQF />
+<w:LidThemeOther>EN-US</w:LidThemeOther>
+<w:LidThemeAsian>X-NONE</w:LidThemeAsian>
+<w:LidThemeComplexScript>X-NONE</w:LidThemeComplexScript>
+<w:Compatibility>
+<w:BreakWrappedTables />
+<w:SnapToGridInCell />
+<w:WrapTextWithPunct />
+<w:UseAsianBreakRules />
+<w:DontGrowAutofit />
+<w:SplitPgBreakAndParaMark />
+<w:DontVertAlignCellWithSp />
+<w:DontBreakConstrainedForcedTables />
+<w:DontVertAlignInTxbx />
+<w:Word11KerningPairs />
+<w:CachedColBalance />
+<w:UseFELayout />
+</w:Compatibility>
+<w:BrowserLevel>MicrosoftInternetExplorer4</w:BrowserLevel>
+<m:mathPr>
+<m:mathFont m:val="Cambria Math" />
+<m:brkBin m:val="before" />
+<m:brkBinSub m:val="--" />
+<m:smallFrac m:val="off" />
+<m:dispDef />
+<m:lMargin m:val="0" />
+<m:rMargin m:val="0" />
+<m:defJc m:val="centerGroup" />
+<m:wrapIndent m:val="1440" />
+<m:intLim m:val="subSup" />
+<m:naryLim m:val="undOvr" />
+</m:mathPr></w:WordDocument>
+</xml><![endif]--></p>
+<p>&nbsp;</p>
+<p style="margin: 0in 10.75pt 0.0001pt 7.6pt; line-height: 115%;" class="MsoNormal"><!--[if gte mso 9]><xml>
+<w:LatentStyles DefLockedState="false" DefUnhideWhenUsed="true"
+DefSemiHidden="true" DefQFormat="false" DefPriority="99"
+LatentStyleCount="267">
+<w:LsdException Locked="false" Priority="0" SemiHidden="false"
+UnhideWhenUsed="false" QFormat="true" Name="Normal" />
+<w:LsdException Locked="false" Priority="9" SemiHidden="false"
+UnhideWhenUsed="false" QFormat="true" Name="heading 1" />
+<w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 2" />
+<w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 3" />
+<w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 4" />
+<w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 5" />
+<w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 6" />
+<w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 7" />
+<w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 8" />
+<w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 9" />
+<w:LsdException Locked="false" Priority="39" Name="toc 1" />
+<w:LsdException Locked="false" Priority="39" Name="toc 2" />
+<w:LsdException Locked="false" Priority="39" Name="toc 3" />
+<w:LsdException Locked="false" Priority="39" Name="toc 4" />
+<w:LsdException Locked="false" Priority="39" Name="toc 5" />
+<w:LsdException Locked="false" Priority="39" Name="toc 6" />
+<w:LsdException Locked="false" Priority="39" Name="toc 7" />
+<w:LsdException Locked="false" Priority="39" Name="toc 8" />
+<w:LsdException Locked="false" Priority="39" Name="toc 9" />
+<w:LsdException Locked="false" Priority="35" QFormat="true" Name="caption" />
+<w:LsdException Locked="false" Priority="10" SemiHidden="false"
+UnhideWhenUsed="false" QFormat="true" Name="Title" />
+<w:LsdException Locked="false" Priority="1" Name="Default Paragraph Font" />
+<w:LsdException Locked="false" Priority="11" SemiHidden="false"
+UnhideWhenUsed="false" QFormat="true" Name="Subtitle" />
+<w:LsdException Locked="false" Priority="22" SemiHidden="false"
+UnhideWhenUsed="false" QFormat="true" Name="Strong" />
+<w:LsdException Locked="false" Priority="20" SemiHidden="false"
+UnhideWhenUsed="false" QFormat="true" Name="Emphasis" />
+<w:LsdException Locked="false" Priority="59" SemiHidden="false"
+UnhideWhenUsed="false" Name="Table Grid" />
+<w:LsdException Locked="false" UnhideWhenUsed="false" Name="Placeholder Text" />
+<w:LsdException Locked="false" Priority="1" SemiHidden="false"
+UnhideWhenUsed="false" QFormat="true" Name="No Spacing" />
+<w:LsdException Locked="false" Priority="60" SemiHidden="false"
+UnhideWhenUsed="false" Name="Light Shading" />
+<w:LsdException Locked="false" Priority="61" SemiHidden="false"
+UnhideWhenUsed="false" Name="Light List" />
+<w:LsdException Locked="false" Priority="62" SemiHidden="false"
+UnhideWhenUsed="false" Name="Light Grid" />
+<w:LsdException Locked="false" Priority="63" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Shading 1" />
+<w:LsdException Locked="false" Priority="64" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Shading 2" />
+<w:LsdException Locked="false" Priority="65" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium List 1" />
+<w:LsdException Locked="false" Priority="66" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium List 2" />
+<w:LsdException Locked="false" Priority="67" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Grid 1" />
+<w:LsdException Locked="false" Priority="68" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Grid 2" />
+<w:LsdException Locked="false" Priority="69" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Grid 3" />
+<w:LsdException Locked="false" Priority="70" SemiHidden="false"
+UnhideWhenUsed="false" Name="Dark List" />
+<w:LsdException Locked="false" Priority="71" SemiHidden="false"
+UnhideWhenUsed="false" Name="Colorful Shading" />
+<w:LsdException Locked="false" Priority="72" SemiHidden="false"
+UnhideWhenUsed="false" Name="Colorful List" />
+<w:LsdException Locked="false" Priority="73" SemiHidden="false"
+UnhideWhenUsed="false" Name="Colorful Grid" />
+<w:LsdException Locked="false" Priority="60" SemiHidden="false"
+UnhideWhenUsed="false" Name="Light Shading Accent 1" />
+<w:LsdException Locked="false" Priority="61" SemiHidden="false"
+UnhideWhenUsed="false" Name="Light List Accent 1" />
+<w:LsdException Locked="false" Priority="62" SemiHidden="false"
+UnhideWhenUsed="false" Name="Light Grid Accent 1" />
+<w:LsdException Locked="false" Priority="63" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Shading 1 Accent 1" />
+<w:LsdException Locked="false" Priority="64" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Shading 2 Accent 1" />
+<w:LsdException Locked="false" Priority="65" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium List 1 Accent 1" />
+<w:LsdException Locked="false" UnhideWhenUsed="false" Name="Revision" />
+<w:LsdException Locked="false" Priority="34" SemiHidden="false"
+UnhideWhenUsed="false" QFormat="true" Name="List Paragraph" />
+<w:LsdException Locked="false" Priority="29" SemiHidden="false"
+UnhideWhenUsed="false" QFormat="true" Name="Quote" />
+<w:LsdException Locked="false" Priority="30" SemiHidden="false"
+UnhideWhenUsed="false" QFormat="true" Name="Intense Quote" />
+<w:LsdException Locked="false" Priority="66" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium List 2 Accent 1" />
+<w:LsdException Locked="false" Priority="67" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Grid 1 Accent 1" />
+<w:LsdException Locked="false" Priority="68" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Grid 2 Accent 1" />
+<w:LsdException Locked="false" Priority="69" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Grid 3 Accent 1" />
+<w:LsdException Locked="false" Priority="70" SemiHidden="false"
+UnhideWhenUsed="false" Name="Dark List Accent 1" />
+<w:LsdException Locked="false" Priority="71" SemiHidden="false"
+UnhideWhenUsed="false" Name="Colorful Shading Accent 1" />
+<w:LsdException Locked="false" Priority="72" SemiHidden="false"
+UnhideWhenUsed="false" Name="Colorful List Accent 1" />
+<w:LsdException Locked="false" Priority="73" SemiHidden="false"
+UnhideWhenUsed="false" Name="Colorful Grid Accent 1" />
+<w:LsdException Locked="false" Priority="60" SemiHidden="false"
+UnhideWhenUsed="false" Name="Light Shading Accent 2" />
+<w:LsdException Locked="false" Priority="61" SemiHidden="false"
+UnhideWhenUsed="false" Name="Light List Accent 2" />
+<w:LsdException Locked="false" Priority="62" SemiHidden="false"
+UnhideWhenUsed="false" Name="Light Grid Accent 2" />
+<w:LsdException Locked="false" Priority="63" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Shading 1 Accent 2" />
+<w:LsdException Locked="false" Priority="64" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Shading 2 Accent 2" />
+<w:LsdException Locked="false" Priority="65" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium List 1 Accent 2" />
+<w:LsdException Locked="false" Priority="66" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium List 2 Accent 2" />
+<w:LsdException Locked="false" Priority="67" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Grid 1 Accent 2" />
+<w:LsdException Locked="false" Priority="68" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Grid 2 Accent 2" />
+<w:LsdException Locked="false" Priority="69" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Grid 3 Accent 2" />
+<w:LsdException Locked="false" Priority="70" SemiHidden="false"
+UnhideWhenUsed="false" Name="Dark List Accent 2" />
+<w:LsdException Locked="false" Priority="71" SemiHidden="false"
+UnhideWhenUsed="false" Name="Colorful Shading Accent 2" />
+<w:LsdException Locked="false" Priority="72" SemiHidden="false"
+UnhideWhenUsed="false" Name="Colorful List Accent 2" />
+<w:LsdException Locked="false" Priority="73" SemiHidden="false"
+UnhideWhenUsed="false" Name="Colorful Grid Accent 2" />
+<w:LsdException Locked="false" Priority="60" SemiHidden="false"
+UnhideWhenUsed="false" Name="Light Shading Accent 3" />
+<w:LsdException Locked="false" Priority="61" SemiHidden="false"
+UnhideWhenUsed="false" Name="Light List Accent 3" />
+<w:LsdException Locked="false" Priority="62" SemiHidden="false"
+UnhideWhenUsed="false" Name="Light Grid Accent 3" />
+<w:LsdException Locked="false" Priority="63" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Shading 1 Accent 3" />
+<w:LsdException Locked="false" Priority="64" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Shading 2 Accent 3" />
+<w:LsdException Locked="false" Priority="65" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium List 1 Accent 3" />
+<w:LsdException Locked="false" Priority="66" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium List 2 Accent 3" />
+<w:LsdException Locked="false" Priority="67" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Grid 1 Accent 3" />
+<w:LsdException Locked="false" Priority="68" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Grid 2 Accent 3" />
+<w:LsdException Locked="false" Priority="69" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Grid 3 Accent 3" />
+<w:LsdException Locked="false" Priority="70" SemiHidden="false"
+UnhideWhenUsed="false" Name="Dark List Accent 3" />
+<w:LsdException Locked="false" Priority="71" SemiHidden="false"
+UnhideWhenUsed="false" Name="Colorful Shading Accent 3" />
+<w:LsdException Locked="false" Priority="72" SemiHidden="false"
+UnhideWhenUsed="false" Name="Colorful List Accent 3" />
+<w:LsdException Locked="false" Priority="73" SemiHidden="false"
+UnhideWhenUsed="false" Name="Colorful Grid Accent 3" />
+<w:LsdException Locked="false" Priority="60" SemiHidden="false"
+UnhideWhenUsed="false" Name="Light Shading Accent 4" />
+<w:LsdException Locked="false" Priority="61" SemiHidden="false"
+UnhideWhenUsed="false" Name="Light List Accent 4" />
+<w:LsdException Locked="false" Priority="62" SemiHidden="false"
+UnhideWhenUsed="false" Name="Light Grid Accent 4" />
+<w:LsdException Locked="false" Priority="63" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Shading 1 Accent 4" />
+<w:LsdException Locked="false" Priority="64" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Shading 2 Accent 4" />
+<w:LsdException Locked="false" Priority="65" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium List 1 Accent 4" />
+<w:LsdException Locked="false" Priority="66" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium List 2 Accent 4" />
+<w:LsdException Locked="false" Priority="67" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Grid 1 Accent 4" />
+<w:LsdException Locked="false" Priority="68" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Grid 2 Accent 4" />
+<w:LsdException Locked="false" Priority="69" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Grid 3 Accent 4" />
+<w:LsdException Locked="false" Priority="70" SemiHidden="false"
+UnhideWhenUsed="false" Name="Dark List Accent 4" />
+<w:LsdException Locked="false" Priority="71" SemiHidden="false"
+UnhideWhenUsed="false" Name="Colorful Shading Accent 4" />
+<w:LsdException Locked="false" Priority="72" SemiHidden="false"
+UnhideWhenUsed="false" Name="Colorful List Accent 4" />
+<w:LsdException Locked="false" Priority="73" SemiHidden="false"
+UnhideWhenUsed="false" Name="Colorful Grid Accent 4" />
+<w:LsdException Locked="false" Priority="60" SemiHidden="false"
+UnhideWhenUsed="false" Name="Light Shading Accent 5" />
+<w:LsdException Locked="false" Priority="61" SemiHidden="false"
+UnhideWhenUsed="false" Name="Light List Accent 5" />
+<w:LsdException Locked="false" Priority="62" SemiHidden="false"
+UnhideWhenUsed="false" Name="Light Grid Accent 5" />
+<w:LsdException Locked="false" Priority="63" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Shading 1 Accent 5" />
+<w:LsdException Locked="false" Priority="64" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Shading 2 Accent 5" />
+<w:LsdException Locked="false" Priority="65" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium List 1 Accent 5" />
+<w:LsdException Locked="false" Priority="66" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium List 2 Accent 5" />
+<w:LsdException Locked="false" Priority="67" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Grid 1 Accent 5" />
+<w:LsdException Locked="false" Priority="68" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Grid 2 Accent 5" />
+<w:LsdException Locked="false" Priority="69" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Grid 3 Accent 5" />
+<w:LsdException Locked="false" Priority="70" SemiHidden="false"
+UnhideWhenUsed="false" Name="Dark List Accent 5" />
+<w:LsdException Locked="false" Priority="71" SemiHidden="false"
+UnhideWhenUsed="false" Name="Colorful Shading Accent 5" />
+<w:LsdException Locked="false" Priority="72" SemiHidden="false"
+UnhideWhenUsed="false" Name="Colorful List Accent 5" />
+<w:LsdException Locked="false" Priority="73" SemiHidden="false"
+UnhideWhenUsed="false" Name="Colorful Grid Accent 5" />
+<w:LsdException Locked="false" Priority="60" SemiHidden="false"
+UnhideWhenUsed="false" Name="Light Shading Accent 6" />
+<w:LsdException Locked="false" Priority="61" SemiHidden="false"
+UnhideWhenUsed="false" Name="Light List Accent 6" />
+<w:LsdException Locked="false" Priority="62" SemiHidden="false"
+UnhideWhenUsed="false" Name="Light Grid Accent 6" />
+<w:LsdException Locked="false" Priority="63" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Shading 1 Accent 6" />
+<w:LsdException Locked="false" Priority="64" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Shading 2 Accent 6" />
+<w:LsdException Locked="false" Priority="65" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium List 1 Accent 6" />
+<w:LsdException Locked="false" Priority="66" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium List 2 Accent 6" />
+<w:LsdException Locked="false" Priority="67" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Grid 1 Accent 6" />
+<w:LsdException Locked="false" Priority="68" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Grid 2 Accent 6" />
+<w:LsdException Locked="false" Priority="69" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Grid 3 Accent 6" />
+<w:LsdException Locked="false" Priority="70" SemiHidden="false"
+UnhideWhenUsed="false" Name="Dark List Accent 6" />
+<w:LsdException Locked="false" Priority="71" SemiHidden="false"
+UnhideWhenUsed="false" Name="Colorful Shading Accent 6" />
+<w:LsdException Locked="false" Priority="72" SemiHidden="false"
+UnhideWhenUsed="false" Name="Colorful List Accent 6" />
+<w:LsdException Locked="false" Priority="73" SemiHidden="false"
+UnhideWhenUsed="false" Name="Colorful Grid Accent 6" />
+<w:LsdException Locked="false" Priority="19" SemiHidden="false"
+UnhideWhenUsed="false" QFormat="true" Name="Subtle Emphasis" />
+<w:LsdException Locked="false" Priority="21" SemiHidden="false"
+UnhideWhenUsed="false" QFormat="true" Name="Intense Emphasis" />
+<w:LsdException Locked="false" Priority="31" SemiHidden="false"
+UnhideWhenUsed="false" QFormat="true" Name="Subtle Reference" />
+<w:LsdException Locked="false" Priority="32" SemiHidden="false"
+UnhideWhenUsed="false" QFormat="true" Name="Intense Reference" />
+<w:LsdException Locked="false" Priority="33" SemiHidden="false"
+UnhideWhenUsed="false" QFormat="true" Name="Book Title" />
+<w:LsdException Locked="false" Priority="37" Name="Bibliography" />
+<w:LsdException Locked="false" Priority="39" QFormat="true" Name="TOC Heading" />
+</w:LatentStyles>
+</xml><![endif]--><!--[if gte mso 10]>
+<style>
+/* Style Definitions */
+table.MsoNormalTable
+{mso-style-name:"Table Normal";
+mso-tstyle-rowband-size:0;
+mso-tstyle-colband-size:0;
+mso-style-noshow:yes;
+mso-style-priority:99;
+mso-style-qformat:yes;
+mso-style-parent:"";
+mso-padding-alt:0in 5.4pt 0in 5.4pt;
+mso-para-margin-top:0in;
+mso-para-margin-right:0in;
+mso-para-margin-bottom:10.0pt;
+mso-para-margin-left:0in;
+line-height:115%;
+mso-pagination:widow-orphan;
+font-size:11.0pt;
+font-family:"Calibri","sans-serif";
+mso-ascii-font-family:Calibri;
+mso-ascii-theme-font:minor-latin;
+mso-fareast-font-family:Calibri;
+mso-fareast-theme-font:minor-latin;
+mso-hansi-font-family:Calibri;
+mso-hansi-theme-font:minor-latin;}
+</style>
+<![endif]--></p>
+<p style="margin-top:0in;margin-right:10.75pt;margin-bottom:
+0in;margin-left:7.6pt;margin-bottom:.0001pt;text-align:justify;text-justify:
+inter-ideograph;line-height:115%;mso-pagination:none;mso-layout-grid-align:
+none;text-autospace:none" class="MsoNormal">&nbsp;</p>
+<p style="margin-top:1.4pt;margin-right:344.95pt;margin-bottom:
+0in;margin-left:7.6pt;margin-bottom:.0001pt;text-align:justify;text-justify:
+inter-ideograph;line-height:normal;mso-pagination:none;mso-layout-grid-align:
+none;text-autospace:none" class="MsoNormal"><b><span style="font-size:13.0pt;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;;
+letter-spacing:.15pt">L</span></b><b><span style="font-size:13.0pt;font-family:
+&quot;Times New Roman&quot;,&quot;serif&quot;;letter-spacing:.2pt">o</span></b><b><span style="font-size:13.0pt;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;;letter-spacing:
+-.05pt">n</span></b><b><span style="font-size:13.0pt;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">g<span style="letter-spacing:.05pt"> </span><span style="letter-spacing:.15pt">S</span><span style="letter-spacing:-.05pt">eq</span><span style="letter-spacing:.15pt">u</span><span style="letter-spacing:-.05pt">e</span><span style="letter-spacing:.15pt">n</span><span style="letter-spacing:.2pt">c</span>e</span></b></p>
+<p style="margin: 0.95pt 0in 0.0001pt; line-height: 11pt;" class="MsoNormal"><span style="font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">&nbsp;</span></p>
+<p style="margin: 0in 5.75pt 0.0001pt 7.6pt; line-height: 115%;" class="MsoNormal"><span style="font-size:13.0pt;line-height:115%;
+font-family:&quot;Times New Roman&quot;,&quot;serif&quot;;letter-spacing:-.05pt">Th</span><span style="font-size:13.0pt;line-height:115%;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;;
+letter-spacing:.2pt">i</span><span style="font-size:13.0pt;line-height:115%;
+font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">s<span style="letter-spacing:.1pt"> </span><span style="letter-spacing:-.05pt">i</span>s<span style="letter-spacing:.1pt"> </span>a<span style="letter-spacing:.35pt"> </span><span style="letter-spacing:.15pt">M</span><span style="letter-spacing:-.05pt">o</span><span style="letter-spacing:.2pt">du</span><span style="letter-spacing:-.05pt">l</span><span style="letter-spacing:.2pt">o</span><span style="letter-spacing:-.05pt">-1</span>5<span style="letter-spacing:.35pt"> </span><span style="letter-spacing:.15pt">P</span><span style="letter-spacing:-.05pt">R</span><span style="letter-spacing:.15pt">B</span>S<span style="letter-spacing:.35pt"> </span><span style="letter-spacing:-.25pt">s</span><span style="letter-spacing:-.05pt">e</span><span style="letter-spacing:.2pt">q</span><span style="letter-spacing:-.05pt">u</span><span style="letter-spacing:.2pt">e</span><span style="letter-spacing:-.05pt">nc</span><span style="letter-spacing:.2pt">e</span>. <span style="letter-spacing:-.1pt">M</span><span style="letter-spacing:.2pt">od</span><span style="letter-spacing:-.05pt">ul</span><span style="letter-spacing:.15pt">o</span><span style="letter-spacing:-.25pt">-</span><span style="letter-spacing:.2pt">1</span>5<span style="letter-spacing:.35pt"> </span><span style="letter-spacing:-.05pt">i</span><span style="letter-spacing:-.1pt">m</span><span style="letter-spacing:.4pt">p</span><span style="letter-spacing:-.05pt">lie</span>s<span style="letter-spacing:.1pt"> </span>a<span style="letter-spacing:.1pt"> </span><span style="letter-spacing:-.05pt">3</span><span style="letter-spacing:.2pt">2</span><span style="letter-spacing:.1pt">,</span><span style="letter-spacing:-.05pt">76</span>7<span style="letter-spacing:.35pt"> </span><span style="letter-spacing:.2pt">b</span><span style="letter-spacing:-.05pt">i</span>t<span style="letter-spacing:.1pt"> </span><span style="letter-spacing:-.05pt">l</span><span style="letter-spacing:.4pt">o</span><span style="letter-spacing:-.05pt">n</span>g <span style="letter-spacing:-.05pt">ra</span><span style="letter-spacing:.2pt">nd</span><span style="letter-spacing:-.05pt">o</span>m<span style="letter-spacing:.7pt"> </span><span style="letter-spacing:-.05pt">se</span><span style="letter-spacing:.2pt">qu</span><span style="letter-spacing:-.05pt">ence</span>,<span style="letter-spacing:.65pt"> </span><span style="letter-spacing:-.25pt">i</span><span style="letter-spacing:.1pt">.</span><span style="letter-spacing:.2pt">e</span>.<span style="letter-spacing:.65pt"> </span><span style="letter-spacing:-.5pt">(</span><span style="letter-spacing:.2pt">2</span><span style="letter-spacing:.1pt">^</span><span style="letter-spacing:-.05pt">[1</span><span style="letter-spacing:.2pt">5</span>]<span style="letter-spacing:.5pt"> </span>-<span style="letter-spacing:.3pt"> </span><span style="letter-spacing:.2pt">1</span><span style="letter-spacing:-.05pt">)</span>.<span style="letter-spacing:.65pt"> </span><span style="letter-spacing:-.3pt">T</span><span style="letter-spacing:.2pt">h</span>e<span style="letter-spacing:.5pt"> </span><span style="letter-spacing:-.05pt">re</span><span style="letter-spacing:.2pt">a</span><span style="letter-spacing:-.25pt">s</span><span style="letter-spacing:.4pt">o</span>n<span style="letter-spacing:.5pt"> </span><span style="letter-spacing:-.25pt">f</span><span style="letter-spacing:.4pt">o</span>r<span style="letter-spacing:.05pt"> </span><span style="letter-spacing:.2pt">pu</span><span style="letter-spacing:-.05pt">ttin</span>g<span style="letter-spacing:.5pt"> </span><span style="letter-spacing:.2pt">a</span>n<span style="letter-spacing:.5pt"> </span><span style="letter-spacing:-.05pt">o</span><span style="letter-spacing:.2pt">p</span><span style="letter-spacing:-.05pt">ti</span><span style="letter-spacing:.2pt">o</span>n <span style="letter-spacing:.4pt">o</span>f<span style="letter-spacing:.3pt"> </span>a<span style="letter-spacing:.5pt"> </span><span style="letter-spacing:-.25pt">l</span><span style="letter-spacing:.4pt">o</span><span style="letter-spacing:-.05pt">n</span>g <span style="letter-spacing:-.05pt">se</span><span style="letter-spacing:.2pt">qu</span><span style="letter-spacing:-.05pt">en</span><span style="letter-spacing:.2pt">c</span>e<span style="letter-spacing:1.75pt"> </span><span style="letter-spacing:-.05pt">i</span>n<span style="letter-spacing:1.75pt"> </span><span style="letter-spacing:.15pt">PR</span><span style="letter-spacing:-.05pt">B</span>S<span style="letter-spacing:1.75pt"> </span><span style="letter-spacing:-.05pt">g</span><span style="letter-spacing:.2pt">e</span><span style="letter-spacing:-.05pt">ner</span><span style="letter-spacing:.2pt">a</span><span style="letter-spacing:-.05pt">ti</span><span style="letter-spacing:.2pt">o</span>n<span style="letter-spacing:1.75pt"> </span><span style="letter-spacing:-.05pt">i</span>s<span style="letter-spacing:1.5pt"> </span><span style="letter-spacing:-.05pt">t</span>o<span style="letter-spacing:1.95pt"> </span><span style="letter-spacing:.2pt">e</span><span style="letter-spacing:.15pt">m</span><span style="letter-spacing:-.05pt">ul</span><span style="letter-spacing:.2pt">a</span><span style="letter-spacing:-.25pt">t</span>e<span style="letter-spacing:1.75pt"> </span><span style="letter-spacing:-.05pt">c</span><span style="letter-spacing:.4pt">o</span><span style="letter-spacing:-.3pt">n</span><span style="letter-spacing:.2pt">d</span><span style="letter-spacing:-.05pt">iti</span><span style="letter-spacing:.2pt">on</span>s<span style="letter-spacing:1.5pt"> </span><span style="letter-spacing:-.05pt">o</span>f<span style="letter-spacing:2.0pt"> </span><span style="letter-spacing:-.05pt">ran</span><span style="letter-spacing:.2pt">d</span><span style="letter-spacing:-.05pt">o</span><span style="letter-spacing:.15pt">m</span><span style="letter-spacing:-.05pt">n</span><span style="letter-spacing:.2pt">e</span><span style="letter-spacing:-.25pt">s</span>s<span style="letter-spacing:1.75pt"> </span><span style="letter-spacing:-.05pt">i</span>n<span style="letter-spacing:1.75pt"> </span><span style="letter-spacing:-.05pt">rea</span><span style="letter-spacing:.15pt">l</span>- <span style="letter-spacing:-.05pt">ti</span><span style="letter-spacing:.15pt">m</span>e<span style="letter-spacing:2.7pt"> </span><span style="letter-spacing:-.05pt">d</span><span style="letter-spacing:.2pt">a</span><span style="letter-spacing:-.05pt">ta</span>,<span style="letter-spacing:2.85pt"> </span><span style="letter-spacing:-.05pt">an</span>d<span style="letter-spacing:2.7pt"> </span><span style="letter-spacing:-.05pt">sh</span><span style="letter-spacing:.2pt">o</span><span style="letter-spacing:-.05pt">wc</span><span style="letter-spacing:.2pt">a</span><span style="letter-spacing:-.05pt">s</span>e<span style="letter-spacing:2.5pt"> </span><span style="letter-spacing:.2pt">t</span><span style="letter-spacing:-.05pt">hi</span>s<span style="letter-spacing:2.45pt"> </span><span style="letter-spacing:.2pt">f</span><span style="letter-spacing:-.05pt">e</span><span style="letter-spacing:.2pt">a</span><span style="letter-spacing:-.05pt">tur</span>e<span style="letter-spacing:2.7pt"> </span><span style="letter-spacing:-.05pt">t</span>o<span style="letter-spacing:2.7pt"> </span><span style="letter-spacing:-.05pt">t</span><span style="letter-spacing:.2pt">h</span>e<span style="letter-spacing:2.7pt"> </span><span style="letter-spacing:-.25pt">s</span><span style="letter-spacing:-.05pt">tu</span><span style="letter-spacing:.4pt">d</span><span style="letter-spacing:-.05pt">ent</span>s<span style="letter-spacing:2.7pt"> </span><span style="letter-spacing:.2pt">d</span><span style="letter-spacing:-.05pt">urin</span>g<span style="letter-spacing:2.7pt"> </span><span style="letter-spacing:-.05pt">e</span><span style="letter-spacing:.4pt">x</span><span style="letter-spacing:.2pt">p</span><span style="letter-spacing:-.05pt">eri</span><span style="letter-spacing:.15pt">m</span><span style="letter-spacing:.2pt">e</span><span style="letter-spacing:-.05pt">nta</span><span style="letter-spacing:.2pt">t</span><span style="letter-spacing:-.05pt">i</span><span style="letter-spacing:.2pt">o</span><span style="letter-spacing:-.3pt">n</span>. <span style="letter-spacing:-.05pt">Th</span>e<span style="letter-spacing:.45pt"> </span><span style="letter-spacing:-.05pt">s</span><span style="letter-spacing:
+.2pt">qu</span><span style="letter-spacing:-.05pt">ar</span>e<span style="letter-spacing:.45pt"> </span><span style="letter-spacing:-.05pt">wav</span>e<span style="letter-spacing:.2pt"> </span><span style="letter-spacing:.4pt">o</span><span style="letter-spacing:-.05pt">ut</span><span style="letter-spacing:.2pt">p</span><span style="letter-spacing:-.05pt">u</span>t<span style="letter-spacing:.25pt"> </span><span style="letter-spacing:-.05pt">(</span><span style="letter-spacing:.2pt">1</span><span style="letter-spacing:.4pt">K</span><span style="letter-spacing:.15pt">H</span><span style="letter-spacing:.2pt">z</span>) <span style="letter-spacing:.2pt">f</span><span style="letter-spacing:-.05pt">ro</span>m<span style="letter-spacing:.4pt"> </span><span style="letter-spacing:-.05pt">t</span><span style="letter-spacing:.2pt">h</span>e<span style="letter-spacing:.25pt"> </span><span style="letter-spacing:-.05pt">Sci</span><span style="letter-spacing:.2pt">e</span><span style="letter-spacing:-.05pt">nt</span><span style="letter-spacing:.2pt">e</span><span style="letter-spacing:-.05pt">c</span>h<span style="letter-spacing:.45pt"> </span><span style="letter-spacing:-.05pt">Fi</span><span style="letter-spacing:.2pt">be</span><span style="letter-spacing:-.1pt">r</span><span style="letter-spacing:-.25pt">-</span><span style="letter-spacing:.4pt">o</span><span style="letter-spacing:.2pt">p</span><span style="letter-spacing:-.05pt">ti</span>c<span style="letter-spacing:.25pt"> </span><span style="letter-spacing:-.05pt">tra</span><span style="letter-spacing:.2pt">i</span><span style="letter-spacing:-.05pt">ne</span>r<span style="letter-spacing:.45pt"> </span><span style="letter-spacing:-.05pt">ki</span>t<span style="letter-spacing:.45pt"> </span><span style="letter-spacing:-.05pt">h</span><span style="letter-spacing:.45pt">a</span>s <span style="letter-spacing:.2pt">be</span><span style="letter-spacing:-.05pt">e</span>n<span style="letter-spacing:.2pt"> u</span><span style="letter-spacing:-.25pt">s</span><span style="letter-spacing:.2pt">e</span>d<span style="letter-spacing:.4pt"> </span><span style="letter-spacing:-.05pt">a</span>s<span style="letter-spacing:.2pt"> </span><span style="letter-spacing:-.05pt">th</span>e<span style="letter-spacing:.45pt"> </span><span style="letter-spacing:-.05pt">in</span><span style="letter-spacing:.2pt">pu</span>t<span style="letter-spacing:.2pt"> </span><span style="letter-spacing:-.05pt">t</span>o<span style="letter-spacing:.4pt"> </span><span style="letter-spacing:-.05pt">th</span>e<span style="letter-spacing:.45pt"> </span><span style="letter-spacing:.15pt">PR</span><span style="letter-spacing:-.05pt">B</span>S<span style="letter-spacing:.2pt"> a</span><span style="letter-spacing:-.05pt">n</span>d<span style="letter-spacing:.4pt"> </span><span style="letter-spacing:-.05pt">it</span>s<span style="letter-spacing:.2pt"> ou</span><span style="letter-spacing:-.05pt">t</span><span style="letter-spacing:.2pt">p</span><span style="letter-spacing:-.05pt">u</span>t<span style="letter-spacing:.2pt"> </span><span style="letter-spacing:-.05pt">i</span>s<span style="letter-spacing:.2pt"> f</span><span style="letter-spacing:-.05pt">e</span>d<span style="letter-spacing:.4pt"> </span><span style="letter-spacing:-.25pt">t</span>o<span style="letter-spacing:.65pt"> </span><span style="letter-spacing:-.05pt">th</span>e<span style="letter-spacing:.2pt"> t</span><span style="letter-spacing:-.25pt">r</span><span style="letter-spacing:.2pt">a</span><span style="letter-spacing:-.05pt">ns</span><span style="letter-spacing:.15pt">m</span><span style="letter-spacing:-.05pt">itt</span><span style="letter-spacing:.2pt">e</span>r <span style="letter-spacing:.4pt">o</span>f<span style="letter-spacing:.2pt"> t</span><span style="letter-spacing:-.05pt">h</span>e <span style="letter-spacing:-.05pt">trai</span><span style="letter-spacing:
+.2pt">n</span><span style="letter-spacing:-.05pt">e</span>r<span style="letter-spacing:.1pt"> </span><span style="letter-spacing:-.05pt">kit</span>.</span></p>
+<p style="margin: 0in 5.75pt 0.0001pt 7.6pt; line-height: 115%;" class="MsoNormal"><span style="font-size:13.0pt;line-height:115%;
+font-family:&quot;Times New Roman&quot;,&quot;serif&quot;"><img src="/userfiles/7/image/RT%20Fiber%20optics%20images/EXP104.JPG" alt="" height="484" width="816"></span></p>
+<p style="margin: 0in 5.75pt 0.0001pt 7.6pt; line-height: 115%;" class="MsoNormal"><!--[if gte mso 9]><xml>
+<w:WordDocument>
+<w:View>Normal</w:View>
+<w:Zoom>0</w:Zoom>
+<w:TrackMoves />
+<w:TrackFormatting />
+<w:PunctuationKerning />
+<w:ValidateAgainstSchemas />
+<w:SaveIfXMLInvalid>false</w:SaveIfXMLInvalid>
+<w:IgnoreMixedContent>false</w:IgnoreMixedContent>
+<w:AlwaysShowPlaceholderText>false</w:AlwaysShowPlaceholderText>
+<w:DoNotPromoteQF />
+<w:LidThemeOther>EN-US</w:LidThemeOther>
+<w:LidThemeAsian>X-NONE</w:LidThemeAsian>
+<w:LidThemeComplexScript>X-NONE</w:LidThemeComplexScript>
+<w:Compatibility>
+<w:BreakWrappedTables />
+<w:SnapToGridInCell />
+<w:WrapTextWithPunct />
+<w:UseAsianBreakRules />
+<w:DontGrowAutofit />
+<w:SplitPgBreakAndParaMark />
+<w:DontVertAlignCellWithSp />
+<w:DontBreakConstrainedForcedTables />
+<w:DontVertAlignInTxbx />
+<w:Word11KerningPairs />
+<w:CachedColBalance />
+<w:UseFELayout />
+</w:Compatibility>
+<w:BrowserLevel>MicrosoftInternetExplorer4</w:BrowserLevel>
+<m:mathPr>
+<m:mathFont m:val="Cambria Math" />
+<m:brkBin m:val="before" />
+<m:brkBinSub m:val="--" />
+<m:smallFrac m:val="off" />
+<m:dispDef />
+<m:lMargin m:val="0" />
+<m:rMargin m:val="0" />
+<m:defJc m:val="centerGroup" />
+<m:wrapIndent m:val="1440" />
+<m:intLim m:val="subSup" />
+<m:naryLim m:val="undOvr" />
+</m:mathPr></w:WordDocument>
+</xml><![endif]--></p>
+<p>&nbsp;</p>
+<p style="margin: 0in 5.75pt 0.0001pt 7.6pt; line-height: 115%;" class="MsoNormal"><!--[if gte mso 9]><xml>
+<w:LatentStyles DefLockedState="false" DefUnhideWhenUsed="true"
+DefSemiHidden="true" DefQFormat="false" DefPriority="99"
+LatentStyleCount="267">
+<w:LsdException Locked="false" Priority="0" SemiHidden="false"
+UnhideWhenUsed="false" QFormat="true" Name="Normal" />
+<w:LsdException Locked="false" Priority="9" SemiHidden="false"
+UnhideWhenUsed="false" QFormat="true" Name="heading 1" />
+<w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 2" />
+<w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 3" />
+<w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 4" />
+<w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 5" />
+<w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 6" />
+<w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 7" />
+<w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 8" />
+<w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 9" />
+<w:LsdException Locked="false" Priority="39" Name="toc 1" />
+<w:LsdException Locked="false" Priority="39" Name="toc 2" />
+<w:LsdException Locked="false" Priority="39" Name="toc 3" />
+<w:LsdException Locked="false" Priority="39" Name="toc 4" />
+<w:LsdException Locked="false" Priority="39" Name="toc 5" />
+<w:LsdException Locked="false" Priority="39" Name="toc 6" />
+<w:LsdException Locked="false" Priority="39" Name="toc 7" />
+<w:LsdException Locked="false" Priority="39" Name="toc 8" />
+<w:LsdException Locked="false" Priority="39" Name="toc 9" />
+<w:LsdException Locked="false" Priority="35" QFormat="true" Name="caption" />
+<w:LsdException Locked="false" Priority="10" SemiHidden="false"
+UnhideWhenUsed="false" QFormat="true" Name="Title" />
+<w:LsdException Locked="false" Priority="1" Name="Default Paragraph Font" />
+<w:LsdException Locked="false" Priority="11" SemiHidden="false"
+UnhideWhenUsed="false" QFormat="true" Name="Subtitle" />
+<w:LsdException Locked="false" Priority="22" SemiHidden="false"
+UnhideWhenUsed="false" QFormat="true" Name="Strong" />
+<w:LsdException Locked="false" Priority="20" SemiHidden="false"
+UnhideWhenUsed="false" QFormat="true" Name="Emphasis" />
+<w:LsdException Locked="false" Priority="59" SemiHidden="false"
+UnhideWhenUsed="false" Name="Table Grid" />
+<w:LsdException Locked="false" UnhideWhenUsed="false" Name="Placeholder Text" />
+<w:LsdException Locked="false" Priority="1" SemiHidden="false"
+UnhideWhenUsed="false" QFormat="true" Name="No Spacing" />
+<w:LsdException Locked="false" Priority="60" SemiHidden="false"
+UnhideWhenUsed="false" Name="Light Shading" />
+<w:LsdException Locked="false" Priority="61" SemiHidden="false"
+UnhideWhenUsed="false" Name="Light List" />
+<w:LsdException Locked="false" Priority="62" SemiHidden="false"
+UnhideWhenUsed="false" Name="Light Grid" />
+<w:LsdException Locked="false" Priority="63" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Shading 1" />
+<w:LsdException Locked="false" Priority="64" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Shading 2" />
+<w:LsdException Locked="false" Priority="65" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium List 1" />
+<w:LsdException Locked="false" Priority="66" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium List 2" />
+<w:LsdException Locked="false" Priority="67" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Grid 1" />
+<w:LsdException Locked="false" Priority="68" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Grid 2" />
+<w:LsdException Locked="false" Priority="69" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Grid 3" />
+<w:LsdException Locked="false" Priority="70" SemiHidden="false"
+UnhideWhenUsed="false" Name="Dark List" />
+<w:LsdException Locked="false" Priority="71" SemiHidden="false"
+UnhideWhenUsed="false" Name="Colorful Shading" />
+<w:LsdException Locked="false" Priority="72" SemiHidden="false"
+UnhideWhenUsed="false" Name="Colorful List" />
+<w:LsdException Locked="false" Priority="73" SemiHidden="false"
+UnhideWhenUsed="false" Name="Colorful Grid" />
+<w:LsdException Locked="false" Priority="60" SemiHidden="false"
+UnhideWhenUsed="false" Name="Light Shading Accent 1" />
+<w:LsdException Locked="false" Priority="61" SemiHidden="false"
+UnhideWhenUsed="false" Name="Light List Accent 1" />
+<w:LsdException Locked="false" Priority="62" SemiHidden="false"
+UnhideWhenUsed="false" Name="Light Grid Accent 1" />
+<w:LsdException Locked="false" Priority="63" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Shading 1 Accent 1" />
+<w:LsdException Locked="false" Priority="64" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Shading 2 Accent 1" />
+<w:LsdException Locked="false" Priority="65" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium List 1 Accent 1" />
+<w:LsdException Locked="false" UnhideWhenUsed="false" Name="Revision" />
+<w:LsdException Locked="false" Priority="34" SemiHidden="false"
+UnhideWhenUsed="false" QFormat="true" Name="List Paragraph" />
+<w:LsdException Locked="false" Priority="29" SemiHidden="false"
+UnhideWhenUsed="false" QFormat="true" Name="Quote" />
+<w:LsdException Locked="false" Priority="30" SemiHidden="false"
+UnhideWhenUsed="false" QFormat="true" Name="Intense Quote" />
+<w:LsdException Locked="false" Priority="66" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium List 2 Accent 1" />
+<w:LsdException Locked="false" Priority="67" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Grid 1 Accent 1" />
+<w:LsdException Locked="false" Priority="68" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Grid 2 Accent 1" />
+<w:LsdException Locked="false" Priority="69" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Grid 3 Accent 1" />
+<w:LsdException Locked="false" Priority="70" SemiHidden="false"
+UnhideWhenUsed="false" Name="Dark List Accent 1" />
+<w:LsdException Locked="false" Priority="71" SemiHidden="false"
+UnhideWhenUsed="false" Name="Colorful Shading Accent 1" />
+<w:LsdException Locked="false" Priority="72" SemiHidden="false"
+UnhideWhenUsed="false" Name="Colorful List Accent 1" />
+<w:LsdException Locked="false" Priority="73" SemiHidden="false"
+UnhideWhenUsed="false" Name="Colorful Grid Accent 1" />
+<w:LsdException Locked="false" Priority="60" SemiHidden="false"
+UnhideWhenUsed="false" Name="Light Shading Accent 2" />
+<w:LsdException Locked="false" Priority="61" SemiHidden="false"
+UnhideWhenUsed="false" Name="Light List Accent 2" />
+<w:LsdException Locked="false" Priority="62" SemiHidden="false"
+UnhideWhenUsed="false" Name="Light Grid Accent 2" />
+<w:LsdException Locked="false" Priority="63" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Shading 1 Accent 2" />
+<w:LsdException Locked="false" Priority="64" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Shading 2 Accent 2" />
+<w:LsdException Locked="false" Priority="65" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium List 1 Accent 2" />
+<w:LsdException Locked="false" Priority="66" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium List 2 Accent 2" />
+<w:LsdException Locked="false" Priority="67" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Grid 1 Accent 2" />
+<w:LsdException Locked="false" Priority="68" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Grid 2 Accent 2" />
+<w:LsdException Locked="false" Priority="69" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Grid 3 Accent 2" />
+<w:LsdException Locked="false" Priority="70" SemiHidden="false"
+UnhideWhenUsed="false" Name="Dark List Accent 2" />
+<w:LsdException Locked="false" Priority="71" SemiHidden="false"
+UnhideWhenUsed="false" Name="Colorful Shading Accent 2" />
+<w:LsdException Locked="false" Priority="72" SemiHidden="false"
+UnhideWhenUsed="false" Name="Colorful List Accent 2" />
+<w:LsdException Locked="false" Priority="73" SemiHidden="false"
+UnhideWhenUsed="false" Name="Colorful Grid Accent 2" />
+<w:LsdException Locked="false" Priority="60" SemiHidden="false"
+UnhideWhenUsed="false" Name="Light Shading Accent 3" />
+<w:LsdException Locked="false" Priority="61" SemiHidden="false"
+UnhideWhenUsed="false" Name="Light List Accent 3" />
+<w:LsdException Locked="false" Priority="62" SemiHidden="false"
+UnhideWhenUsed="false" Name="Light Grid Accent 3" />
+<w:LsdException Locked="false" Priority="63" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Shading 1 Accent 3" />
+<w:LsdException Locked="false" Priority="64" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Shading 2 Accent 3" />
+<w:LsdException Locked="false" Priority="65" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium List 1 Accent 3" />
+<w:LsdException Locked="false" Priority="66" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium List 2 Accent 3" />
+<w:LsdException Locked="false" Priority="67" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Grid 1 Accent 3" />
+<w:LsdException Locked="false" Priority="68" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Grid 2 Accent 3" />
+<w:LsdException Locked="false" Priority="69" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Grid 3 Accent 3" />
+<w:LsdException Locked="false" Priority="70" SemiHidden="false"
+UnhideWhenUsed="false" Name="Dark List Accent 3" />
+<w:LsdException Locked="false" Priority="71" SemiHidden="false"
+UnhideWhenUsed="false" Name="Colorful Shading Accent 3" />
+<w:LsdException Locked="false" Priority="72" SemiHidden="false"
+UnhideWhenUsed="false" Name="Colorful List Accent 3" />
+<w:LsdException Locked="false" Priority="73" SemiHidden="false"
+UnhideWhenUsed="false" Name="Colorful Grid Accent 3" />
+<w:LsdException Locked="false" Priority="60" SemiHidden="false"
+UnhideWhenUsed="false" Name="Light Shading Accent 4" />
+<w:LsdException Locked="false" Priority="61" SemiHidden="false"
+UnhideWhenUsed="false" Name="Light List Accent 4" />
+<w:LsdException Locked="false" Priority="62" SemiHidden="false"
+UnhideWhenUsed="false" Name="Light Grid Accent 4" />
+<w:LsdException Locked="false" Priority="63" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Shading 1 Accent 4" />
+<w:LsdException Locked="false" Priority="64" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Shading 2 Accent 4" />
+<w:LsdException Locked="false" Priority="65" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium List 1 Accent 4" />
+<w:LsdException Locked="false" Priority="66" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium List 2 Accent 4" />
+<w:LsdException Locked="false" Priority="67" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Grid 1 Accent 4" />
+<w:LsdException Locked="false" Priority="68" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Grid 2 Accent 4" />
+<w:LsdException Locked="false" Priority="69" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Grid 3 Accent 4" />
+<w:LsdException Locked="false" Priority="70" SemiHidden="false"
+UnhideWhenUsed="false" Name="Dark List Accent 4" />
+<w:LsdException Locked="false" Priority="71" SemiHidden="false"
+UnhideWhenUsed="false" Name="Colorful Shading Accent 4" />
+<w:LsdException Locked="false" Priority="72" SemiHidden="false"
+UnhideWhenUsed="false" Name="Colorful List Accent 4" />
+<w:LsdException Locked="false" Priority="73" SemiHidden="false"
+UnhideWhenUsed="false" Name="Colorful Grid Accent 4" />
+<w:LsdException Locked="false" Priority="60" SemiHidden="false"
+UnhideWhenUsed="false" Name="Light Shading Accent 5" />
+<w:LsdException Locked="false" Priority="61" SemiHidden="false"
+UnhideWhenUsed="false" Name="Light List Accent 5" />
+<w:LsdException Locked="false" Priority="62" SemiHidden="false"
+UnhideWhenUsed="false" Name="Light Grid Accent 5" />
+<w:LsdException Locked="false" Priority="63" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Shading 1 Accent 5" />
+<w:LsdException Locked="false" Priority="64" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Shading 2 Accent 5" />
+<w:LsdException Locked="false" Priority="65" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium List 1 Accent 5" />
+<w:LsdException Locked="false" Priority="66" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium List 2 Accent 5" />
+<w:LsdException Locked="false" Priority="67" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Grid 1 Accent 5" />
+<w:LsdException Locked="false" Priority="68" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Grid 2 Accent 5" />
+<w:LsdException Locked="false" Priority="69" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Grid 3 Accent 5" />
+<w:LsdException Locked="false" Priority="70" SemiHidden="false"
+UnhideWhenUsed="false" Name="Dark List Accent 5" />
+<w:LsdException Locked="false" Priority="71" SemiHidden="false"
+UnhideWhenUsed="false" Name="Colorful Shading Accent 5" />
+<w:LsdException Locked="false" Priority="72" SemiHidden="false"
+UnhideWhenUsed="false" Name="Colorful List Accent 5" />
+<w:LsdException Locked="false" Priority="73" SemiHidden="false"
+UnhideWhenUsed="false" Name="Colorful Grid Accent 5" />
+<w:LsdException Locked="false" Priority="60" SemiHidden="false"
+UnhideWhenUsed="false" Name="Light Shading Accent 6" />
+<w:LsdException Locked="false" Priority="61" SemiHidden="false"
+UnhideWhenUsed="false" Name="Light List Accent 6" />
+<w:LsdException Locked="false" Priority="62" SemiHidden="false"
+UnhideWhenUsed="false" Name="Light Grid Accent 6" />
+<w:LsdException Locked="false" Priority="63" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Shading 1 Accent 6" />
+<w:LsdException Locked="false" Priority="64" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Shading 2 Accent 6" />
+<w:LsdException Locked="false" Priority="65" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium List 1 Accent 6" />
+<w:LsdException Locked="false" Priority="66" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium List 2 Accent 6" />
+<w:LsdException Locked="false" Priority="67" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Grid 1 Accent 6" />
+<w:LsdException Locked="false" Priority="68" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Grid 2 Accent 6" />
+<w:LsdException Locked="false" Priority="69" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Grid 3 Accent 6" />
+<w:LsdException Locked="false" Priority="70" SemiHidden="false"
+UnhideWhenUsed="false" Name="Dark List Accent 6" />
+<w:LsdException Locked="false" Priority="71" SemiHidden="false"
+UnhideWhenUsed="false" Name="Colorful Shading Accent 6" />
+<w:LsdException Locked="false" Priority="72" SemiHidden="false"
+UnhideWhenUsed="false" Name="Colorful List Accent 6" />
+<w:LsdException Locked="false" Priority="73" SemiHidden="false"
+UnhideWhenUsed="false" Name="Colorful Grid Accent 6" />
+<w:LsdException Locked="false" Priority="19" SemiHidden="false"
+UnhideWhenUsed="false" QFormat="true" Name="Subtle Emphasis" />
+<w:LsdException Locked="false" Priority="21" SemiHidden="false"
+UnhideWhenUsed="false" QFormat="true" Name="Intense Emphasis" />
+<w:LsdException Locked="false" Priority="31" SemiHidden="false"
+UnhideWhenUsed="false" QFormat="true" Name="Subtle Reference" />
+<w:LsdException Locked="false" Priority="32" SemiHidden="false"
+UnhideWhenUsed="false" QFormat="true" Name="Intense Reference" />
+<w:LsdException Locked="false" Priority="33" SemiHidden="false"
+UnhideWhenUsed="false" QFormat="true" Name="Book Title" />
+<w:LsdException Locked="false" Priority="37" Name="Bibliography" />
+<w:LsdException Locked="false" Priority="39" QFormat="true" Name="TOC Heading" />
+</w:LatentStyles>
+</xml><![endif]--><!--[if gte mso 10]>
+<style>
+/* Style Definitions */
+table.MsoNormalTable
+{mso-style-name:"Table Normal";
+mso-tstyle-rowband-size:0;
+mso-tstyle-colband-size:0;
+mso-style-noshow:yes;
+mso-style-priority:99;
+mso-style-qformat:yes;
+mso-style-parent:"";
+mso-padding-alt:0in 5.4pt 0in 5.4pt;
+mso-para-margin-top:0in;
+mso-para-margin-right:0in;
+mso-para-margin-bottom:10.0pt;
+mso-para-margin-left:0in;
+line-height:115%;
+mso-pagination:widow-orphan;
+font-size:11.0pt;
+font-family:"Calibri","sans-serif";
+mso-ascii-font-family:Calibri;
+mso-ascii-theme-font:minor-latin;
+mso-fareast-font-family:Calibri;
+mso-fareast-theme-font:minor-latin;
+mso-hansi-font-family:Calibri;
+mso-hansi-theme-font:minor-latin;}
+</style>
+<![endif]--></p>
+<p style="margin-top:0in;margin-right:5.75pt;margin-bottom:
+0in;margin-left:7.6pt;margin-bottom:.0001pt;text-align:justify;text-justify:
+inter-ideograph;line-height:115%;mso-pagination:none;mso-layout-grid-align:
+none;text-autospace:none" class="MsoNormal">&nbsp;</p>
+<p style="margin-top:1.4pt;margin-right:5.9pt;margin-bottom:
+0in;margin-left:7.6pt;margin-bottom:.0001pt;text-align:justify;text-justify:
+inter-ideograph;line-height:100%;mso-pagination:none;mso-layout-grid-align:
+none;text-autospace:none" class="MsoNormal"><span style="font-size:13.0pt;line-height:100%;
+font-family:&quot;Times New Roman&quot;,&quot;serif&quot;;letter-spacing:-.05pt">Th</span><span style="font-size:13.0pt;line-height:100%;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;;
+letter-spacing:.2pt">i</span><span style="font-size:13.0pt;line-height:100%;
+font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">s<span style="letter-spacing:.2pt"> </span><span style="letter-spacing:.15pt">M</span><span style="letter-spacing:.2pt">od</span><span style="letter-spacing:-.05pt">ul</span>e<span style="letter-spacing:.45pt"> </span><span style="letter-spacing:-.25pt">c</span><span style="letter-spacing:.2pt">o</span><span style="letter-spacing:.15pt">m</span><span style="letter-spacing:.2pt">p</span><span style="letter-spacing:-.05pt">ri</span><span style="letter-spacing:-.25pt">s</span><span style="letter-spacing:.2pt">e</span>s <span style="letter-spacing:.4pt">o</span>f<span style="letter-spacing:.25pt"> </span>a<span style="letter-spacing:.5pt"> </span><span style="letter-spacing:-.05pt">P</span><span style="letter-spacing:.2pt">o</span><span style="letter-spacing:-.3pt">w</span><span style="letter-spacing:.2pt">e</span>r<span style="letter-spacing:.25pt"> </span><span style="letter-spacing:-.25pt">s</span><span style="letter-spacing:-.05pt">u</span><span style="letter-spacing:.4pt">p</span><span style="letter-spacing:.2pt">p</span><span style="letter-spacing:-.05pt">l</span>y<span style="letter-spacing:.2pt"> </span><span style="letter-spacing:-.05pt">S</span><span style="letter-spacing:.15pt">MP</span>S<span style="letter-spacing:.2pt"> </span><span style="letter-spacing:-.05pt">uni</span>t<span style="letter-spacing:.25pt"> </span><span style="letter-spacing:.2pt">a</span><span style="letter-spacing:-.05pt">n</span>d<span style="letter-spacing:.45pt"> </span>a<span style="letter-spacing:.2pt"> </span><span style="letter-spacing:-.05pt">s</span><span style="letter-spacing:.15pt">m</span><span style="letter-spacing:.2pt">a</span><span style="letter-spacing:-.05pt">r</span>t<span style="letter-spacing:.25pt"> </span><span style="letter-spacing:-.05pt">car</span>d<span style="letter-spacing:.45pt"> </span><span style="letter-spacing:-.05pt">se</span>t<span style="letter-spacing:.25pt"> </span><span style="letter-spacing:.2pt">fo</span>r <span style="letter-spacing:-.05pt">e</span><span style="letter-spacing:.2pt">a</span><span style="letter-spacing:-.05pt">s</span>y<span style="letter-spacing:.2pt"> d</span><span style="letter-spacing:-.05pt">istri</span><span style="letter-spacing:.4pt">b</span><span style="letter-spacing:-.05pt">uti</span><span style="letter-spacing:.2pt">o</span>n<span style="letter-spacing:.2pt"> o</span>f<span style="letter-spacing:.25pt"> </span><span style="letter-spacing:-.05pt">p</span><span style="letter-spacing:.4pt">o</span><span style="letter-spacing:-.3pt">w</span><span style="letter-spacing:.2pt">e</span>r <span style="letter-spacing:-.05pt">t</span>o<span style="letter-spacing:.45pt"> </span><span style="letter-spacing:-.05pt">t</span><span style="letter-spacing:
+.2pt">h</span>e<span style="letter-spacing:.25pt"> </span><span style="letter-spacing:-.05pt">in</span><span style="letter-spacing:.2pt">d</span><span style="letter-spacing:-.05pt">i</span><span style="letter-spacing:.2pt">v</span><span style="letter-spacing:-.05pt">i</span><span style="letter-spacing:.2pt">d</span><span style="letter-spacing:-.05pt">u</span><span style="letter-spacing:.2pt">a</span>l <span style="letter-spacing:.4pt">m</span><span style="letter-spacing:-.05pt">o</span><span style="letter-spacing:.2pt">d</span><span style="letter-spacing:-.05pt">ul</span><span style="letter-spacing:.2pt">e</span>s <span style="letter-spacing:.2pt">a</span>t<span style="letter-spacing:.25pt"> </span><span style="letter-spacing:-.05pt">th</span>e<span style="letter-spacing:.25pt"> </span><span style="letter-spacing:-.05pt">tra</span><span style="letter-spacing:.4pt">n</span><span style="letter-spacing:-.25pt">s</span><span style="letter-spacing:.4pt">m</span><span style="letter-spacing:-.05pt">itte</span>r<span style="letter-spacing:.25pt"> </span><span style="letter-spacing:-.05pt">an</span>d<span style="letter-spacing:.45pt"> </span><span style="letter-spacing:.2pt">t</span><span style="letter-spacing:-.05pt">h</span>e <span style="letter-spacing:-.05pt">re</span><span style="letter-spacing:.2pt">c</span><span style="letter-spacing:-.05pt">ei</span><span style="letter-spacing:.2pt">v</span><span style="letter-spacing:-.05pt">e</span>r<span style="letter-spacing:.1pt"> </span><span style="letter-spacing:-.05pt">e</span><span style="letter-spacing:.2pt">n</span>d<span style="letter-spacing:.3pt"> </span><span style="letter-spacing:-.05pt">res</span><span style="letter-spacing:.2pt">pe</span><span style="letter-spacing:-.05pt">ctiv</span><span style="letter-spacing:.2pt">e</span><span style="letter-spacing:-.05pt">ly</span>.</span></p>
+<p style="margin-top:1.4pt;margin-right:5.9pt;margin-bottom:
+0in;margin-left:7.6pt;margin-bottom:.0001pt;text-align:justify;text-justify:
+inter-ideograph;line-height:100%;mso-pagination:none;mso-layout-grid-align:
+none;text-autospace:none" class="MsoNormal"><span style="font-size:13.0pt;line-height:100%;
+font-family:&quot;Times New Roman&quot;,&quot;serif&quot;"><img src="/userfiles/7/image/RT%20Fiber%20optics%20images/EXP105.JPG" alt="" height="239" width="776"></span></p>
+<p style="margin: 1.4pt 5.9pt 0.0001pt 7.6pt; line-height: 100%;" class="MsoNormal"><!--[if gte mso 9]><xml>
+<w:WordDocument>
+<w:View>Normal</w:View>
+<w:Zoom>0</w:Zoom>
+<w:TrackMoves />
+<w:TrackFormatting />
+<w:PunctuationKerning />
+<w:ValidateAgainstSchemas />
+<w:SaveIfXMLInvalid>false</w:SaveIfXMLInvalid>
+<w:IgnoreMixedContent>false</w:IgnoreMixedContent>
+<w:AlwaysShowPlaceholderText>false</w:AlwaysShowPlaceholderText>
+<w:DoNotPromoteQF />
+<w:LidThemeOther>EN-US</w:LidThemeOther>
+<w:LidThemeAsian>X-NONE</w:LidThemeAsian>
+<w:LidThemeComplexScript>X-NONE</w:LidThemeComplexScript>
+<w:Compatibility>
+<w:BreakWrappedTables />
+<w:SnapToGridInCell />
+<w:WrapTextWithPunct />
+<w:UseAsianBreakRules />
+<w:DontGrowAutofit />
+<w:SplitPgBreakAndParaMark />
+<w:DontVertAlignCellWithSp />
+<w:DontBreakConstrainedForcedTables />
+<w:DontVertAlignInTxbx />
+<w:Word11KerningPairs />
+<w:CachedColBalance />
+<w:UseFELayout />
+</w:Compatibility>
+<w:BrowserLevel>MicrosoftInternetExplorer4</w:BrowserLevel>
+<m:mathPr>
+<m:mathFont m:val="Cambria Math" />
+<m:brkBin m:val="before" />
+<m:brkBinSub m:val="--" />
+<m:smallFrac m:val="off" />
+<m:dispDef />
+<m:lMargin m:val="0" />
+<m:rMargin m:val="0" />
+<m:defJc m:val="centerGroup" />
+<m:wrapIndent m:val="1440" />
+<m:intLim m:val="subSup" />
+<m:naryLim m:val="undOvr" />
+</m:mathPr></w:WordDocument>
+</xml><![endif]--></p>
+<p>&nbsp;</p>
+<p style="margin: 1.4pt 5.9pt 0.0001pt 7.6pt; line-height: 100%;" class="MsoNormal"><!--[if gte mso 9]><xml>
+<w:LatentStyles DefLockedState="false" DefUnhideWhenUsed="true"
+DefSemiHidden="true" DefQFormat="false" DefPriority="99"
+LatentStyleCount="267">
+<w:LsdException Locked="false" Priority="0" SemiHidden="false"
+UnhideWhenUsed="false" QFormat="true" Name="Normal" />
+<w:LsdException Locked="false" Priority="9" SemiHidden="false"
+UnhideWhenUsed="false" QFormat="true" Name="heading 1" />
+<w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 2" />
+<w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 3" />
+<w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 4" />
+<w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 5" />
+<w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 6" />
+<w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 7" />
+<w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 8" />
+<w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 9" />
+<w:LsdException Locked="false" Priority="39" Name="toc 1" />
+<w:LsdException Locked="false" Priority="39" Name="toc 2" />
+<w:LsdException Locked="false" Priority="39" Name="toc 3" />
+<w:LsdException Locked="false" Priority="39" Name="toc 4" />
+<w:LsdException Locked="false" Priority="39" Name="toc 5" />
+<w:LsdException Locked="false" Priority="39" Name="toc 6" />
+<w:LsdException Locked="false" Priority="39" Name="toc 7" />
+<w:LsdException Locked="false" Priority="39" Name="toc 8" />
+<w:LsdException Locked="false" Priority="39" Name="toc 9" />
+<w:LsdException Locked="false" Priority="35" QFormat="true" Name="caption" />
+<w:LsdException Locked="false" Priority="10" SemiHidden="false"
+UnhideWhenUsed="false" QFormat="true" Name="Title" />
+<w:LsdException Locked="false" Priority="1" Name="Default Paragraph Font" />
+<w:LsdException Locked="false" Priority="11" SemiHidden="false"
+UnhideWhenUsed="false" QFormat="true" Name="Subtitle" />
+<w:LsdException Locked="false" Priority="22" SemiHidden="false"
+UnhideWhenUsed="false" QFormat="true" Name="Strong" />
+<w:LsdException Locked="false" Priority="20" SemiHidden="false"
+UnhideWhenUsed="false" QFormat="true" Name="Emphasis" />
+<w:LsdException Locked="false" Priority="59" SemiHidden="false"
+UnhideWhenUsed="false" Name="Table Grid" />
+<w:LsdException Locked="false" UnhideWhenUsed="false" Name="Placeholder Text" />
+<w:LsdException Locked="false" Priority="1" SemiHidden="false"
+UnhideWhenUsed="false" QFormat="true" Name="No Spacing" />
+<w:LsdException Locked="false" Priority="60" SemiHidden="false"
+UnhideWhenUsed="false" Name="Light Shading" />
+<w:LsdException Locked="false" Priority="61" SemiHidden="false"
+UnhideWhenUsed="false" Name="Light List" />
+<w:LsdException Locked="false" Priority="62" SemiHidden="false"
+UnhideWhenUsed="false" Name="Light Grid" />
+<w:LsdException Locked="false" Priority="63" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Shading 1" />
+<w:LsdException Locked="false" Priority="64" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Shading 2" />
+<w:LsdException Locked="false" Priority="65" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium List 1" />
+<w:LsdException Locked="false" Priority="66" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium List 2" />
+<w:LsdException Locked="false" Priority="67" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Grid 1" />
+<w:LsdException Locked="false" Priority="68" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Grid 2" />
+<w:LsdException Locked="false" Priority="69" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Grid 3" />
+<w:LsdException Locked="false" Priority="70" SemiHidden="false"
+UnhideWhenUsed="false" Name="Dark List" />
+<w:LsdException Locked="false" Priority="71" SemiHidden="false"
+UnhideWhenUsed="false" Name="Colorful Shading" />
+<w:LsdException Locked="false" Priority="72" SemiHidden="false"
+UnhideWhenUsed="false" Name="Colorful List" />
+<w:LsdException Locked="false" Priority="73" SemiHidden="false"
+UnhideWhenUsed="false" Name="Colorful Grid" />
+<w:LsdException Locked="false" Priority="60" SemiHidden="false"
+UnhideWhenUsed="false" Name="Light Shading Accent 1" />
+<w:LsdException Locked="false" Priority="61" SemiHidden="false"
+UnhideWhenUsed="false" Name="Light List Accent 1" />
+<w:LsdException Locked="false" Priority="62" SemiHidden="false"
+UnhideWhenUsed="false" Name="Light Grid Accent 1" />
+<w:LsdException Locked="false" Priority="63" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Shading 1 Accent 1" />
+<w:LsdException Locked="false" Priority="64" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Shading 2 Accent 1" />
+<w:LsdException Locked="false" Priority="65" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium List 1 Accent 1" />
+<w:LsdException Locked="false" UnhideWhenUsed="false" Name="Revision" />
+<w:LsdException Locked="false" Priority="34" SemiHidden="false"
+UnhideWhenUsed="false" QFormat="true" Name="List Paragraph" />
+<w:LsdException Locked="false" Priority="29" SemiHidden="false"
+UnhideWhenUsed="false" QFormat="true" Name="Quote" />
+<w:LsdException Locked="false" Priority="30" SemiHidden="false"
+UnhideWhenUsed="false" QFormat="true" Name="Intense Quote" />
+<w:LsdException Locked="false" Priority="66" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium List 2 Accent 1" />
+<w:LsdException Locked="false" Priority="67" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Grid 1 Accent 1" />
+<w:LsdException Locked="false" Priority="68" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Grid 2 Accent 1" />
+<w:LsdException Locked="false" Priority="69" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Grid 3 Accent 1" />
+<w:LsdException Locked="false" Priority="70" SemiHidden="false"
+UnhideWhenUsed="false" Name="Dark List Accent 1" />
+<w:LsdException Locked="false" Priority="71" SemiHidden="false"
+UnhideWhenUsed="false" Name="Colorful Shading Accent 1" />
+<w:LsdException Locked="false" Priority="72" SemiHidden="false"
+UnhideWhenUsed="false" Name="Colorful List Accent 1" />
+<w:LsdException Locked="false" Priority="73" SemiHidden="false"
+UnhideWhenUsed="false" Name="Colorful Grid Accent 1" />
+<w:LsdException Locked="false" Priority="60" SemiHidden="false"
+UnhideWhenUsed="false" Name="Light Shading Accent 2" />
+<w:LsdException Locked="false" Priority="61" SemiHidden="false"
+UnhideWhenUsed="false" Name="Light List Accent 2" />
+<w:LsdException Locked="false" Priority="62" SemiHidden="false"
+UnhideWhenUsed="false" Name="Light Grid Accent 2" />
+<w:LsdException Locked="false" Priority="63" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Shading 1 Accent 2" />
+<w:LsdException Locked="false" Priority="64" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Shading 2 Accent 2" />
+<w:LsdException Locked="false" Priority="65" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium List 1 Accent 2" />
+<w:LsdException Locked="false" Priority="66" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium List 2 Accent 2" />
+<w:LsdException Locked="false" Priority="67" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Grid 1 Accent 2" />
+<w:LsdException Locked="false" Priority="68" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Grid 2 Accent 2" />
+<w:LsdException Locked="false" Priority="69" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Grid 3 Accent 2" />
+<w:LsdException Locked="false" Priority="70" SemiHidden="false"
+UnhideWhenUsed="false" Name="Dark List Accent 2" />
+<w:LsdException Locked="false" Priority="71" SemiHidden="false"
+UnhideWhenUsed="false" Name="Colorful Shading Accent 2" />
+<w:LsdException Locked="false" Priority="72" SemiHidden="false"
+UnhideWhenUsed="false" Name="Colorful List Accent 2" />
+<w:LsdException Locked="false" Priority="73" SemiHidden="false"
+UnhideWhenUsed="false" Name="Colorful Grid Accent 2" />
+<w:LsdException Locked="false" Priority="60" SemiHidden="false"
+UnhideWhenUsed="false" Name="Light Shading Accent 3" />
+<w:LsdException Locked="false" Priority="61" SemiHidden="false"
+UnhideWhenUsed="false" Name="Light List Accent 3" />
+<w:LsdException Locked="false" Priority="62" SemiHidden="false"
+UnhideWhenUsed="false" Name="Light Grid Accent 3" />
+<w:LsdException Locked="false" Priority="63" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Shading 1 Accent 3" />
+<w:LsdException Locked="false" Priority="64" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Shading 2 Accent 3" />
+<w:LsdException Locked="false" Priority="65" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium List 1 Accent 3" />
+<w:LsdException Locked="false" Priority="66" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium List 2 Accent 3" />
+<w:LsdException Locked="false" Priority="67" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Grid 1 Accent 3" />
+<w:LsdException Locked="false" Priority="68" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Grid 2 Accent 3" />
+<w:LsdException Locked="false" Priority="69" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Grid 3 Accent 3" />
+<w:LsdException Locked="false" Priority="70" SemiHidden="false"
+UnhideWhenUsed="false" Name="Dark List Accent 3" />
+<w:LsdException Locked="false" Priority="71" SemiHidden="false"
+UnhideWhenUsed="false" Name="Colorful Shading Accent 3" />
+<w:LsdException Locked="false" Priority="72" SemiHidden="false"
+UnhideWhenUsed="false" Name="Colorful List Accent 3" />
+<w:LsdException Locked="false" Priority="73" SemiHidden="false"
+UnhideWhenUsed="false" Name="Colorful Grid Accent 3" />
+<w:LsdException Locked="false" Priority="60" SemiHidden="false"
+UnhideWhenUsed="false" Name="Light Shading Accent 4" />
+<w:LsdException Locked="false" Priority="61" SemiHidden="false"
+UnhideWhenUsed="false" Name="Light List Accent 4" />
+<w:LsdException Locked="false" Priority="62" SemiHidden="false"
+UnhideWhenUsed="false" Name="Light Grid Accent 4" />
+<w:LsdException Locked="false" Priority="63" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Shading 1 Accent 4" />
+<w:LsdException Locked="false" Priority="64" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Shading 2 Accent 4" />
+<w:LsdException Locked="false" Priority="65" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium List 1 Accent 4" />
+<w:LsdException Locked="false" Priority="66" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium List 2 Accent 4" />
+<w:LsdException Locked="false" Priority="67" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Grid 1 Accent 4" />
+<w:LsdException Locked="false" Priority="68" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Grid 2 Accent 4" />
+<w:LsdException Locked="false" Priority="69" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Grid 3 Accent 4" />
+<w:LsdException Locked="false" Priority="70" SemiHidden="false"
+UnhideWhenUsed="false" Name="Dark List Accent 4" />
+<w:LsdException Locked="false" Priority="71" SemiHidden="false"
+UnhideWhenUsed="false" Name="Colorful Shading Accent 4" />
+<w:LsdException Locked="false" Priority="72" SemiHidden="false"
+UnhideWhenUsed="false" Name="Colorful List Accent 4" />
+<w:LsdException Locked="false" Priority="73" SemiHidden="false"
+UnhideWhenUsed="false" Name="Colorful Grid Accent 4" />
+<w:LsdException Locked="false" Priority="60" SemiHidden="false"
+UnhideWhenUsed="false" Name="Light Shading Accent 5" />
+<w:LsdException Locked="false" Priority="61" SemiHidden="false"
+UnhideWhenUsed="false" Name="Light List Accent 5" />
+<w:LsdException Locked="false" Priority="62" SemiHidden="false"
+UnhideWhenUsed="false" Name="Light Grid Accent 5" />
+<w:LsdException Locked="false" Priority="63" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Shading 1 Accent 5" />
+<w:LsdException Locked="false" Priority="64" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Shading 2 Accent 5" />
+<w:LsdException Locked="false" Priority="65" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium List 1 Accent 5" />
+<w:LsdException Locked="false" Priority="66" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium List 2 Accent 5" />
+<w:LsdException Locked="false" Priority="67" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Grid 1 Accent 5" />
+<w:LsdException Locked="false" Priority="68" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Grid 2 Accent 5" />
+<w:LsdException Locked="false" Priority="69" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Grid 3 Accent 5" />
+<w:LsdException Locked="false" Priority="70" SemiHidden="false"
+UnhideWhenUsed="false" Name="Dark List Accent 5" />
+<w:LsdException Locked="false" Priority="71" SemiHidden="false"
+UnhideWhenUsed="false" Name="Colorful Shading Accent 5" />
+<w:LsdException Locked="false" Priority="72" SemiHidden="false"
+UnhideWhenUsed="false" Name="Colorful List Accent 5" />
+<w:LsdException Locked="false" Priority="73" SemiHidden="false"
+UnhideWhenUsed="false" Name="Colorful Grid Accent 5" />
+<w:LsdException Locked="false" Priority="60" SemiHidden="false"
+UnhideWhenUsed="false" Name="Light Shading Accent 6" />
+<w:LsdException Locked="false" Priority="61" SemiHidden="false"
+UnhideWhenUsed="false" Name="Light List Accent 6" />
+<w:LsdException Locked="false" Priority="62" SemiHidden="false"
+UnhideWhenUsed="false" Name="Light Grid Accent 6" />
+<w:LsdException Locked="false" Priority="63" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Shading 1 Accent 6" />
+<w:LsdException Locked="false" Priority="64" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Shading 2 Accent 6" />
+<w:LsdException Locked="false" Priority="65" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium List 1 Accent 6" />
+<w:LsdException Locked="false" Priority="66" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium List 2 Accent 6" />
+<w:LsdException Locked="false" Priority="67" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Grid 1 Accent 6" />
+<w:LsdException Locked="false" Priority="68" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Grid 2 Accent 6" />
+<w:LsdException Locked="false" Priority="69" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Grid 3 Accent 6" />
+<w:LsdException Locked="false" Priority="70" SemiHidden="false"
+UnhideWhenUsed="false" Name="Dark List Accent 6" />
+<w:LsdException Locked="false" Priority="71" SemiHidden="false"
+UnhideWhenUsed="false" Name="Colorful Shading Accent 6" />
+<w:LsdException Locked="false" Priority="72" SemiHidden="false"
+UnhideWhenUsed="false" Name="Colorful List Accent 6" />
+<w:LsdException Locked="false" Priority="73" SemiHidden="false"
+UnhideWhenUsed="false" Name="Colorful Grid Accent 6" />
+<w:LsdException Locked="false" Priority="19" SemiHidden="false"
+UnhideWhenUsed="false" QFormat="true" Name="Subtle Emphasis" />
+<w:LsdException Locked="false" Priority="21" SemiHidden="false"
+UnhideWhenUsed="false" QFormat="true" Name="Intense Emphasis" />
+<w:LsdException Locked="false" Priority="31" SemiHidden="false"
+UnhideWhenUsed="false" QFormat="true" Name="Subtle Reference" />
+<w:LsdException Locked="false" Priority="32" SemiHidden="false"
+UnhideWhenUsed="false" QFormat="true" Name="Intense Reference" />
+<w:LsdException Locked="false" Priority="33" SemiHidden="false"
+UnhideWhenUsed="false" QFormat="true" Name="Book Title" />
+<w:LsdException Locked="false" Priority="37" Name="Bibliography" />
+<w:LsdException Locked="false" Priority="39" QFormat="true" Name="TOC Heading" />
+</w:LatentStyles>
+</xml><![endif]--><!--[if gte mso 10]>
+<style>
+/* Style Definitions */
+table.MsoNormalTable
+{mso-style-name:"Table Normal";
+mso-tstyle-rowband-size:0;
+mso-tstyle-colband-size:0;
+mso-style-noshow:yes;
+mso-style-priority:99;
+mso-style-qformat:yes;
+mso-style-parent:"";
+mso-padding-alt:0in 5.4pt 0in 5.4pt;
+mso-para-margin-top:0in;
+mso-para-margin-right:0in;
+mso-para-margin-bottom:10.0pt;
+mso-para-margin-left:0in;
+line-height:115%;
+mso-pagination:widow-orphan;
+font-size:11.0pt;
+font-family:"Calibri","sans-serif";
+mso-ascii-font-family:Calibri;
+mso-ascii-theme-font:minor-latin;
+mso-fareast-font-family:Calibri;
+mso-fareast-theme-font:minor-latin;
+mso-hansi-font-family:Calibri;
+mso-hansi-theme-font:minor-latin;}
+</style>
+<![endif]--></p>
+<p style="margin-top:1.4pt;margin-right:5.9pt;margin-bottom:
+0in;margin-left:7.6pt;margin-bottom:.0001pt;text-align:justify;text-justify:
+inter-ideograph;line-height:100%;mso-pagination:none;mso-layout-grid-align:
+none;text-autospace:none" class="MsoNormal"><img src="/userfiles/7/image/RT%20Fiber%20optics%20images/EXP106.JPG" alt="" height="760" width="816">&nbsp;</p>
+<p style="margin-top:1.4pt;margin-right:5.9pt;margin-bottom:
+0in;margin-left:7.6pt;margin-bottom:.0001pt;text-align:justify;text-justify:
+inter-ideograph;line-height:115%;mso-pagination:none;mso-layout-grid-align:
+none;text-autospace:none" class="MsoNormal">&nbsp;</p>
+<p style="margin-top:1.4pt;margin-right:5.9pt;margin-bottom:
+0in;margin-left:7.6pt;margin-bottom:.0001pt;text-align:justify;text-justify:
+inter-ideograph;line-height:115%;mso-pagination:none;mso-layout-grid-align:
+none;text-autospace:none" class="MsoNormal"><span style="font-size:13.0pt;line-height:115%;
+font-family:&quot;Times New Roman&quot;,&quot;serif&quot;;letter-spacing:.15pt">N</span><span style="font-size:13.0pt;line-height:115%;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">I<span style="letter-spacing:-.15pt"> </span><span style="letter-spacing:.15pt">E</span><span style="letter-spacing:-.05pt">L</span><span style="letter-spacing:.65pt">V</span><span style="letter-spacing:-.5pt">I</span>S<span style="letter-spacing:.3pt"> </span><span style="letter-spacing:-.05pt">an</span>d<span style="letter-spacing:.5pt"> </span><span style="letter-spacing:.15pt">P</span><span style="letter-spacing:-.05pt">r</span><span style="letter-spacing:.2pt">o</span><span style="letter-spacing:-.05pt">t</span><span style="letter-spacing:.2pt">o</span><span style="letter-spacing:-.05pt">ty</span><span style="letter-spacing:.2pt">pi</span><span style="letter-spacing:-.05pt">n</span>g<span style="letter-spacing:.05pt"> </span><span style="letter-spacing:-.05pt">b</span><span style="letter-spacing:.4pt">o</span><span style="letter-spacing:-.05pt">ar</span>d<span style="letter-spacing:.3pt"> </span><span style="letter-spacing:-.05pt">i</span>s<span style="letter-spacing:.05pt"> </span><span style="letter-spacing:-.05pt">use</span>d<span style="letter-spacing:.5pt"> </span><span style="letter-spacing:-.05pt">t</span>o<span style="letter-spacing:.3pt"> </span><span style="letter-spacing:-.05pt">int</span><span style="letter-spacing:.2pt">e</span><span style="letter-spacing:-.05pt">rf</span><span style="letter-spacing:.2pt">a</span><span style="letter-spacing:-.05pt">c</span>e<span style="letter-spacing:.3pt"> </span><span style="letter-spacing:-.05pt">th</span>e<span style="letter-spacing:.3pt"> </span><span style="letter-spacing:.15pt">O</span><span style="letter-spacing:.2pt">p</span><span style="letter-spacing:-.05pt">ti</span><span style="letter-spacing:.2pt">c</span><span style="letter-spacing:-.05pt">a</span>l<span style="letter-spacing:.1pt"> </span><span style="letter-spacing:.2pt">f</span><span style="letter-spacing:-.05pt">i</span><span style="letter-spacing:.4pt">b</span><span style="letter-spacing:-.05pt">e</span>r<span style="letter-spacing:.1pt"> </span><span style="letter-spacing:-.05pt">trai</span><span style="letter-spacing:.2pt">n</span><span style="letter-spacing:-.05pt">e</span>r<span style="letter-spacing:.1pt"> </span><span style="letter-spacing:-.05pt">k</span><span style="letter-spacing:.2pt">i</span>t <span style="letter-spacing:-.05pt">w</span><span style="letter-spacing:.2pt">i</span><span style="letter-spacing:-.05pt">t</span>h<span style="letter-spacing:.2pt"> </span><span style="letter-spacing:-.05pt">c</span><span style="letter-spacing:.2pt">o</span><span style="letter-spacing:.15pt">m</span><span style="letter-spacing:.2pt">p</span><span style="letter-spacing:-.05pt">ut</span><span style="letter-spacing:.2pt">e</span><span style="letter-spacing:-.25pt">r</span>.<span style="letter-spacing:.35pt"> </span><span style="letter-spacing:.4pt">N</span>I <span style="letter-spacing:-.05pt">EL</span><span style="letter-spacing:.4pt">V</span><span style="letter-spacing:-.05pt">I</span>S<span style="letter-spacing:1.4pt"> </span><span style="letter-spacing:.2pt">b</span><span style="letter-spacing:.4pt">o</span><span style="letter-spacing:-.05pt">ar</span>d<span style="letter-spacing:.45pt"> </span><span style="letter-spacing:-.05pt">h</span><span style="letter-spacing:.2pt">a</span>s <span style="letter-spacing:-.05pt">g</span><span style="letter-spacing:.4pt">o</span>t<span style="letter-spacing:.25pt"> </span><span style="letter-spacing:-.25pt">a</span>n<span style="letter-spacing:.2pt"> o</span><span style="letter-spacing:-.05pt">s</span><span style="letter-spacing:.2pt">c</span><span style="letter-spacing:-.05pt">ill</span><span style="letter-spacing:.2pt">o</span><span style="letter-spacing:-.05pt">sc</span><span style="letter-spacing:.2pt">op</span><span style="letter-spacing:-.05pt">e</span>,<span style="letter-spacing:.35pt"> </span>a<span style="letter-spacing:.25pt"> </span><span style="letter-spacing:.2pt">f</span><span style="letter-spacing:-.05pt">un</span><span style="letter-spacing:.2pt">c</span><span style="letter-spacing:-.05pt">ti</span><span style="letter-spacing:.2pt">o</span>n<span style="letter-spacing:.2pt"> g</span><span style="letter-spacing:-.05pt">en</span><span style="letter-spacing:.2pt">e</span><span style="letter-spacing:-.05pt">rat</span><span style="letter-spacing:.2pt">o</span><span style="letter-spacing:-.05pt">r</span>, <span style="letter-spacing:.15pt">DM</span><span style="letter-spacing:-.1pt">M</span>,<span style="letter-spacing:.15pt"> </span><span style="letter-spacing:-.05pt">v</span><span style="letter-spacing:.2pt">a</span><span style="letter-spacing:-.05pt">ria</span><span style="letter-spacing:.2pt">bl</span>e<span style="letter-spacing:.05pt"> </span><span style="letter-spacing:-.05pt">p</span><span style="letter-spacing:.2pt">o</span><span style="letter-spacing:-.05pt">we</span>r<span style="letter-spacing:.3pt"> </span><span style="letter-spacing:-.05pt">su</span><span style="letter-spacing:.2pt">pp</span><span style="letter-spacing:-.05pt">l</span>y <span style="letter-spacing:.2pt">e</span><span style="letter-spacing:-.05pt">tc</span>.<span style="letter-spacing:.15pt"> </span><span style="letter-spacing:-.25pt">I</span>n<span style="letter-spacing:.25pt"> </span><span style="letter-spacing:-.05pt">t</span><span style="letter-spacing:.2pt">hi</span>s<span style="letter-spacing:.05pt"> </span><span style="letter-spacing:-.05pt">e</span><span style="letter-spacing:.2pt">xp</span><span style="letter-spacing:-.05pt">eri</span><span style="letter-spacing:.4pt">m</span><span style="letter-spacing:-.05pt">en</span>t<span style="letter-spacing:.05pt"> </span><span style="letter-spacing:-.05pt">w</span>e<span style="letter-spacing:.05pt"> </span><span style="letter-spacing:-.05pt">h</span><span style="letter-spacing:.2pt">a</span><span style="letter-spacing:-.05pt">v</span>e<span style="letter-spacing:.05pt"> </span><span style="letter-spacing:.2pt">u</span><span style="letter-spacing:-.05pt">s</span><span style="letter-spacing:.2pt">e</span>d<span style="letter-spacing:.25pt"> </span><span style="letter-spacing:-.05pt">th</span>e<span style="letter-spacing:.05pt"> </span><span style="letter-spacing:.15pt">E</span><span style="letter-spacing:-.05pt">L</span><span style="letter-spacing:.4pt">V</span><span style="letter-spacing:-.05pt">I</span>S <span style="letter-spacing:.2pt">o</span><span style="letter-spacing:-.05pt">scill</span><span style="letter-spacing:.4pt">o</span><span style="letter-spacing:-.25pt">s</span><span style="letter-spacing:.2pt">c</span><span style="letter-spacing:-.05pt">o</span><span style="letter-spacing:.2pt">p</span>e<span style="letter-spacing:3.2pt"> </span><span style="letter-spacing:-.05pt">(c</span><span style="letter-spacing:.2pt">h</span><span style="letter-spacing:-.05pt">an</span><span style="letter-spacing:.2pt">n</span><span style="letter-spacing:-.05pt">e</span>l<span style="letter-spacing:2.7pt"> </span>0<span style="letter-spacing:3.15pt"> </span><span style="letter-spacing:-.05pt">f</span><span style="letter-spacing:.2pt">o</span>r<span style="letter-spacing:2.95pt"> </span><span style="letter-spacing:-.05pt">i</span><span style="letter-spacing:.2pt">np</span><span style="letter-spacing:-.05pt">u</span>t<span style="letter-spacing:2.95pt"> </span><span style="letter-spacing:-.05pt">wa</span><span style="letter-spacing:.2pt">v</span><span style="letter-spacing:-.05pt">efor</span>m <span style="letter-spacing:.15pt"><span style="mso-spacerun:yes">&nbsp;</span></span><span style="letter-spacing:-.05pt">an</span>d<span style="letter-spacing:3.15pt"> </span><span style="letter-spacing:-.05pt">c</span><span style="letter-spacing:.2pt">h</span><span style="letter-spacing:-.05pt">ann</span><span style="letter-spacing:.2pt">e</span>l<span style="letter-spacing:2.7pt"> </span>1<span style="letter-spacing:3.1pt"> </span><span style="letter-spacing:-.05pt">f</span><span style="letter-spacing:.2pt">o</span>r<span style="letter-spacing:2.7pt"> </span><span style="letter-spacing:.2pt">ou</span><span style="letter-spacing:-.05pt">t</span><span style="letter-spacing:.2pt">p</span><span style="letter-spacing:-.05pt">u</span>t<span style="letter-spacing:3.2pt"> </span><span style="letter-spacing:-.3pt">w</span><span style="letter-spacing:.2pt">a</span><span style="letter-spacing:-.05pt">v</span>e <span style="letter-spacing:.2pt">fo</span><span style="letter-spacing:-.25pt">r</span><span style="letter-spacing:.15pt">m</span>)<span style="letter-spacing:.25pt"> </span><span style="letter-spacing:-.05pt">an</span>d<span style="letter-spacing:.45pt"> </span><span style="letter-spacing:.4pt">d</span><span style="letter-spacing:-.05pt">igita</span>l<span style="letter-spacing:.25pt"> </span><span style="letter-spacing:-.05pt">writ</span><span style="letter-spacing:.2pt">e</span>r <span style="letter-spacing:.4pt">o</span>f<span style="letter-spacing:.25pt"> </span><span style="letter-spacing:-.05pt">th</span>e<span style="letter-spacing:.45pt"> </span><span style="letter-spacing:.15pt">P</span><span style="letter-spacing:-.25pt">r</span><span style="letter-spacing:.4pt">o</span><span style="letter-spacing:-.05pt">t</span><span style="letter-spacing:.2pt">o</span><span style="letter-spacing:-.05pt">ty</span><span style="letter-spacing:.2pt">p</span><span style="letter-spacing:-.05pt">in</span>g<span style="letter-spacing:.25pt"> </span><span style="letter-spacing:.2pt">boa</span><span style="letter-spacing:-.5pt">r</span>d<span style="letter-spacing:.45pt"> </span><span style="letter-spacing:.2pt">u</span><span style="letter-spacing:-.25pt">s</span><span style="letter-spacing:.2pt">e</span>d<span style="letter-spacing:.45pt"> </span><span style="letter-spacing:-.05pt">a</span>s <span style="letter-spacing:-.05pt">t</span><span style="letter-spacing:.2pt">h</span>e<span style="letter-spacing:.5pt"> </span><span style="letter-spacing:-.05pt">switc</span>h<span style="letter-spacing:.45pt"> </span><span style="letter-spacing:-.05pt">t</span>o<span style="letter-spacing:.45pt"> </span><span style="letter-spacing:-.05pt">sel</span><span style="letter-spacing:.2pt">ec</span>t <span style="letter-spacing:-.05pt">e</span><span style="letter-spacing:.2pt">i</span><span style="letter-spacing:-.05pt">the</span>r<span style="letter-spacing:.05pt"> </span><i><span style="letter-spacing:.2pt">ana</span><span style="letter-spacing:-.25pt">l</span><span style="letter-spacing:-.05pt">o</span>g<span style="letter-spacing:.3pt"> </span><span style="letter-spacing:.2pt">o</span>r<span style="letter-spacing:.05pt"> </span><span style="letter-spacing:.2pt">d</span><span style="letter-spacing:-.25pt">i</span><span style="letter-spacing:.2pt">g</span><span style="letter-spacing:-.05pt">i</span><span style="letter-spacing:-.25pt">t</span><span style="letter-spacing:.2pt">a</span>l<span style="letter-spacing:.3pt"> </span><span style="letter-spacing:-.05pt">li</span><span style="letter-spacing:.2pt">n</span>k</i></span></p>
+<p style="margin: 0.25pt 0in 0.0001pt; line-height: 9pt;" class="MsoNormal"><span style="font-size:9.0pt;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">&nbsp;</span></p>
+<p>&nbsp;</p>
+<p style="margin-top:0in;margin-right:5.75pt;margin-bottom:
+0in;margin-left:7.6pt;margin-bottom:.0001pt;text-align:justify;text-justify:
+inter-ideograph;line-height:115%;mso-pagination:none;mso-layout-grid-align:
+none;text-autospace:none" class="MsoNormal">&nbsp;</p>
+<p style="margin-top:0in;margin-right:10.75pt;margin-bottom:
+0in;margin-left:7.6pt;margin-bottom:.0001pt;text-align:justify;text-justify:
+inter-ideograph;line-height:115%;mso-pagination:none;mso-layout-grid-align:
+none;text-autospace:none" class="MsoNormal">&nbsp;</p>
+<p style="margin-bottom: 0.0001pt; line-height: 10pt;" class="MsoNormal"><span style="font-size:10.0pt;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">&nbsp;</span></p>
+<p>&nbsp;</p>
+<p style="margin-top:1.4pt;margin-right:0in;margin-bottom:0in;
+margin-left:7.6pt;margin-bottom:.0001pt;line-height:normal;mso-pagination:none;
+mso-layout-grid-align:none;text-autospace:none" class="MsoNormal">&nbsp;</p>
+<p style="margin: 1.4pt 0in 0.0001pt 7.6pt; line-height: normal;" class="MsoNormal">&nbsp;</p>
+<p style="margin-top:1.4pt;margin-right:0in;margin-bottom:0in;
+margin-left:7.6pt;margin-bottom:.0001pt;line-height:normal;mso-pagination:none;
+mso-layout-grid-align:none;text-autospace:none" class="MsoNormal"><!--[if gte mso 9]><xml>
+<w:LatentStyles DefLockedState="false" DefUnhideWhenUsed="true"
+DefSemiHidden="true" DefQFormat="false" DefPriority="99"
+LatentStyleCount="267">
+<w:LsdException Locked="false" Priority="0" SemiHidden="false"
+UnhideWhenUsed="false" QFormat="true" Name="Normal" />
+<w:LsdException Locked="false" Priority="9" SemiHidden="false"
+UnhideWhenUsed="false" QFormat="true" Name="heading 1" />
+<w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 2" />
+<w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 3" />
+<w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 4" />
+<w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 5" />
+<w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 6" />
+<w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 7" />
+<w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 8" />
+<w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 9" />
+<w:LsdException Locked="false" Priority="39" Name="toc 1" />
+<w:LsdException Locked="false" Priority="39" Name="toc 2" />
+<w:LsdException Locked="false" Priority="39" Name="toc 3" />
+<w:LsdException Locked="false" Priority="39" Name="toc 4" />
+<w:LsdException Locked="false" Priority="39" Name="toc 5" />
+<w:LsdException Locked="false" Priority="39" Name="toc 6" />
+<w:LsdException Locked="false" Priority="39" Name="toc 7" />
+<w:LsdException Locked="false" Priority="39" Name="toc 8" />
+<w:LsdException Locked="false" Priority="39" Name="toc 9" />
+<w:LsdException Locked="false" Priority="35" QFormat="true" Name="caption" />
+<w:LsdException Locked="false" Priority="10" SemiHidden="false"
+UnhideWhenUsed="false" QFormat="true" Name="Title" />
+<w:LsdException Locked="false" Priority="1" Name="Default Paragraph Font" />
+<w:LsdException Locked="false" Priority="11" SemiHidden="false"
+UnhideWhenUsed="false" QFormat="true" Name="Subtitle" />
+<w:LsdException Locked="false" Priority="22" SemiHidden="false"
+UnhideWhenUsed="false" QFormat="true" Name="Strong" />
+<w:LsdException Locked="false" Priority="20" SemiHidden="false"
+UnhideWhenUsed="false" QFormat="true" Name="Emphasis" />
+<w:LsdException Locked="false" Priority="59" SemiHidden="false"
+UnhideWhenUsed="false" Name="Table Grid" />
+<w:LsdException Locked="false" UnhideWhenUsed="false" Name="Placeholder Text" />
+<w:LsdException Locked="false" Priority="1" SemiHidden="false"
+UnhideWhenUsed="false" QFormat="true" Name="No Spacing" />
+<w:LsdException Locked="false" Priority="60" SemiHidden="false"
+UnhideWhenUsed="false" Name="Light Shading" />
+<w:LsdException Locked="false" Priority="61" SemiHidden="false"
+UnhideWhenUsed="false" Name="Light List" />
+<w:LsdException Locked="false" Priority="62" SemiHidden="false"
+UnhideWhenUsed="false" Name="Light Grid" />
+<w:LsdException Locked="false" Priority="63" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Shading 1" />
+<w:LsdException Locked="false" Priority="64" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Shading 2" />
+<w:LsdException Locked="false" Priority="65" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium List 1" />
+<w:LsdException Locked="false" Priority="66" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium List 2" />
+<w:LsdException Locked="false" Priority="67" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Grid 1" />
+<w:LsdException Locked="false" Priority="68" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Grid 2" />
+<w:LsdException Locked="false" Priority="69" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Grid 3" />
+<w:LsdException Locked="false" Priority="70" SemiHidden="false"
+UnhideWhenUsed="false" Name="Dark List" />
+<w:LsdException Locked="false" Priority="71" SemiHidden="false"
+UnhideWhenUsed="false" Name="Colorful Shading" />
+<w:LsdException Locked="false" Priority="72" SemiHidden="false"
+UnhideWhenUsed="false" Name="Colorful List" />
+<w:LsdException Locked="false" Priority="73" SemiHidden="false"
+UnhideWhenUsed="false" Name="Colorful Grid" />
+<w:LsdException Locked="false" Priority="60" SemiHidden="false"
+UnhideWhenUsed="false" Name="Light Shading Accent 1" />
+<w:LsdException Locked="false" Priority="61" SemiHidden="false"
+UnhideWhenUsed="false" Name="Light List Accent 1" />
+<w:LsdException Locked="false" Priority="62" SemiHidden="false"
+UnhideWhenUsed="false" Name="Light Grid Accent 1" />
+<w:LsdException Locked="false" Priority="63" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Shading 1 Accent 1" />
+<w:LsdException Locked="false" Priority="64" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Shading 2 Accent 1" />
+<w:LsdException Locked="false" Priority="65" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium List 1 Accent 1" />
+<w:LsdException Locked="false" UnhideWhenUsed="false" Name="Revision" />
+<w:LsdException Locked="false" Priority="34" SemiHidden="false"
+UnhideWhenUsed="false" QFormat="true" Name="List Paragraph" />
+<w:LsdException Locked="false" Priority="29" SemiHidden="false"
+UnhideWhenUsed="false" QFormat="true" Name="Quote" />
+<w:LsdException Locked="false" Priority="30" SemiHidden="false"
+UnhideWhenUsed="false" QFormat="true" Name="Intense Quote" />
+<w:LsdException Locked="false" Priority="66" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium List 2 Accent 1" />
+<w:LsdException Locked="false" Priority="67" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Grid 1 Accent 1" />
+<w:LsdException Locked="false" Priority="68" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Grid 2 Accent 1" />
+<w:LsdException Locked="false" Priority="69" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Grid 3 Accent 1" />
+<w:LsdException Locked="false" Priority="70" SemiHidden="false"
+UnhideWhenUsed="false" Name="Dark List Accent 1" />
+<w:LsdException Locked="false" Priority="71" SemiHidden="false"
+UnhideWhenUsed="false" Name="Colorful Shading Accent 1" />
+<w:LsdException Locked="false" Priority="72" SemiHidden="false"
+UnhideWhenUsed="false" Name="Colorful List Accent 1" />
+<w:LsdException Locked="false" Priority="73" SemiHidden="false"
+UnhideWhenUsed="false" Name="Colorful Grid Accent 1" />
+<w:LsdException Locked="false" Priority="60" SemiHidden="false"
+UnhideWhenUsed="false" Name="Light Shading Accent 2" />
+<w:LsdException Locked="false" Priority="61" SemiHidden="false"
+UnhideWhenUsed="false" Name="Light List Accent 2" />
+<w:LsdException Locked="false" Priority="62" SemiHidden="false"
+UnhideWhenUsed="false" Name="Light Grid Accent 2" />
+<w:LsdException Locked="false" Priority="63" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Shading 1 Accent 2" />
+<w:LsdException Locked="false" Priority="64" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Shading 2 Accent 2" />
+<w:LsdException Locked="false" Priority="65" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium List 1 Accent 2" />
+<w:LsdException Locked="false" Priority="66" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium List 2 Accent 2" />
+<w:LsdException Locked="false" Priority="67" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Grid 1 Accent 2" />
+<w:LsdException Locked="false" Priority="68" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Grid 2 Accent 2" />
+<w:LsdException Locked="false" Priority="69" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Grid 3 Accent 2" />
+<w:LsdException Locked="false" Priority="70" SemiHidden="false"
+UnhideWhenUsed="false" Name="Dark List Accent 2" />
+<w:LsdException Locked="false" Priority="71" SemiHidden="false"
+UnhideWhenUsed="false" Name="Colorful Shading Accent 2" />
+<w:LsdException Locked="false" Priority="72" SemiHidden="false"
+UnhideWhenUsed="false" Name="Colorful List Accent 2" />
+<w:LsdException Locked="false" Priority="73" SemiHidden="false"
+UnhideWhenUsed="false" Name="Colorful Grid Accent 2" />
+<w:LsdException Locked="false" Priority="60" SemiHidden="false"
+UnhideWhenUsed="false" Name="Light Shading Accent 3" />
+<w:LsdException Locked="false" Priority="61" SemiHidden="false"
+UnhideWhenUsed="false" Name="Light List Accent 3" />
+<w:LsdException Locked="false" Priority="62" SemiHidden="false"
+UnhideWhenUsed="false" Name="Light Grid Accent 3" />
+<w:LsdException Locked="false" Priority="63" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Shading 1 Accent 3" />
+<w:LsdException Locked="false" Priority="64" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Shading 2 Accent 3" />
+<w:LsdException Locked="false" Priority="65" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium List 1 Accent 3" />
+<w:LsdException Locked="false" Priority="66" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium List 2 Accent 3" />
+<w:LsdException Locked="false" Priority="67" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Grid 1 Accent 3" />
+<w:LsdException Locked="false" Priority="68" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Grid 2 Accent 3" />
+<w:LsdException Locked="false" Priority="69" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Grid 3 Accent 3" />
+<w:LsdException Locked="false" Priority="70" SemiHidden="false"
+UnhideWhenUsed="false" Name="Dark List Accent 3" />
+<w:LsdException Locked="false" Priority="71" SemiHidden="false"
+UnhideWhenUsed="false" Name="Colorful Shading Accent 3" />
+<w:LsdException Locked="false" Priority="72" SemiHidden="false"
+UnhideWhenUsed="false" Name="Colorful List Accent 3" />
+<w:LsdException Locked="false" Priority="73" SemiHidden="false"
+UnhideWhenUsed="false" Name="Colorful Grid Accent 3" />
+<w:LsdException Locked="false" Priority="60" SemiHidden="false"
+UnhideWhenUsed="false" Name="Light Shading Accent 4" />
+<w:LsdException Locked="false" Priority="61" SemiHidden="false"
+UnhideWhenUsed="false" Name="Light List Accent 4" />
+<w:LsdException Locked="false" Priority="62" SemiHidden="false"
+UnhideWhenUsed="false" Name="Light Grid Accent 4" />
+<w:LsdException Locked="false" Priority="63" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Shading 1 Accent 4" />
+<w:LsdException Locked="false" Priority="64" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Shading 2 Accent 4" />
+<w:LsdException Locked="false" Priority="65" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium List 1 Accent 4" />
+<w:LsdException Locked="false" Priority="66" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium List 2 Accent 4" />
+<w:LsdException Locked="false" Priority="67" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Grid 1 Accent 4" />
+<w:LsdException Locked="false" Priority="68" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Grid 2 Accent 4" />
+<w:LsdException Locked="false" Priority="69" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Grid 3 Accent 4" />
+<w:LsdException Locked="false" Priority="70" SemiHidden="false"
+UnhideWhenUsed="false" Name="Dark List Accent 4" />
+<w:LsdException Locked="false" Priority="71" SemiHidden="false"
+UnhideWhenUsed="false" Name="Colorful Shading Accent 4" />
+<w:LsdException Locked="false" Priority="72" SemiHidden="false"
+UnhideWhenUsed="false" Name="Colorful List Accent 4" />
+<w:LsdException Locked="false" Priority="73" SemiHidden="false"
+UnhideWhenUsed="false" Name="Colorful Grid Accent 4" />
+<w:LsdException Locked="false" Priority="60" SemiHidden="false"
+UnhideWhenUsed="false" Name="Light Shading Accent 5" />
+<w:LsdException Locked="false" Priority="61" SemiHidden="false"
+UnhideWhenUsed="false" Name="Light List Accent 5" />
+<w:LsdException Locked="false" Priority="62" SemiHidden="false"
+UnhideWhenUsed="false" Name="Light Grid Accent 5" />
+<w:LsdException Locked="false" Priority="63" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Shading 1 Accent 5" />
+<w:LsdException Locked="false" Priority="64" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Shading 2 Accent 5" />
+<w:LsdException Locked="false" Priority="65" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium List 1 Accent 5" />
+<w:LsdException Locked="false" Priority="66" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium List 2 Accent 5" />
+<w:LsdException Locked="false" Priority="67" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Grid 1 Accent 5" />
+<w:LsdException Locked="false" Priority="68" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Grid 2 Accent 5" />
+<w:LsdException Locked="false" Priority="69" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Grid 3 Accent 5" />
+<w:LsdException Locked="false" Priority="70" SemiHidden="false"
+UnhideWhenUsed="false" Name="Dark List Accent 5" />
+<w:LsdException Locked="false" Priority="71" SemiHidden="false"
+UnhideWhenUsed="false" Name="Colorful Shading Accent 5" />
+<w:LsdException Locked="false" Priority="72" SemiHidden="false"
+UnhideWhenUsed="false" Name="Colorful List Accent 5" />
+<w:LsdException Locked="false" Priority="73" SemiHidden="false"
+UnhideWhenUsed="false" Name="Colorful Grid Accent 5" />
+<w:LsdException Locked="false" Priority="60" SemiHidden="false"
+UnhideWhenUsed="false" Name="Light Shading Accent 6" />
+<w:LsdException Locked="false" Priority="61" SemiHidden="false"
+UnhideWhenUsed="false" Name="Light List Accent 6" />
+<w:LsdException Locked="false" Priority="62" SemiHidden="false"
+UnhideWhenUsed="false" Name="Light Grid Accent 6" />
+<w:LsdException Locked="false" Priority="63" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Shading 1 Accent 6" />
+<w:LsdException Locked="false" Priority="64" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Shading 2 Accent 6" />
+<w:LsdException Locked="false" Priority="65" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium List 1 Accent 6" />
+<w:LsdException Locked="false" Priority="66" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium List 2 Accent 6" />
+<w:LsdException Locked="false" Priority="67" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Grid 1 Accent 6" />
+<w:LsdException Locked="false" Priority="68" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Grid 2 Accent 6" />
+<w:LsdException Locked="false" Priority="69" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Grid 3 Accent 6" />
+<w:LsdException Locked="false" Priority="70" SemiHidden="false"
+UnhideWhenUsed="false" Name="Dark List Accent 6" />
+<w:LsdException Locked="false" Priority="71" SemiHidden="false"
+UnhideWhenUsed="false" Name="Colorful Shading Accent 6" />
+<w:LsdException Locked="false" Priority="72" SemiHidden="false"
+UnhideWhenUsed="false" Name="Colorful List Accent 6" />
+<w:LsdException Locked="false" Priority="73" SemiHidden="false"
+UnhideWhenUsed="false" Name="Colorful Grid Accent 6" />
+<w:LsdException Locked="false" Priority="19" SemiHidden="false"
+UnhideWhenUsed="false" QFormat="true" Name="Subtle Emphasis" />
+<w:LsdException Locked="false" Priority="21" SemiHidden="false"
+UnhideWhenUsed="false" QFormat="true" Name="Intense Emphasis" />
+<w:LsdException Locked="false" Priority="31" SemiHidden="false"
+UnhideWhenUsed="false" QFormat="true" Name="Subtle Reference" />
+<w:LsdException Locked="false" Priority="32" SemiHidden="false"
+UnhideWhenUsed="false" QFormat="true" Name="Intense Reference" />
+<w:LsdException Locked="false" Priority="33" SemiHidden="false"
+UnhideWhenUsed="false" QFormat="true" Name="Book Title" />
+<w:LsdException Locked="false" Priority="37" Name="Bibliography" />
+<w:LsdException Locked="false" Priority="39" QFormat="true" Name="TOC Heading" />
+</w:LatentStyles>
+</xml><![endif]--><!--[if gte mso 10]>
+<style>
+/* Style Definitions */
+table.MsoNormalTable
+{mso-style-name:"Table Normal";
+mso-tstyle-rowband-size:0;
+mso-tstyle-colband-size:0;
+mso-style-noshow:yes;
+mso-style-priority:99;
+mso-style-qformat:yes;
+mso-style-parent:"";
+mso-padding-alt:0in 5.4pt 0in 5.4pt;
+mso-para-margin-top:0in;
+mso-para-margin-right:0in;
+mso-para-margin-bottom:10.0pt;
+mso-para-margin-left:0in;
+line-height:115%;
+mso-pagination:widow-orphan;
+font-size:11.0pt;
+font-family:"Calibri","sans-serif";
+mso-ascii-font-family:Calibri;
+mso-ascii-theme-font:minor-latin;
+mso-fareast-font-family:Calibri;
+mso-fareast-theme-font:minor-latin;
+mso-hansi-font-family:Calibri;
+mso-hansi-theme-font:minor-latin;}
+</style>
+<![endif]--></p>
+<p>&nbsp;</p></div></div></td>
+                <td height="89" bgcolor="#e8f2fb" id="top_rightc" style="color:#e8f2fb;">.....</td>
+            </tr>
+            <tr>
+            	<td width="23" id="side_left" style="color:#e8f2fb;">.....</td>
+                <td width="23" id="side_right" style="color:#e8f2fb;">.....</td>
+            </tr>
+        </table>
+        </td>
+    </tr>
+    <tr>
+    	<td><div style="margin:auto; width: inherit; height:28px; background-color:#e3f2fc;" align="center">
+	<table width="100%" cellpadding="0" cellspacing="0" border="0">
+    	<tr>
+        	<td width="19" height="29"><img src="theme/iitg/images/foot_left.gif"/></td>
+            <td height="29" bgcolor="#0f8de1" align="center" style="color:#FFF;"><a href="http://virtual-labs.ac.in/licensing/" target="_new" style="color:#FFF">Copyright @ 2015 Under the NME ICT initiative of MHRD (Licensing Terms)</a></td>
+            <td width="19" height="29"><img src="theme/iitg/images/foot_right.gif"/></td>
+        </tr>
+    </table>
+</div>
+</div>
+<div align="center">&nbsp;Powered by <a style="border-bottom:none;" target="_blank" href="https://www.amrita.edu">Amrita</a><a style="border-bottom:none;" 
+target="_blank" href="https://www.amrita.edu/research/project/collaborative-and-accessible-platform-cap-distributed-content">Virtual Lab Collaborative Platform</a> [ Ver 00.3.2 ]</div>
+<script type="text/javascript" src="js/javascript_functions.js"></script>
+<!-- Piwik --> 
+<script type="text/javascript">
+var pkBaseURL = (("https:" == document.location.protocol) ? "https://ahs.amrita.ac.in/logs/" : "http://ahs.amrita.ac.in/logs/");
+document.write(unescape("%3Cscript src='" + pkBaseURL + "piwik.js' type='text/javascript'%3E%3C/script%3E"));
+</script><script type="text/javascript">
+try {
+var piwikTracker = Piwik.getTracker(pkBaseURL + "piwik.php", 2);
+piwikTracker.trackPageView();
+piwikTracker.enableLinkTracking();
+} catch( err ) {}
+</script><noscript><p><img src="http://ahs.amrita.ac.in/logs/piwik.php?idsite=2" style="border:0" alt="" /></p></noscript>
+<!-- End Piwik Tracking Code -->
+<script type="text/javascript">
+var _gap = _gap || [];
+_gap.push(["_setAccount", "UA-254910-22"]); 
+_gap.push(["_trackPageview"]);
+_gap.push(["_gapTrackBounceViaTime", 20]); 
+_gap.push(["_gapTrackBounceViaScroll", 50]); 
+_gap.push(["_gapTrackReads", 30, 30]); 
+_gap.push(["_gapTrackLinkClicks"]);
+
+(function() {
+    var gap = document.createElement("script");
+    gap.async = true;
+    gap.type = "text/javascript";
+    gap.src = "/js/gap.min.js"; 
+
+    var s = document.getElementsByTagName("script")[0];
+    s.parentNode.insertBefore(gap, s);
+})();
+</script>
+<script type="text/javascript" src="http://www.google.com/cse/brand?form=cse-search-box&lang=en"></script>
+<script type="text/javascript" src="http://www.google.com/cse/brand?form=cse-search-box2&lang=en"></script>
+
+</body>
+</html>
+</td>
+    </tr>
+</table>
+</body>
+</html>
+
